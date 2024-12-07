@@ -1,0 +1,39 @@
+{
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": true,
+  "output": {
+    "item": "simplyswords:toxic_longsword"
+  },
+  "pedestalItems": [
+    {
+      "item": "alexscaves:unrefined_waste"
+    },
+    {
+      "item": "alexscaves:unrefined_waste"
+    },
+    {
+      "item": "alexscaves:unrefined_waste"
+    },
+    {
+      "item": "alexsmobs:poison_bottle"
+    },
+    {
+      "item": "alexsmobs:poison_bottle"
+    },
+    {
+      "item": "minecraft:poisonous_potato"
+    },
+    {
+      "item": "minecraft:poisonous_potato"
+    },
+    {
+      "item": "iceandfire:hydra_fang"
+    }
+  ],
+  "reagent": [
+    {
+      "item": "simplyswords:netherite_longsword"
+    }
+  ],
+  "sourceCost": 1000
+}

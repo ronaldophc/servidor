@@ -1,0 +1,39 @@
+{
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": true,
+  "output": {
+    "item": "simplyswords:hiveheart"
+  },
+  "pedestalItems": [
+    {
+      "item": "minecraft:honeycomb_block"
+    },
+    {
+      "item": "minecraft:honeycomb_block"
+    },
+    {
+      "item": "minecraft:golden_apple"
+    },
+    {
+      "item": "minecraft:golden_apple"
+    },
+    {
+      "item": "create:honey_bucket"
+    },
+    {
+      "item": "create:honey_bucket"
+    },
+    {
+      "item": "ars_nouveau:starbuncle_shards"
+    },
+    {
+      "item": "ars_nouveau:starbuncle_shards"
+    }
+  ],
+  "reagent": [
+    {
+      "item": "simplyswords:gold_greathammer"
+    }
+  ],
+  "sourceCost": 1000
+}

@@ -1,0 +1,39 @@
+{
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": true,
+  "output": {
+    "item": "simplyswords:stars_edge"
+  },
+  "pedestalItems": [
+    {
+      "item": "betterend:eternal_crystal"
+    },
+    {
+      "item": "betterend:eternal_crystal"
+    },
+    {
+      "item": "betterend:eternal_crystal"
+    },
+    {
+      "item": "betterend:eternal_crystal"
+    },
+    {
+      "item": "betterend:ender_dust"
+    },
+    {
+      "item": "betterend:ender_dust"
+    },
+    {
+      "item": "betterend:ender_dust"
+    },
+    {
+      "item": "betterend:ender_dust"
+    }
+  ],
+  "reagent": [
+    {
+      "item": "knavesneeds:betterend/aeternium/twinblade"
+    }
+  ],
+  "sourceCost": 10000
+}

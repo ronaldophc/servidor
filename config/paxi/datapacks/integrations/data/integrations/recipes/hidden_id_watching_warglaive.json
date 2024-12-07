@@ -1,0 +1,39 @@
+{
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": true,
+  "output": {
+    "item": "simplyswords:watching_warglaive"
+  },
+  "pedestalItems": [
+    {
+      "item": "alexsmobs:void_worm_eye"
+    },
+    {
+      "item": "minecraft:ender_eye"
+    },
+    {
+      "item": "minecraft:ender_eye"
+    },
+    {
+      "item": "alexscaves:shadow_silk"
+    },
+    {
+      "item": "alexscaves:shadow_silk"
+    },
+    {
+      "item": "spelunkery:portal_fluid_bottle"
+    },
+    {
+      "item": "spelunkery:portal_fluid_bottle"
+    },
+    {
+      "item": "create_enchantment_industry:hyper_experience_bottle"
+    }
+  ],
+  "reagent": [
+    {
+      "item": "simplyswords:netherite_warglaive"
+    }
+  ],
+  "sourceCost": 5000
+}

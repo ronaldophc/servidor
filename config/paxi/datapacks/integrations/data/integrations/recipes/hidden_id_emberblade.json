@@ -1,0 +1,39 @@
+{
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": true,
+  "output": {
+    "item": "simplyswords:emberblade"
+  },
+  "pedestalItems": [
+    {
+      "item": "iceandfire:fire_dragon_blood"
+    },
+    {
+      "item": "minecraft:blaze_rod"
+    },
+    {
+      "item": "rubinated_nether:ruby"
+    },
+    {
+      "item": "rubinated_nether:ruby"
+    },
+    {
+      "item": "ars_nouveau:fire_essence"
+    },
+    {
+      "item": "ars_nouveau:fire_essence"
+    },
+    {
+      "item": "iceandfire:witherbone"
+    },
+    {
+      "item": "iceandfire:witherbone"
+    }
+  ],
+  "reagent": [
+    {
+      "item": "minecraft:netherite_sword"
+    }
+  ],
+  "sourceCost": 1000
+}

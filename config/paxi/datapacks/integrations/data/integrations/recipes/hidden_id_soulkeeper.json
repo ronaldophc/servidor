@@ -1,0 +1,39 @@
+{
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": true,
+  "output": {
+    "item": "simplyswords:soulkeeper"
+  },
+  "pedestalItems": [
+    {
+      "item": "alexsmobs:soul_heart"
+    },
+    {
+      "item": "iceandfire:ectoplasm"
+    },
+    {
+      "item": "iceandfire:ectoplasm"
+    },
+    {
+      "item": "iceandfire:ectoplasm"
+    },
+    {
+      "item": "iceandfire:ectoplasm"
+    },
+    {
+      "item": "iceandfire:ectoplasm"
+    },
+    {
+      "tag": "iceandfire:mob_skulls"
+    },
+    {
+      "tag": "iceandfire:mob_skulls"
+    }
+  ],
+  "reagent": [
+    {
+      "item": "simplyswords:netherite_greathammer"
+    }
+  ],
+  "sourceCost": 1000
+}

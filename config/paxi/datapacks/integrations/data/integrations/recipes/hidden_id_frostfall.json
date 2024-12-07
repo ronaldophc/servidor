@@ -1,0 +1,39 @@
+{
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": true,
+  "output": {
+    "item": "simplyswords:frostfall"
+  },
+  "pedestalItems": [
+    {
+      "item": "iceandfire:ice_dragon_blood"
+    },
+    {
+      "item": "endermanoverhaul:icy_pearl"
+    },
+    {
+      "item": "minecraft:blue_ice"
+    },
+    {
+      "item": "minecraft:blue_ice"
+    },
+    {
+      "item": "minecraft:golden_apple"
+    },
+    {
+      "item": "minecraft:golden_apple"
+    },
+    {
+      "item": "ars_nouveau:frostaya_pod"
+    },
+    {
+      "item": "ars_nouveau:frostaya_pod"
+    }
+  ],
+  "reagent": [
+    {
+      "item": "simplyswords:netherite_greathammer"
+    }
+  ],
+  "sourceCost": 1000
+}

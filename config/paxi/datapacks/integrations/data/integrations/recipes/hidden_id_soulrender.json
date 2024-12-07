@@ -1,0 +1,39 @@
+{
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": true,
+  "output": {
+    "item": "simplyswords:soulrender"
+  },
+  "pedestalItems": [
+    {
+      "item": "minecraft:wither_skeleton_skull"
+    },
+    {
+      "item": "quark:soul_bead"
+    },
+    {
+      "item": "quark:soul_bead"
+    },
+    {
+      "item": "alexsmobs:skreecher_soul"
+    },
+    {
+      "item": "alexsmobs:skreecher_soul"
+    },
+    {
+      "item": "nextherexp:banshee_powder"
+    },
+    {
+      "item": "nextherexp:banshee_powder"
+    },
+    {
+      "item": "nextherexp:wraithing_flesh"
+    }
+  ],
+  "reagent": [
+    {
+      "item": "simplyswords:netherite_scythe"
+    }
+  ],
+  "sourceCost": 1000
+}

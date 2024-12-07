@@ -1,0 +1,144 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+{
+	// Generates all block states for all blocks in the registry.
+	"generate_all_known_states": true,
+	// Whether blocks are replaced in existing chunks.
+	"retro_gen": false,
+	/* A map of states that specifies what the "old" block state is and what its "new" block state is.
+	   See "known_states" folder("generate_all_known_states" must be set to true in this config) to see all known block states available for all blocks available in the registry.
+	   Example:
+	    "state_swapper": [
+	    	{
+	    		"new": {
+	    			"Name": "minecraft:birch_log",
+	    			// Properties define the state of this block/fluid.
+	    			"Properties": {
+	    				"axis": "x"
+	    			}
+	    		},
+	    		"old": {
+	    			"Name": "minecraft:oak_log",
+	    			// Properties define the state of this block/fluid.
+	    			"Properties": {
+	    				"axis": "z"
+	    			}
+	    		}
+	    	},
+	    	{
+	    		"new": {
+	    			"Name": "minecraft:birch_leaves",
+	    			// Properties define the state of this block/fluid.
+	    			"Properties": {
+	    				"distance": "7",
+	    				"persistent": "true"
+	    			}
+	    		},
+	    		"old": {
+	    			"Name": "minecraft:acacia_log",
+	    			// Properties define the state of this block/fluid.
+	    			"Properties": {
+	    				"axis": "z"
+	    			}
+	    		}
+	    	},
+	    	{
+	    		"new": {
+	    			"Name": "minecraft:jungle_log",
+	    			// Properties define the state of this block/fluid.
+	    			"Properties": {
+	    				"axis": "x"
+	    			}
+	    		},
+	    		"old": {
+	    			"Name": "minecraft:birch_log",
+	    			// Properties define the state of this block/fluid.
+	    			"Properties": {
+	    				"axis": "z"
+	    			}
+	    		}
+	    	},
+	    	{
+	    		"new": {
+	    			"Name": "minecraft:jungle_planks",
+	    		},
+	    		"old": {
+	    			"Name": "minecraft:acacia_planks",
+	    			}
+	    		}
+	    	}
+	    ]
+	*/
+	"state_swapper": [
+			],
+	/* A map of blocks that specifies what the "old" block is and what its "new" block is.
+	   Example:
+	   	"swapper": {
+	   		"minecraft:coarse_dirt": "minecraft:dirt",
+	   		"minecraft:diamond_block": "minecraft:emerald_block"
+	   	}
+	*/
+	"swapper": {
+			"galosphere:silver_ore": "minecraft:stone",
+			"galosphere:deepslate_silver_ore": "oreganized:deepslate_silver_ore",
+			"iceandfire:silver_block": "oreganized:silver_block",
+			"iceandfire:silver_ore": "oreganized:silver_ore",
+			"iceandfire:deepslate_silver_ore": "oreganized:deepslate_silver_ore",
+			"betternether:nether_ruby_ore": "rubinated_nether:nether_ruby_ore",
+			"betternether:nether_ruby_block": "rubinated_nether:ruby_block",
+			"betternether:basalt_slab": "netherexp:basalt_slab",
+			"regions_unexplored:baobab_log": "wilderwild:baobab_log",
+			"regions_unexplored:baobab_sapling": "minecraft:air",
+			"regions_unexplored:stripped_baobab_log": "wilderwild:stripped_baobab_log",
+			"regions_unexplored:baobab_wood": "wilderwild:baobab_wood",
+			"everycomp:q/regions_unexplored/hollow_baobab_log": "everycomp:q/wilderwild/hollow_baobab_log",
+			"regions_unexplored:baobab_leaves": "wilderwild:baobab_leaves",
+			"regions_unexplored:baobab_shrub" : "minecraft:air",
+			"regions_unexplored:cypress_log": "wilderwild:cypress_log",
+			"regions_unexplored:cypress_sapling": "biomemakeover:swamp_cypress_sapling",
+			"regions_unexplored:stripped_cypress_log": "wilderwild:stripped_cypress_log",
+			"regions_unexplored:cypress_wood": "wilderwild:cypress_wood",
+			"everycomp:q/regions_unexplored/hollow_cypress_log": "everycomp:q/wilderwild/hollow_cypress_log",
+			"regions_unexplored:cypress_leaves": "wilderwild:cypress_leaves",
+			"regions_unexplored:palm_log":"wilderwild:palm_log",
+			"regions_unexplored:palm_leaves":"wilderwild:palm_fronds",
+			"regions_unexplored:palm_sapling":"minecraft:air",
+			"regions_unexplored:palm_shrub":"minecraft:air",
+			"regions_unexplored:stripped_palm_log":"wilderwild:stripped_palm_log",
+			"regions_unexplored:palm_wood":"wilderwild:palm_wood",
+			"betternether:wall_mushroom_brown":"wilderwild:brown_shelf_fungus",
+			"betternether:wall_mushroom_red":"wilderwild:red_shelf_fungus",
+			"wilderwild:hollowed_oak_log":"quark:hollow_oak_log",
+			"wilderwild:hollowed_spruce_log":"quark:hollow_spruce_log",
+			"wilderwild:hollowed_birch_log":"quark:hollow_birch_log",
+			"wilderwild:hollowed_jungle_log":"quark:hollow_jungle_log",
+			"wilderwild:hollowed_acacia_log":"quark:hollow_acacia_log",
+			"wilderwild:hollowed_dark_oak_log":"quark:hollow_dark_oak_log",
+			"wilderwild:hollowed_mangrove_log":"quark:hollow_mangrove_log",
+			"wilderwild:hollowed_baobab_log":"everycomp:q/wilderwild/hollow_baobab_log",
+			"wilderwild:hollowed_cypress_log":"everycomp:q/wilderwild/hollow_cypress_log",
+			"wilderwild:hollowed_palm_log":"everycomp:q/regions_unexplored/hollow_palm_log",
+			"wilderwild:hollowed_cherry_log":"quark:hollow_cherry_log",
+			"wilderwild:hollowed_crimson_stem":"quark:hollow_crimson_stem",
+			"wilderwild:hollowed_warped_stem":"quark:hollow_warped_stem",
+			"betternether:soul_sandstone":"quark:soul_sandstone",
+			"betternether:soul_sandstone_cut":"quark:cut_soul_sandstone",
+			"betternether:soul_sandstone_cut_stairs": "quark:soul_sandstone_bricks_stairs",
+			"betternether:soul_sandstone_cut_slab": "quark:cut_soul_sandstone_slab",
+			"betternether:soul_sandstone_wall" : "quark:soul_sandstone_bricks_wall",
+			"betternether:soul_sandstone_smooth":"quark:smooth_soul_sandstone",
+			"betternether:soul_sandstone_chiseled":"quark:chiseled_soul_sandstone",
+			"betternether:soul_sandstone_stairs":"quark:soul_sandstone_stairs",
+			"betternether:soul_sandstone_smooth_stairs":"quark:smooth_soul_sandstone_stairs",
+			"betternether:soul_sandstone_slab":"quark:soul_sandstone_slab",
+			"betternether:soul_sandstone_smooth_slab":"quark:smooth_soul_sandstone_slab"
+
+	 }
+}

@@ -1,0 +1,39 @@
+{
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": true,
+  "output": {
+    "item": "simplyswords:tempest"
+  },
+  "pedestalItems": [
+    {
+      "item": "iceandfire:ice_dragon_blood"
+    },
+    {
+      "item": "iceandfire:fire_dragon_blood"
+    },
+    {
+      "item": "iceandfire:lightning_dragon_blood"
+    },
+    {
+      "item": "ars_nouveau:air_essence"
+    },
+    {
+      "item": "ars_nouveau:water_essence"
+    },
+    {
+      "item": "ars_nouveau:fire_essence"
+    },
+    {
+      "item": "alexscaves:tectonic_shard"
+    },
+    {
+      "item": "ars_nouveau:frostaya_pod"
+    }
+  ],
+  "reagent": [
+    {
+      "item": "simplyswords:runic_chakram"
+    }
+  ],
+  "sourceCost": 5000
+}

@@ -1,0 +1,54 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:witch_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:skeleton_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:stray_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "minecraft:cave_spider_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:zombie_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:husk_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "iceandfire:spawn_egg_ghost"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "ars_nouveau:wilden_hunter_se"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "ars_nouveau:wilden_stalker_se"
+        }
+      ]
+    }
+  ]
+}

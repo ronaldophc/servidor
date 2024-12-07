@@ -1,0 +1,39 @@
+{
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": true,
+  "output": {
+    "item": "simplyswords:soulstealer"
+  },
+  "pedestalItems": [
+    {
+      "item": "alexscaves:shadow_silk"
+    },
+    {
+      "item": "quark:soul_bead"
+    },
+    {
+      "item": "quark:soul_bead"
+    },
+    {
+      "item": "alexsmobs:skreecher_soul"
+    },
+    {
+      "item": "alexsmobs:skreecher_soul"
+    },
+    {
+      "item": "nextherexp:banshee_powder"
+    },
+    {
+      "item": "nextherexp:banshee_powder"
+    },
+    {
+      "item": "nextherexp:wraithing_flesh"
+    }
+  ],
+  "reagent": [
+    {
+      "item": "simplyswords:netherite_sai"
+    }
+  ],
+  "sourceCost": 1000
+}

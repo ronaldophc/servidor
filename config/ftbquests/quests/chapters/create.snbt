@@ -1,0 +1,389 @@
+{
+	autofocus_id: "6B97A19C77466821"
+	default_hide_dependency_lines: false
+	default_min_width: 250
+	default_quest_shape: ""
+	filename: "create"
+	group: "223D9B8AFF17C8FD"
+	hide_quest_until_deps_complete: true
+	icon: "create:goggles"
+	id: "70DBA3E40F775191"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"There are a lot of things you can do with &bAndesite&r. &eCreate&r your first &bAndesite Casings&r to get the tools needed to build all sorts of fancy machines."
+				""
+				"&6Create an Andesite Casing by applying some Andesite Alloy to a Stripped Log.&r"
+			]
+			id: "65E19F723BD34AAA"
+			rewards: [{
+				count: 5
+				id: "4BE9A958566DAEDC"
+				item: "minecraft:stripped_oak_log"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.2d
+			subtitle: "Start here to learn Create!"
+			tasks: [{
+				count: 5L
+				id: "7442B82F8C1559AB"
+				item: { Count: 5, id: "create:andesite_alloy" }
+				type: "item"
+			}]
+			title: "Beginnings of Create!"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6CF708F431435C96"]
+			description: ["Engineers Goggles allow you to see the &aStress Units&r of the various contraptions you build."]
+			id: "4B93EB8A6D910789"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "74EF26039B99DC7D"
+					table_id: 1030506019370660012L
+					type: "random"
+				}
+				{
+					count: 3
+					id: "5AE6CC56A127DCBF"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+			]
+			subtitle: "Determine Stress Units of your builds!"
+			tasks: [{
+				id: "4552DE414519269C"
+				item: "create:goggles"
+				type: "item"
+			}]
+			title: "I see everything now"
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6CF708F431435C96"]
+			description: ["Wrenches allow you to easily rotate your contraptions. They are also used to pick up contraptions (&6Shift + Right Click&r)."]
+			id: "5D9ED43F74DD50FC"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6C7222EADD9659F7"
+					table_id: 1030506019370660012L
+					type: "random"
+				}
+				{
+					count: 3
+					id: "4BCBD9FA0370B6F5"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+			]
+			subtitle: "Easily rotate and move your builds!"
+			tasks: [{
+				id: "0BAB515D89A56C83"
+				item: "create:wrench"
+				type: "item"
+			}]
+			title: "Comically large Wrench"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["65E19F723BD34AAA"]
+			description: [
+				"Crush your first materials! You can operate the &bMechanical Press&r with your &bHand Crank&r, though you'll have to put your back into it. "
+				""
+				"Alternatively, you can hook it up to some &bWaterwheels&r or &bSails&r and harness the rotational force those generate to move the Press for you."
+				""
+				"&ePlace the item being pressed below the Mechanical Press to process it.&r Use the Ponder Mechanic in JEI for more details (hover over the item and press \"W\")"
+			]
+			icon: "create:mechanical_press"
+			id: "6CF708F431435C96"
+			rewards: [
+				{
+					id: "2B9E6229DBE03428"
+					item: "create:depot"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "376B2A207F71A03B"
+					table_id: 1833917657588604180L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7BE921EFA60864FC"
+					table_id: 1030506019370660012L
+					type: "random"
+				}
+			]
+			subtitle: "Press Iron to obtain your first Iron Sheets!"
+			tasks: [
+				{
+					id: "103EB5F0AD318C0A"
+					item: "create:mechanical_press"
+					type: "item"
+				}
+				{
+					id: "5B3427F4AA9C60A8"
+					item: "create:iron_sheet"
+					type: "item"
+				}
+			]
+			title: "Pressing Materials"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["66F4AD1F9716761B"]
+			description: [
+				"Water is never to be underestimated. It erodes away canyons, shapes cliffsides, and washes away everything in terrifying floods. However, in moderation, it can be harnessed for one's own benifit. &9Waterwheels&r are the perfect example of how a stream of water can be transformed into rotational force."
+				""
+				"&6Place a stream of water flowing through the blades of a waterwheel to spin it. It doesn't matter how many faces of the waterwheel is being touched by the flowing water, just one face is enough to fully power the waterwheel.&r"
+			]
+			id: "081835FA317516BC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "58423CB70E82293B"
+					table_id: 1833917657588604180L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "47AA0DC4F6D08B07"
+					table_id: 1030506019370660012L
+					type: "random"
+				}
+			]
+			subtitle: "Sploosh"
+			tasks: [
+				{
+					id: "3ACBF935ADEF170A"
+					item: "create:water_wheel"
+					type: "item"
+				}
+				{
+					id: "0167A50E4F2E9F29"
+					item: "create:large_water_wheel"
+					type: "item"
+				}
+			]
+			title: "Harnessing the rivers"
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["66F4AD1F9716761B"]
+			description: [
+				"Wind is everywhere. It is an ever present companion, whether you are sailing the seas, in a valley, or at the top of a mountain. It blows through forests and ruffles plains with it's jovial touch. It is constantly moving, and has no qualms blowing over whatever it wishes. With a bit of ingenuity, it is possible to fashion &bblades&r that catch it, and turns in response to it's constant playing."
+				""
+				"&6Use any kind of wool attatched to a windmill bearing to harness the wind! It does have to be large enought to actually catch it though."
+			]
+			id: "71168B4B119F9843"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "250FE891988EA0E0"
+					table_id: 1833917657588604180L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "02C43D6A1FA1FDEF"
+					table_id: 1030506019370660012L
+					type: "random"
+				}
+			]
+			subtitle: "Woosh"
+			tasks: [
+				{
+					count: 8L
+					id: "6F4E87237F08B56B"
+					item: { Count: 8, id: "create:white_sail" }
+					type: "item"
+				}
+				{
+					id: "366A71067562D434"
+					item: "create:windmill_bearing"
+					type: "item"
+				}
+			]
+			title: "Air power"
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["66F4AD1F9716761B"]
+			description: ["If you just need a bit of rotation, you can provide it yourself! A &6handcrank&r is certainy very cheap, but it takes your energy to generate rotation. Go ahead and try it, but don't tire yourself out!"]
+			id: "6075B46CE7E486B5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6B541F0205147136"
+				table_id: 1030506019370660012L
+				type: "random"
+			}]
+			subtitle: "Oh my aching back!"
+			tasks: [{
+				id: "4B93E2EAD3A459C5"
+				item: "create:hand_crank"
+				type: "item"
+			}]
+			title: "Blood, sweat, and tears"
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6CF708F431435C96"]
+			description: [
+				"Sometimes just a regular crafting table doesn't cut it. You need something bigger and more mechanical! Now presenting the mechanical crafter 9000! When you chain multiple of these machines together, you can automate the crafting of items or even make things you could never make before using just the regular crafting table!"
+				""
+				"&8&o&kThe Mechanical Villager&r &8&oIndustries is not liable in any way, shape, or form for any misuse, malpractice, workplace injuries, or random speaking of french that may arise from using this product. Use at your own risk!"
+			]
+			id: "151BB86819A757E9"
+			subtitle: "More and more complex machines."
+			tasks: [{
+				count: 9L
+				id: "13BB893D8CC7FD62"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			title: "Mechanical Crafting"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["151BB86819A757E9"]
+			description: ["Sometimes, you just want to crush things, you know? Using two crushing wheels, you are able to process things into more particulate versions of themselves. Go ahead and throw anything you want into it! We're not liable. :)"]
+			id: "1DD05057AF8784F6"
+			subtitle: "Scrunch"
+			tasks: [{
+				id: "0923CE670D6216F6"
+				item: "create:crushing_wheel"
+				type: "item"
+			}]
+			title: "Crushing Wheel"
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6CF708F431435C96"]
+			description: ["If you place water, lava, or a campfire in front of this baby, it will cause the air to be filled with &ointeresting&r particles which can be used to process items! It also moves entities! Now you can have the air conditioning of your dreams..."]
+			id: "513D063DC17E2FBF"
+			subtitle: "Don't stick your finger between the slats!"
+			tasks: [{
+				id: "7B7EE6A8BB0BD721"
+				item: "create:encased_fan"
+				type: "item"
+			}]
+			title: "I'm such a fan!"
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6CF708F431435C96"]
+			description: ["Chopping down trees with your axe can get really boring really quickly. A saw can be used to fell it all at once! Just point the spinny edge at the bottom log and the entire thing will fall down! It can also be used for processing."]
+			id: "2F0267EB62501FD4"
+			subtitle: "There's a buzzsaw in every game now isn't there?"
+			tasks: [{
+				id: "21779EC1A54B480E"
+				item: "create:mechanical_saw"
+				type: "item"
+			}]
+			title: "Timbeeer!"
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["65E19F723BD34AAA"]
+			description: [
+				"Rotation is not only useful for processing things, it's also useful for making things look nice! You can make large things rotate to add spice to your build, or even rotate something slightly and keep it locked at that rotation!"
+				""
+				"&6Edit the placement mode of a mechanical bearing by looking at the side of it."
+			]
+			id: "2F12E45C55B83B93"
+			subtitle: "Spinny, spinny, wee!"
+			tasks: [{
+				id: "2F1AFE4EC0E9F1C7"
+				item: "create:mechanical_bearing"
+				type: "item"
+			}]
+			title: "*Aesthetics :D*"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["65E19F723BD34AAA"]
+			description: ["&bCopper&r is not only useful for decoration, it can also be used to make methods of transporting fluids! When a &bBucket&r won't cut it, &bpipes&r can transport larger amounts of liquid. "]
+			id: "02823B945DD62920"
+			subtitle: "Transport Fluids!"
+			tasks: [
+				{
+					count: 4L
+					id: "314414ECA53087B9"
+					item: { Count: 4, id: "create:fluid_pipe" }
+					type: "item"
+				}
+				{
+					id: "4035197739B86D8D"
+					item: "create:mechanical_pump"
+					type: "item"
+				}
+			]
+			title: "Manipulating Fluids"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["65E19F723BD34AAA"]
+			description: ["There's much that can be done with the Create mod, however in order to do anything you first need some form of power! All contraptions in the Create mod are powered by &erotational forces&r, and while there are indeed more complex methods of power generation, every good engineer starts off with either &bwind power&r, &9water power&r, or &6manual labor&r!"]
+			id: "66F4AD1F9716761B"
+			subtitle: "Turn, turn, and turn again!"
+			tasks: [{
+				id: "567C97152A86329A"
+				title: "Power Generation"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["151BB86819A757E9"]
+			description: [
+				"There's much more to be seen! Much of Create is under the domain of pure precision, but quite a bit of it is supceptible to chaos. However you want to play it is completely up to you! "
+				""
+				"&6Have fun! :)"
+			]
+			id: "7DA9102BE723E013"
+			subtitle: "More and more and more accurate..."
+			tasks: [{
+				id: "0E7258033FFEB8D1"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			title: "Precision!"
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			description: ["Feeling lost? Most machines from the create mod can be pondered by holding &ew&r while hovering over it in the inventory. Try it out if you don't fully understand how to use it!"]
+			id: "749D50A63B5C526E"
+			tasks: [{
+				id: "26D05F03D713A757"
+				title: "Hmm, I wonder..."
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 2.0d
+		}
+	]
+	title: "Create"
+}

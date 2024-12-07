@@ -1,0 +1,39 @@
+{
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": true,
+  "output": {
+    "item": "simplyswords:wickpiercer"
+  },
+  "pedestalItems": [
+    {
+      "item": "minecraft:totem_of_undying"
+    },
+    {
+      "item": "minecraft:totem_of_undying"
+    },
+    {
+      "item": "minecraft:golden_apple"
+    },
+    {
+      "item": "minecraft:golden_apple"
+    },
+    {
+      "item": "betternether:cincinnasite_ingot"
+    },
+    {
+      "item": "betternether:cincinnasite_ingot"
+    },
+    {
+      "tag": "minecraft:candles"
+    },
+    {
+      "tag": "minecraft:candles"
+    }
+  ],
+  "reagent": [
+    {
+      "item": "knavesneeds:betternether/cincinnasite/spear"
+    }
+  ],
+  "sourceCost": 1000
+}

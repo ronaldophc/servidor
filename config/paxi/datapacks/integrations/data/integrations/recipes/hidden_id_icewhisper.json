@@ -1,0 +1,39 @@
+{
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": true,
+  "output": {
+    "item": "simplyswords:icewhisper"
+  },
+  "pedestalItems": [
+    {
+      "item": "iceandfire:ice_dragon_blood"
+    },
+    {
+      "item": "minecraft:blue_ice"
+    },
+    {
+      "item": "minecraft:blue_ice"
+    },
+    {
+      "item": "minecraft:blue_ice"
+    },
+    {
+      "item": "alexscaves:sea_glass_shards"
+    },
+    {
+      "item": "alexscaves:sea_glass_shards"
+    },
+    {
+      "item": "ars_nouveau:frostaya_pod"
+    },
+    {
+      "item": "ars_nouveau:frostaya_pod"
+    }
+  ],
+  "reagent": [
+    {
+      "item": "simplyswords:netherite_halberd"
+    }
+  ],
+  "sourceCost": 1000
+}

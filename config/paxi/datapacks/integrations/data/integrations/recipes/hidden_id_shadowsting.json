@@ -1,0 +1,39 @@
+{
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": true,
+  "output": {
+    "item": "simplyswords:shadowsting"
+  },
+  "pedestalItems": [
+    {
+      "item": "alexscaves:shadow_silk"
+    },
+    {
+      "item": "alexscaves:shadow_silk"
+    },
+    {
+      "item": "betternether:cincinnasite_ingot"
+    },
+    {
+      "item": "betternether:cincinnasite_ingot"
+    },
+    {
+      "item": "alexsmobs:skreecher_soul"
+    },
+    {
+      "item": "alexsmobs:skreecher_soul"
+    },
+    {
+      "item": "create_enchantment_industry:hyper_experience_bottle"
+    },
+    {
+      "item": "create_enchantment_industry:hyper_experience_bottle"
+    }
+  ],
+  "reagent": [
+    {
+      "item": "simplyswords:netherite_rapier"
+    }
+  ],
+  "sourceCost": 3000
+}

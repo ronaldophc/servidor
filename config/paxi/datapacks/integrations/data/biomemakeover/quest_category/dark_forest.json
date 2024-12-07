@@ -1,0 +1,30 @@
+{
+  "weight": 7,
+  "requests": [
+    {
+      "item": "biomemakeover:moth_scales",
+      "max_count": 3,
+      "points": 10
+    },
+    {
+      "item": "biomemakeover:bulbus_root",
+      "max_count": 3,
+      "points": 10
+    },
+    {
+      "item": "biomemakeover:illunite_shard",
+      "max_count": 2,
+      "points": 12
+    },
+    {
+      "item": "biomemakeover:ivy",
+      "max_count": 5,
+      "points": 6
+    },
+    {
+      "item": "biomemakeover:moth_blossom",
+      "max_count": 2,
+      "points": 20
+    }
+  ]
+}

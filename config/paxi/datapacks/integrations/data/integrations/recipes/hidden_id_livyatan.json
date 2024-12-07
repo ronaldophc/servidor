@@ -1,0 +1,39 @@
+{
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": true,
+  "output": {
+    "item": "simplyswords:livyatan"
+  },
+  "pedestalItems": [
+    {
+      "item": "iceandfire:ice_dragon_blood"
+    },
+    {
+      "item": "minecraft:blue_ice"
+    },
+    {
+      "item": "minecraft:blue_ice"
+    },
+    {
+      "item": "minecraft:blue_ice"
+    },
+    {
+      "item": "betternether:cincinnasite_ingot"
+    },
+    {
+      "item": "betternether:cincinnasite_ingot"
+    },
+    {
+      "item": "createdeco:industrial_iron_ingot"
+    },
+    {
+      "item": "createdeco:industrial_iron_ingot"
+    }
+  ],
+  "reagent": [
+    {
+      "item": "simplyswords:netherite_greataxe"
+    }
+  ],
+  "sourceCost": 1000
+}

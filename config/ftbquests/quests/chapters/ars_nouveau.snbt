@@ -1,0 +1,930 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 250
+	default_quest_shape: ""
+	filename: "ars_nouveau"
+	group: "223D9B8AFF17C8FD"
+	hide_quest_until_deps_complete: true
+	hide_quest_until_deps_visible: true
+	icon: "ars_nouveau:archmage_spell_book"
+	id: "3D414BF15D072FE0"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"A &bNovice Spellbook&r is a great tool for any adventurer. While it only contains basic &dSpell Glyphs&r initially, as you unlock more, you'll be able to combine these &dGlyphs&r to make some very interesting &dspells&r."
+				""
+				"- Press \"&5C&r\" to open the menu to craft your spells (this also contains the &6Spellbook Customization menu&r as well as &6Ars Nouveau&r documentation). &eDon't forget to name your newly crafted spell!&r"
+				"- Press \"&5V&r\" to switch between spells."
+				""
+				"Each &dSpell&r needs a &dForm&r (first &bSpell Glyph&r) and an &dEffect&r. &dEffects&r can be augmented by &dAugments&r (place to the left of the Effect). "
+				"{@pagebreak}"
+				"For more detail, refer to the &6Ars Nouveau Documentation&r contained within each &bSpell Book&r."
+			]
+			id: "7622B648675BAC8C"
+			rewards: [{
+				id: "1B113BE57BD96F46"
+				item: "ars_additions:codex_entry"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "Introduction to Spellcasting!"
+			tasks: [{
+				id: "4E868565F9F8BABF"
+				item: "ars_nouveau:novice_spell_book"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7622B648675BAC8C"]
+			description: [
+				"The &bImbuement Chamber&r absorbs passive &dSource&r from the environment to enhance the magical properties of various items."
+				""
+				"One in particular, &bLapis Lazuli&r, act as a great conduit for source. By placing &bLapis Lazuli&r within an &bImbuement Chamber&r, &bSource Gems&r can be made. &bSource Gems&r are a crucial part of many magical tools."
+			]
+			hide_dependency_lines: true
+			id: "28D13B7799455253"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "106DF90072095A08"
+				table_id: 1887718904363554025L
+				type: "random"
+			}]
+			shape: "rsquare"
+			subtitle: "Create Source Gems!"
+			tasks: [
+				{
+					id: "1E8F2AD31D579C9C"
+					item: "ars_nouveau:imbuement_chamber"
+					type: "item"
+				}
+				{
+					id: "5ACB1708E7A5B0F6"
+					item: "ars_nouveau:source_gem"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7622B648675BAC8C"]
+			description: [
+				"&dSource&r is required to fuel many arcane machines. However, before you learn how to gather it, you need to create a place to store it."
+				""
+				"Stores up to &d10,000 Source&r."
+			]
+			hide_dependency_lines: true
+			id: "42AC0BCEC7948256"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1BEEAC188D16F722"
+				table_id: 1887718904363554025L
+				type: "random"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "Store Source!"
+			tasks: [{
+				id: "7F6DA09D64FE6D79"
+				item: "ars_nouveau:source_jar"
+				type: "item"
+			}]
+			title: "Storing Source"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["42AC0BCEC7948256"]
+			description: [
+				"&bArgonomic Sourcelinks&r generate &dSource&r when nearby crops grow."
+				""
+				"&bSource Jars&r must be within 5 blocks of the &bAgronomic Sourcelink&r."
+			]
+			hide_until_deps_visible: true
+			id: "39FA0197F4D1EBB9"
+			rewards: [{
+				count: 5
+				id: "24C174594D0FF12B"
+				item: "farmersdelight:organic_compost"
+				type: "item"
+			}]
+			subtitle: "Grow Crops for Source!"
+			tasks: [{
+				id: "69E71AC88889DCC9"
+				item: "ars_nouveau:agronomic_sourcelink"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"063DFC4375119242"
+				"28D13B7799455253"
+			]
+			description: [
+				"An &bEnchanting Apparatus&r allows one to make all sorts of refined magical equipment. Simply put in the item you are modifying, surround the Apparatus with the appropriate items on the surrounding &bArcane Pedestals&r, and supply enough &dSource&r."
+				""
+				"&bEnchanting Apparatus&r can also be used to create the specific &bEnchanted Books&r that you want. Just provide the right catalysts."
+			]
+			hide_dependent_lines: true
+			hide_until_deps_visible: true
+			id: "7814A8AF3FE887F4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "248F792A1036FA9E"
+				table_id: 1887718904363554025L
+				type: "random"
+			}]
+			subtitle: "A New Way to Enchant!"
+			tasks: [
+				{
+					id: "134FDEF69AC78EFF"
+					item: "ars_nouveau:arcane_core"
+					type: "item"
+				}
+				{
+					id: "70DCA5A754C81FDC"
+					item: "ars_nouveau:enchanting_apparatus"
+					type: "item"
+				}
+			]
+			title: "Enchanting Apparatus"
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5EABBEAD140FCCB8"]
+			description: ["Item transport + Autoharvest source berries. Can be dyed"]
+			id: "16DD1E956649F7D1"
+			subtitle: "Item Transport!"
+			tasks: [
+				{
+					id: "6FDC86E054093197"
+					item: "ars_nouveau:starbuncle_shards"
+					type: "item"
+				}
+				{
+					id: "5539642D66C8C080"
+					item: {
+						Count: 1
+						id: "ars_nouveau:starbuncle_charm"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7622B648675BAC8C"]
+			description: ["A &bMage's Spellbook&r allows one to use &dTier 2 Glyphs&r in their spell creation."]
+			id: "6525B8421100F566"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "04B72723CFF34EE5"
+					table_id: 1887718904363554025L
+					type: "random"
+				}
+				{
+					id: "0E62C0D8FC31A8D6"
+					item: "ars_additions:lost_codex_entry"
+					type: "item"
+				}
+			]
+			subtitle: "Tier 2 Spells!"
+			tasks: [{
+				id: "08218EDB611754AE"
+				item: "ars_nouveau:apprentice_spell_book"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6525B8421100F566"]
+			description: ["An &bArchmage's Spellbook&r allows one to use the highest tier of &dGlyph&r, the &dTier 3 Glyphs&r, in their spell creation."]
+			id: "55FCD2A60C8BE1C3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "45943F3ADC728472"
+					table_id: 1887718904363554025L
+					type: "random"
+				}
+				{
+					id: "6575EE5387FD6FC7"
+					item: "ars_additions:ancient_codex_entry"
+					type: "item"
+				}
+			]
+			subtitle: "Tier 3 Spells!"
+			tasks: [{
+				id: "780A75938C69ADCE"
+				item: "ars_nouveau:archmage_spell_book"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["063DFC4375119242"]
+			description: [
+				"&dSource&r powers everything in this world, though it takes many forms. &bSource Gems&r with the right materials augmenting an &dImbuement Ritual&r allow a mage to isolate and capture essences related to certain natural phenomena."
+				""
+				"Rumor has it that originally an &5Eye of Ender&r was used as the foundation for all of &dMagic&r as we know it. Perhaps some of that power still lingers among the &dMagical Essences&r we see here today..."
+			]
+			hide_until_deps_visible: true
+			id: "6762282CAB5244D3"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0EBAA580C795C487"
+					table_id: 1887718904363554025L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "049AF5125F02D41F"
+					table_id: 9108404116502109620L
+					type: "random"
+				}
+			]
+			subtitle: "Create the Essences of the World!"
+			tasks: [
+				{
+					id: "1F5D775437246458"
+					item: "ars_nouveau:abjuration_essence"
+					type: "item"
+				}
+				{
+					id: "51E330391CFDA40C"
+					item: "ars_nouveau:conjuration_essence"
+					type: "item"
+				}
+				{
+					id: "04CD127F398820DF"
+					item: "ars_nouveau:air_essence"
+					type: "item"
+				}
+				{
+					id: "7B4A819FFAC028C9"
+					item: "ars_nouveau:earth_essence"
+					type: "item"
+				}
+				{
+					id: "00BA771A71192B84"
+					item: "ars_nouveau:fire_essence"
+					type: "item"
+				}
+				{
+					id: "2EB5D2DAB42B9BAA"
+					item: "ars_nouveau:manipulation_essence"
+					type: "item"
+				}
+				{
+					id: "51301C3556FA8CDC"
+					item: "ars_nouveau:water_essence"
+					type: "item"
+				}
+			]
+			title: "Essences"
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7814A8AF3FE887F4"]
+			description: [
+				"&bMagebloom Seeds&r, obtained through the &bEnchanting Apparatus&r, produce &bMagebloom Fiber&r which can be made into various &dMagical Armors&r."
+				""
+				"Each &dArmor&r starts off at Tier 1. Upgrade to Tier 2 with two &bBlaze Rods&r in an &bEnchanting Apparatus&r, and Tier 3 with two &bEnder Pearls&r and one &bChorus Fruit&r in an &bEnchanting Apparatus&r. Each upgrade increases the amount of &dMana Regen&r and the number of &bAugmenting Threads&r an &dArmor&r can hold."
+			]
+			hide_dependency_lines: false
+			id: "605EE5CD3991DE63"
+			rewards: [{
+				count: 10
+				id: "264C2E7764F2A75E"
+				item: "ars_nouveau:magebloom_fiber"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "Create Magic Armor!"
+			tasks: [
+				{
+					id: "3831775D3C5CDD9C"
+					item: "ars_nouveau:magebloom_crop"
+					type: "item"
+				}
+				{
+					id: "196F98FDA713644C"
+					item: "ars_nouveau:magebloom_fiber"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["605EE5CD3991DE63"]
+			description: ["Provides the least armor but supports the strongest &dAugmentation Threads&r."]
+			id: "50DAE123C4F47BD6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2568BDF0C9403E57"
+				table_id: 1887718904363554025L
+				type: "random"
+			}]
+			subtitle: "Best Threads but least Armor!"
+			tasks: [
+				{
+					id: "111EE2A0129F72B2"
+					item: {
+						Count: 1
+						id: "ars_nouveau:sorcerer_hood"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7C25B4C66851B9BD"
+					item: {
+						Count: 1
+						id: "ars_nouveau:sorcerer_robes"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6A09EFB3B91F4375"
+					item: {
+						Count: 1
+						id: "ars_nouveau:sorcerer_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "289854794FD2BEB5"
+					item: {
+						Count: 1
+						id: "ars_nouveau:sorcerer_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["605EE5CD3991DE63"]
+			description: ["Provides more armor than the &dSorcerer's set&r and supports stronger &dAugmentation Threads&r than the &dBattlemage's set&r, but weaker threads than the &dSorcerer's&r and less armor than the &dBattlemage's&r."]
+			id: "117ABDC20398588B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7F7AE80E28066CA0"
+				table_id: 1887718904363554025L
+				type: "random"
+			}]
+			subtitle: "A Decent Middle Ground!"
+			tasks: [
+				{
+					id: "5AA804A31CF9741B"
+					item: {
+						Count: 1
+						id: "ars_nouveau:arcanist_hood"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2BE53943F10AFAF0"
+					item: {
+						Count: 1
+						id: "ars_nouveau:arcanist_robes"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "21B1E0582831F5E1"
+					item: {
+						Count: 1
+						id: "ars_nouveau:arcanist_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5E23CB2D825FAED7"
+					item: {
+						Count: 1
+						id: "ars_nouveau:arcanist_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["605EE5CD3991DE63"]
+			description: ["Provides the most Armor but supports the least powerful &dAugmentation Threads&r."]
+			id: "6A4684C36ADA6822"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "74715634B66B649C"
+				table_id: 1887718904363554025L
+				type: "random"
+			}]
+			subtitle: "Best Armor but least powerful Threads!"
+			tasks: [
+				{
+					id: "1BF4003B63AC8634"
+					item: {
+						Count: 1
+						id: "ars_nouveau:battlemage_hood"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7A4CE0BE5E12884B"
+					item: {
+						Count: 1
+						id: "ars_nouveau:battlemage_robes"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "46C0F4680F68B47A"
+					item: {
+						Count: 1
+						id: "ars_nouveau:battlemage_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "389C3D7466D86D27"
+					item: {
+						Count: 1
+						id: "ars_nouveau:battlemage_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"50DAE123C4F47BD6"
+				"117ABDC20398588B"
+				"6A4684C36ADA6822"
+			]
+			description: [
+				"&dMage Armor&r can be enhanced through &dMagical Threads&r. Each Armor has a level associated with it, and the strength of the applied &dThread's effect&r will be based on that level."
+				""
+				"See the &eWorn Notebook - Magical Armor&r for more info."
+			]
+			hide_dependency_lines: true
+			id: "02CFB5C82AD6E37A"
+			min_required_dependencies: 1
+			min_required_tasks: 1
+			rewards: [{
+				count: 3
+				id: "36075C013EDC2C0C"
+				item: "ars_nouveau:blank_thread"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "Customize your Armor!"
+			tasks: [
+				{
+					id: "3AE00960E512D870"
+					item: "ars_nouveau:alteration_table"
+					type: "item"
+				}
+				{
+					id: "23AF4C1B7B6F6C72"
+					item: "ars_nouveau:blank_thread"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["42AC0BCEC7948256"]
+			description: [
+				"&bMycelial Sourcelinks&r generate &dSource&r when fueled with food on &bArcane Pedestals&r, &bArcane Platforms&r, or &bdropped nearby&r. Generates more &dSource&r if the food is a &dSource&r producing food."
+				""
+				"Slowly converts the ground below it into &bMycelium&r and eventually causes &bMushrooms&r to grow."
+			]
+			hide_until_deps_visible: true
+			id: "0C8E29C4011426EA"
+			rewards: [
+				{
+					count: 3
+					id: "6F839DE6A9B64633"
+					item: "minecraft:bread"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "31A0546D293696F1"
+					item: "ars_nouveau:source_berry_roll"
+					type: "item"
+				}
+			]
+			subtitle: "Consumes Food for Source!"
+			tasks: [{
+				id: "34017A8F56CD6DEB"
+				item: "ars_nouveau:mycelial_sourcelink"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["42AC0BCEC7948256"]
+			description: [
+				"The &bVolcanic Sourcelink&r burns nearby fuel items (whether they be on &bArcane Pedestals&r, &bArcane Platforms&r, or are &bdropped items&r) to generate &dSource&r."
+				""
+				"Turns nearby &bStone&r into &bMagma Blocks&r and eventually into &bLava&r."
+			]
+			hide_until_deps_visible: true
+			id: "78D44ABA00F10EF4"
+			rewards: [{
+				count: 10
+				id: "1474D6C7E8EC4D62"
+				item: "ars_nouveau:red_archwood_log"
+				type: "item"
+			}]
+			subtitle: "Convert Flamable Items into Source!"
+			tasks: [{
+				id: "2364F45F8CCDFC17"
+				item: "ars_nouveau:volcanic_sourcelink"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["42AC0BCEC7948256"]
+			description: ["The &bVitalic Sourcelink&r generates &dSource&r whenever animals are bred near it or mobs are killed near it."]
+			hide_until_deps_visible: true
+			id: "5BD6F1F1226E7603"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "56E4E153470F3C0A"
+				table_id: 1887718904363554025L
+				type: "random"
+			}]
+			subtitle: "Breed or Kill Mobs for Source!"
+			tasks: [{
+				id: "2A5243091CE2D342"
+				item: "ars_nouveau:vitalic_sourcelink"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["42AC0BCEC7948256"]
+			description: ["Absorbs &bPotions&r from nearby &bPotion Jars&r to generate &dSource&r."]
+			hide_until_deps_visible: true
+			id: "4FE4984D1CC2174A"
+			rewards: [{
+				count: 3
+				id: "6CB0EA449D0B8E41"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:swiftness"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Consumes Potions for Source!"
+			tasks: [{
+				id: "40EDEEB9F84999DF"
+				item: "ars_nouveau:alchemical_sourcelink"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"42AC0BCEC7948256"
+				"7814A8AF3FE887F4"
+			]
+			description: ["&bSource Relays&r sends &dSource&r from &bJars&r to other &bJars/Relays&r."]
+			hide_dependency_lines: false
+			hide_until_deps_visible: true
+			id: "696E9768E7C769E3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1890C04E547139A6"
+				table_id: 1887718904363554025L
+				type: "random"
+			}]
+			subtitle: "Transport your Source!"
+			tasks: [
+				{
+					id: "22FC27C6BF5C5276"
+					item: "ars_nouveau:relay"
+					type: "item"
+				}
+				{
+					id: "76BF4DBD766B1424"
+					item: {
+						Count: 1
+						id: "ars_nouveau:dominion_wand"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["696E9768E7C769E3"]
+			description: [
+				"&bSplitters&r can input and output to multiple &bSource Jars&r."
+				""
+				"&bCollectors&r automatically take &dSource&r from nearby &bSource Jars&r in a 5 block radius."
+				""
+				"&bDepositers&r can automatically deposit &dSource&r into &bSource Jars&r within a 5 block radius."
+			]
+			hide_until_deps_visible: true
+			id: "37CB297C2831E585"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "41859736AB426AE0"
+				table_id: 1887718904363554025L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "02A934B4B9081EFD"
+					item: "ars_nouveau:relay_splitter"
+					type: "item"
+				}
+				{
+					id: "2A56640816FF32A6"
+					item: "ars_nouveau:relay_collector"
+					type: "item"
+				}
+				{
+					id: "702D8A441D9017B6"
+					item: "ars_nouveau:relay_deposit"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["37CB297C2831E585"]
+			description: ["&bWarpers&r act the same way as &bSplitters&r but can go over infinite blocks. Beyond 30 blocks, there is a chance for &dSource&r loss."]
+			id: "1ACDF572CE799AAE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3B40471A71C075CF"
+				table_id: 1887718904363554025L
+				type: "random"
+			}]
+			tasks: [{
+				id: "55256EC00CF9B3B9"
+				item: "ars_nouveau:relay_warp"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7814A8AF3FE887F4"]
+			description: ["The &bRitual Brazier&r allows a mage to conduct various Rituals. Rituals can be modified by throwing in certain items."]
+			hide_dependent_lines: true
+			id: "61FEE99288875E24"
+			rewards: [{
+				id: "527927961DE631D9"
+				item: "ars_nouveau:ritual_sunrise"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "Conduct Rituals!"
+			tasks: [{
+				id: "7B5854086EF80535"
+				item: "ars_nouveau:ritual_brazier"
+				type: "item"
+			}]
+			title: "Rituals"
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["28D13B7799455253"]
+			description: [
+				"&bImbuement Chambers&r and &bEnchanting Apparatus&r can use nearby items to influence what they produce. &bArcane Pedestals&r act as a way to both display items and provide items to modify the properties of &dImbuing&r and &dEnchanting Rituals&r. "
+				""
+				"They need to be within 3 blocks of the &bImbuement Chamber&r or the &bEnchantment Apparatus&r to have effect."
+			]
+			hide_until_deps_visible: true
+			id: "063DFC4375119242"
+			min_required_tasks: 1
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3F25365B0C828814"
+				table_id: 1887718904363554025L
+				type: "random"
+			}]
+			subtitle: "Augment your Rituals!"
+			tasks: [
+				{
+					count: 8L
+					id: "4DA410495BD3190F"
+					item: { Count: 8, id: "ars_nouveau:arcane_pedestal" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "7436BE05BFF4F71F"
+					item: { Count: 8, id: "ars_nouveau:arcane_platform" }
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7814A8AF3FE887F4"]
+			description: ["A Wand of Dominion allows a mage to control their familiars."]
+			hide_dependency_lines: false
+			id: "5EABBEAD140FCCB8"
+			rewards: [
+				{
+					id: "2889299FF17B7CA7"
+					item: "ars_nouveau:ritual_awakening"
+					type: "item"
+				}
+				{
+					id: "2496844ACD4E1A79"
+					item: "ars_nouveau:ritual_binding"
+					type: "item"
+				}
+			]
+			secret: true
+			shape: "rsquare"
+			subtitle: "Command your Familiars!"
+			tasks: [
+				{
+					id: "5A02B6629440A967"
+					item: {
+						Count: 1
+						id: "ars_nouveau:dominion_wand"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "152ACB8CA018EEBC"
+					type: "checkmark"
+				}
+			]
+			title: "Familiars"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5EABBEAD140FCCB8"]
+			id: "4CA71E88640B995E"
+			tasks: [{
+				id: "058C20FEA8D0EDCA"
+				item: "ars_nouveau:bookwyrm_charm"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5EABBEAD140FCCB8"]
+			id: "580F1B9923A3A21E"
+			tasks: [{
+				id: "13E824F6DD272C22"
+				item: "ars_nouveau:whirlisprig_charm"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5EABBEAD140FCCB8"]
+			id: "29EF0C0EDD8F24BA"
+			tasks: [{
+				id: "66225D10AE65EBBB"
+				item: "ars_nouveau:wixie_charm"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5EABBEAD140FCCB8"]
+			id: "6188E65D3E208EAF"
+			tasks: [{
+				id: "532166E7EBBFD5F8"
+				item: "ars_nouveau:drygmy_charm"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5EABBEAD140FCCB8"]
+			id: "104B893FF9998899"
+			rewards: [{
+				count: 10
+				id: "10CEEDD7818347E3"
+				item: "minecraft:amethyst_shard"
+				type: "item"
+			}]
+			subtitle: "Produce Amethyst!"
+			tasks: [{
+				id: "558672B4E3D42E37"
+				item: "ars_nouveau:amethyst_golem_charm"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7622B648675BAC8C"]
+			description: [
+				"The &bScribe's Table&r allows a Mage to research and &6unlock new Spell Glyphs&r. Interact ('&5Right-Click&r') with the &bScribe's Table&r while holding a &bSpellbook&r to bring up the Menu."
+				""
+				"Research new spells by selecting the spell of interest (&5'Select&r&5' button in the bottom right-hand corner&r) and providing the &bScribe's Table&r with the requested items. Use the &bSpell Glyph&r to learn the effect."
+				""
+				"A &bNovice Spellbook&r can only use &dTier 1 Glyphs&r. To view all available &dTier 1 Glyphs&r, press the '&5I&r' section in the &bScribe's Table&r."
+				""
+				"Each &dGlyph&r unlocked increases your &dSource Pool&r by a little."
+			]
+			id: "67F99A6778E772F0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "298FDCE919AA1476"
+				table_id: 1887718904363554025L
+				type: "random"
+			}]
+			shape: "rsquare"
+			subtitle: "Craft New Spell Effects!"
+			tasks: [{
+				id: "0EC7F3CCD4AD2E96"
+				item: "ars_nouveau:scribes_table"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+	]
+	title: "Ars Nouveau"
+}

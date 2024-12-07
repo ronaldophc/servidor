@@ -1,0 +1,39 @@
+{
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": true,
+  "output": {
+    "item": "simplyswords:brimstone_claymore"
+  },
+  "pedestalItems": [
+    {
+      "item": "betterend:brimstone"
+    },
+    {
+      "item": "betterend:brimstone"
+    },
+    {
+      "item": "betterend:brimstone"
+    },
+    {
+      "item": "alexscaves:tectonic_shard"
+    },
+    {
+      "item": "rubinated_nether:ruby"
+    },
+    {
+      "item": "rubinated_nether:ruby"
+    },
+    {
+      "item": "alexscaves:sulfur"
+    },
+    {
+      "item": "alexscaves:sulfur"
+    }
+  ],
+  "reagent": [
+    {
+      "item": "simplyswords:netherite_claymore"
+    }
+  ],
+  "sourceCost": 5000
+}

@@ -1,0 +1,39 @@
+{
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": true,
+  "output": {
+    "item": "simplyswords:emberlash"
+  },
+  "pedestalItems": [
+    {
+      "item": "alexsmobs:elastic_tendon"
+    },
+    {
+      "item": "iceandfire:fire_dragon_blood"
+    },
+    {
+      "item": "alexscaves:shadow_silk"
+    },
+    {
+      "item": "alexscaves:shadow_silk"
+    },
+    {
+      "item": "ars_nouveau:fire_essence"
+    },
+    {
+      "item": "ars_nouveau:fire_essence"
+    },
+    {
+      "item": "iceandfire:witherbone"
+    },
+    {
+      "item": "iceandfire:witherbone"
+    }
+  ],
+  "reagent": [
+    {
+      "item": "simplyswords:netherite_sai"
+    }
+  ],
+  "sourceCost": 1000
+}

@@ -1,0 +1,39 @@
+{
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": true,
+  "output": {
+    "item": "simplyswords:thunderbrand"
+  },
+  "pedestalItems": [
+    {
+      "item": "iceandfire:dragonsteel_lightning_ingot"
+    },
+    {
+      "item": "iceandfire:dragonsteel_lightning_ingot"
+    },
+    {
+      "item": "biomemakeover:lightning_bottle"
+    },
+    {
+      "item": "biomemakeover:lightning_bottle"
+    },
+    {
+      "item": "create:sturdy_sheet"
+    },
+    {
+      "item": "create:sturdy_sheet"
+    },
+    {
+      "item": "alexscaves:azure_neodymium_ingot"
+    },
+    {
+      "item": "alexscaves:azure_neodymium_ingot"
+    }
+  ],
+  "reagent": [
+    {
+      "item": "knavesneeds:betterend/aeternium/halberd"
+    }
+  ],
+  "sourceCost": 5000
+}

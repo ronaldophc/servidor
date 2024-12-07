@@ -1,0 +1,899 @@
+{
+	autofocus_id: "2713C8F59E5454D3"
+	default_hide_dependency_lines: false
+	default_min_width: 250
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "pack_introduction"
+	group: ""
+	icon: "minecraft:book"
+	id: "5768FFE8D633E233"
+	order_index: 0
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&5Integrated Minecraft &6is a modpack centered around integrating various popular mods together for a cohesive experience.&r This questbook is set up to help guide you through some of the larger mods as well as to point you towards things of interest. Keep reading for more info!"
+				""
+				"You'll also notice that the sections outside of this one are written with some lore. Feel free to delve into it, but if not your cup of tea, the &6Subtitles&r should give you a quick overview of each section."
+				""
+				"Your &5Atlas&r is your best friend. &6Go to the next page of this quest&r to see more details of what you can do with it."
+				"{@pagebreak}"
+				"&5Atlas Details&r"
+				"- The &5Atlas&r consumes &bMaps&r to map the world. Keep it stocked by adding them through a &bCrafting or Cartography Table&r! Maps are easier to craft to help fuel this."
+				"- You can add &bSlice Maps&r."
+				"- Press &d\"M\"&r to open &6World Map&r "
+				"- Use on a &6Map Decoration&r blocks to add to the Atlas &6&o(see next page)&r&r"
+				"- Press &d\"b\"&r to &6drop a pin&r."
+				"- Press &d\"Shift\"&r over a Map Decoration to &6delete&r."
+				"- &6Clone and merge&r Atlases in a &bCartography Table&r."
+				"- Remove &bMaps&r from an Atlas with &bShears&r in a &bCrafting Table&r or &bCartography Table&r."
+				"- Lock an Atlas by &d\"Shift Clicking\"&r."
+				"{@pagebreak}"
+				"&5Map Decoration Providing Blocks:&r"
+				"- Beds"
+				"- Bells"
+				"- Nether Portals"
+				"- Banners (can be named)"
+				"- Beacons"
+				"- Campfires"
+				"- Sign posts (can be named)"
+				"- Conduit"
+				"- Lodestones"
+				"- Respawn anchors"
+				"- Flags"
+			]
+			disable_toast: true
+			icon: "supplementaries:regions_unexplored/sign_post_maple"
+			id: "2713C8F59E5454D3"
+			rewards: [
+				{
+					id: "634D5205EF76FD3F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								maps: [I;
+									0
+									1
+									2
+									3
+									4
+									5
+									6
+									7
+									8
+								]
+							}
+						}
+						id: "map_atlases:atlas"
+						tag: {
+							Enchantments: [{
+								id: "soulbound:soulbound"
+								lvl: 1s
+							}]
+							RepairCost: 1
+							empty: 9
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "5F42CF42403E36CC"
+					item: "minecraft:map"
+					type: "item"
+				}
+				{
+					id: "17458640C733DCBE"
+					item: "minecraft:cartography_table"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 2.0d
+			subtitle: "Start here!"
+			tasks: [{
+				id: "058D02A382D06C87"
+				type: "checkmark"
+			}]
+			title: "Welcome to Integrated Minecraft!"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: false
+			dependencies: ["2713C8F59E5454D3"]
+			description: [
+				"&e\"JEI\"&r (short for Just Enough Items) and &e\"EMI\"&r are the items on the right when you open your inventory. Use them to search items and view their recipes. Here's a couple of tricks!"
+				""
+				"- Press &d\"R\"&r over an item, or &dleft-click&r on it, to view its recipe. Some items like Rotten Flesh will display the mob they are dropped by. Some items will have a tab with an &a\"I\"&r in a circle. Click it to view more information on the item"
+				""
+				"- Press &d\"U\"&r over an item, or &dright-click&r on it, to view its uses in various recipes."
+			]
+			disable_toast: true
+			icon: "minecraft:spyglass"
+			id: "6E5C712DA54999CB"
+			optional: true
+			rewards: [{
+				count: 10
+				id: "20F18CD9E9E05460"
+				item: "minecraft:torch"
+				type: "item"
+			}]
+			subtitle: "Learn to use JEI/EMI to search items!"
+			tasks: [{
+				disable_toast: true
+				id: "60B747D4B3CD889D"
+				title: "Learn to use JEI"
+				type: "checkmark"
+			}]
+			title: "JEI/EMI!"
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2713C8F59E5454D3"]
+			description: ["&5Integrated Minecraft&r includes a couple of tweaks to Vanilla mechanics. Check them out here!"]
+			disable_toast: true
+			icon: "minecraft:bread"
+			id: "0285EF791CB51CAF"
+			optional: true
+			rewards: [{
+				id: "38F1F935AD57490A"
+				item: "minecraft:bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "60EB9F528E715B28"
+				title: "Vanilla Tweaks!"
+				type: "checkmark"
+			}]
+			title: "Vanilla Tweaks"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0285EF791CB51CAF"]
+			description: [
+				"- Villagers have completely reworked trades to integrate the various mods. Higher tiered villagers also have some special rewards. All of these changes were made through &e\"Dynamic Villager Trades\"&r."
+				""
+				"- Villagers now follow players holding &2Emerald Blocks&r, courtesy of &e\"Quark\"&r."
+				""
+				"- Villagers now cycle their trades every day."
+				""
+				"- Only &lmax level&r librarians sell &bMending&r, but they are more likely to sell &bMending&r. There may be other ways to obtain it too..."
+				""
+				"- There are three new villager types through &e\"Ice and Fire\"&r, &e\"Domestication Innovation\"&r, and &e\"Better Archeology\"&r. Search &2#villager_job_site&r to view their job blocks."
+			]
+			disable_toast: true
+			icon: "minecraft:emerald"
+			id: "013FD06AF702E130"
+			optional: true
+			rewards: [{
+				count: 5
+				id: "610D17C6B644EF87"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4C7BBD1F2762093C"
+				title: "Villager Mechanics"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0285EF791CB51CAF"]
+			description: [
+				"- Enchanting has been overhauled through &e\"Apotheosis\"&r. Upgrade your enchanting set up with higher tier bookshelves to get better results!"
+				""
+				"- The EXP needed for max-level enchanting (through Apotheosis) has been greatly increased. However, now &670% of your EXP is dropped on death and the EXP scaling between levels has been greatly reduced&r."
+				""
+				"- &6Enchantment books found in chests are now limited in level&r to encourage enchanting through the &bEnchanting Table&r. They can still be upgraded in &bAnvils&r (see Anvil tweaks)."
+			]
+			disable_toast: true
+			icon: "minecraft:enchanting_table"
+			id: "745086C99829C9E5"
+			optional: true
+			rewards: [{
+				id: "6E63FB437EC34123"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "5E48274771E6C1FA"
+				title: "Enchantment Tweaks"
+				type: "checkmark"
+			}]
+			title: "Enchanting and EXP Tweaks"
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0285EF791CB51CAF"]
+			description: [
+				"- &bAnvils&r &6no longer have penalties for prior work&r to reduce the need for EXP grinders and encourage a gradual progression of tool improvement, rather than applying all the enchantments at once."
+				""
+				"- &bAnvils&r can now be repaired by right-clicking with &bIron Ingots&r"
+				""
+				"- Renaming items only needs 1 level of EXP."
+				""
+				"All of these changes have been done through &e\"Forgery\"&r!"
+			]
+			disable_toast: true
+			icon: "minecraft:anvil"
+			id: "633E91356C64D6ED"
+			optional: true
+			rewards: [{
+				id: "1A0CF445D52DBE86"
+				item: "minecraft:name_tag"
+				type: "item"
+			}]
+			tasks: [{
+				id: "69D2D7CC18437EAB"
+				title: "Anvil Tweaks"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0285EF791CB51CAF"]
+			description: [
+				"- Combat is improved through the &e\"Better Combat\"&r mod. Try it for yourself!"
+				""
+				"- There are multiple new types of weapons. Each has different combat properties, so try several."
+				""
+				"- &bShields&r have been reworked through the &e\"Shield Expansion\"&r mod. &bShields&r are now disabled upon being hit, but if you time your block right when attacked (parry), the cooldown is bypassed and melee attackers are pushed back."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "simplyswords:iron_cutlass"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "78A73FF9E2F525EB"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0B8C10A3CC3405BA"
+					table_id: 7972125673167633645L
+					type: "choice"
+				}
+				{
+					id: "587C9D65E751C234"
+					item: {
+						Count: 1
+						id: "shieldexp:wooden_shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5FE3D2092E9AA8BC"
+				title: "Miscellaneous Tweaks"
+				type: "checkmark"
+			}]
+			title: "Combat Tweaks"
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2713C8F59E5454D3"]
+			description: [
+				"This pack comes with a lot of keybinds built in. Here are some of key ones:"
+				""
+				"- &d\"B\"&r - Open Backpack (&eSophisticated Backpacks&r)"
+				"- &d\"C\"&r - Open Spellbook (&eArs Nouveau&r)"
+				"- &d\"G\"&r - Open Tool Belt (&eTool Belt&r)"
+				"- &d\"Button 4\"&r - Cycles through Utility Belt (&eInventorio&r)"
+				"- &d\"M\"&r - Open Map Atlas (&eMap Atlas&r)"
+				"- &d\"Y\"&r - Crawl (&eForgery&r)"
+				"- &d\"V\"&r - Opens Voice Chat GUI (&eSimple Voice Chat&r)."
+				"- &d\"U\"&r - Mute Microphone (&eSimple Voice Chat&r)"
+				"- &d\"I\"&r - Inventory Settings Menu (&eInventorio&r)."
+				"- &d\"Z\"&r - Uses a Spyglass in your Inventory (&eSpyglass Improvements&r)."
+				""
+				"&a&lYou might want to add a keybind to:&r&r"
+				"- Switch hotbars (&eQuark&r). Search it at \"Hotbar Swapper\" under Keybinds."
+				"- Switch utilities (&eInventorio&r). This scrolls through your offhand slot. Search it at \"Utility\" under Keybinds."
+				"- Enables Rotation Lock (&eQuark&r), allowing for placing blocks only in a certain orientation. Search it at \"Rotation Lock\"."
+				"{@pagebreak}"
+				"If you have any questions on how to control something, check the Key Binds!"
+				""
+				"Some items with specific keybinds (ie. &bQuiver&r, &bMap Atlas&r) have additional information on them in their JEI Information tab."
+			]
+			icon: "supplementaries:key"
+			id: "7F0321F6C37A19B7"
+			optional: true
+			rewards: [{
+				count: 3
+				id: "19AA8E66CA30B88F"
+				item: "minecraft:bread"
+				type: "item"
+			}]
+			subtitle: "All current keybinds of note!"
+			tasks: [{
+				id: "4976579F87754AC9"
+				type: "checkmark"
+			}]
+			title: "Keybinds"
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6E5C712DA54999CB"]
+			description: [
+				"You could search for specific groups of items with &a\"#\"&r. Try the following!"
+				"  "
+				"&nExample:&r"
+				"  - #starter_kit"
+				"  - #villager_job_site"
+				"  - #saplings"
+			]
+			disable_toast: true
+			icon: "minecraft:name_tag"
+			id: "5A997D5F5C8DAAFF"
+			optional: true
+			tasks: [{
+				id: "09AEAD5FEB932099"
+				title: "Search by Tags"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6E5C712DA54999CB"]
+			description: [
+				"Some mobs have information attached to their Spawn Eggs. These usually are mobs with more complicated mechanics. Additional information and lore for many mobs can be found through the &6Animal Dictionary&r."
+				""
+				"&nExample:&r"
+				"Gorilla"
+				"Elephant"
+				"Bee"
+			]
+			disable_toast: true
+			icon: "alexsmobs:spawn_egg_elephant"
+			id: "2050D770D867E9EC"
+			optional: true
+			tasks: [{
+				id: "7B6A71A89CCD075A"
+				title: "Search Mobs"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6E5C712DA54999CB"]
+			description: [
+				"You can also search for specific mods with &a\"@\"&r. For instance, try &a\"@endrem\"&r. If you are enjoying items from a specific mod, try looking it up to see what else it has to offer!"
+				""
+				"&nExamples: &r"
+				"@AlexsMobs"
+				"@Spelunkery"
+				"@Create"
+			]
+			disable_toast: true
+			icon: "alexscaves:cave_book"
+			id: "208C8A71760FF56F"
+			optional: true
+			tasks: [{
+				id: "43C1A914D9AAFD14"
+				title: "Search by Mod ID"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0285EF791CB51CAF"]
+			description: ["The pathway to the &5End&r has been completely reworked through &e\"End Remastered\"&r. View it under \"&aTo the End of the Beginning&r\"!"]
+			disable_toast: true
+			icon: "minecraft:ender_eye"
+			id: "25503C678AAC68FA"
+			optional: true
+			tasks: [{
+				id: "11251FD718B56492"
+				title: "Eyes of Ender Tweaks"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			description: [
+				"As you begin your first adventure, you stumble upon a worn, tattered book labeled 「Adventuring for Newbies!!!!」.  &a\"What an insane coincidence\"&r, you think. Intrigued, you open it up, and surprisingly, a crude looking face and words start appearing on the page. "
+				""
+				"「Just the person I was expecting. Say, would you like to slay a Dragon?」&eヽ(•‿•)ノ&r"
+				""
+				"Flabbergasted, you almost drop the book. But you can't. "
+				""
+				"「How. Rude. But hey, beggers can't be choosers, I guess.」&e┐(￣ヘ￣)┌&r"
+				"{@pagebreak}"
+				"You try to close the book. But you can't. "
+				""
+				"「Cmon, just hear me out. Then I'll let you go.」&e╥﹏╥&r"
+				""
+				"..."
+				""
+				"「Thanks. Help me achieve my goals and I'll help you achieve yours. &aMy name is Ana, a Mage&r. I was sealed in this book, but once I'm out, I'll grant you all the riches you could ever want. Heck, I can even manifest a few things from within here for you.」"
+				"{@pagebreak}"
+				"You try to ask for more details."
+				""
+				"「Oh. Hmm. I can see you're trying to speak but I can't actually hear you. Heck, it's already taking an immense amount of power to manifest like this. Hence these cruddy faces.」&e(>_<)&r"
+				""
+				"「But, decision time. Help me or abandon me.」"
+			]
+			disable_toast: true
+			icon: "minecraft:writable_book"
+			id: "50399CF42C86945D"
+			optional: true
+			secret: true
+			subtitle: "Premise of the Lore"
+			tasks: [{
+				id: "739E31F93BF39711"
+				title: "Pack Lore Flavoring"
+				type: "checkmark"
+			}]
+			title: "Lore Introduction"
+			x: 5.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["50399CF42C86945D"]
+			disable_toast: true
+			hide_until_deps_visible: true
+			id: "3C21D8349B2D6E95"
+			incompatible: ["43E7C2556FB1A217"]
+			optional: true
+			subtitle: "COMPLETE TO ENABLE LORE (subquests that only give flavor text)"
+			tasks: [{
+				id: "45E017592CF6B75F"
+				title: "Help?"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["50399CF42C86945D"]
+			disable_toast: true
+			hide_until_deps_visible: true
+			id: "43E7C2556FB1A217"
+			incompatible: ["3C21D8349B2D6E95"]
+			optional: true
+			tasks: [{
+				id: "5F1B9B93D9BED9F4"
+				title: "Abandon?"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			description: [
+				"&5Special thanks to&r:"
+				""
+				"&eJAWredstoneguy&r, &eAntN&r, and &earzadu&r for their work on the pack"
+				""
+				"&dThe IDAS builder&r team for the fantastic structures"
+				""
+				"&1Pareidolia&r (Creator of Bibliophilia Resource Pack) for accepting mod suggestions to add to their resource pack"
+				""
+				"&aHeyKatu&r (Creator of Cottage Witch) for some of the pack's ideas&r"
+				""
+				"All of our wonderful players and discord members (esp. those who've brought bugs to our attention)"
+				""
+				"Sincerely,"
+				"&5CraisinLord&r and &4Hisakid&r"
+			]
+			disable_toast: true
+			id: "1746CBB538290039"
+			optional: true
+			shape: "gear"
+			tasks: [{
+				id: "128BF2E48F7054BB"
+				title: "Acknowledgements"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			description: [
+				"&5&lCurseForge Page&r&r: https://www.curseforge.com/minecraft/modpacks/integrated-minecraft"
+				""
+				"&5&lDiscord&r&r: https://discord.com/invite/72a7jmc5mb"
+				""
+				"&5&lYoutube&r&r: https://www.youtube.com/@craisinlord"
+			]
+			disable_toast: true
+			id: "4C430AD8ACBEBF9E"
+			optional: true
+			shape: "gear"
+			subtitle: "Website and Discord Links"
+			tasks: [{
+				id: "7A63602EAFF57742"
+				title: "Links"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			can_repeat: true
+			description: ["Details and flavorful descriptions of all the mobs from &6\"Alex's Mobs\"&r!"]
+			disable_toast: true
+			icon: "alexsmobs:animal_dictionary"
+			id: "0E27BB345555B163"
+			optional: true
+			rewards: [{
+				id: "56CBE8533B3B644B"
+				item: "alexsmobs:animal_dictionary"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "Click to get the Animal Dictionary!"
+			tasks: [{
+				id: "33F3176AAFA4EED1"
+				title: "Animal Dictionary"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			description: ["Obtain the Chronicle of Shadows from &e\"Apotheosis\"&r. Contains details on Enchanting changes, Potion changes, and Villager changes."]
+			icon: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "apotheosis:apoth_chronicle"
+				}
+			}
+			id: "5DE9C42F9E76A839"
+			optional: true
+			rewards: [{
+				id: "4E17F1972AD7DD55"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "apotheosis:apoth_chronicle"
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "More details on Enchanting changes from Apotheosis!"
+			tasks: [{
+				id: "65D135D53E6875DF"
+				title: "Chronicle of Shadows"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			description: ["Complete to recieve the Worn Notebook, which contains the full documentation for Ars Nouveau."]
+			disable_toast: true
+			icon: "ars_nouveau:worn_notebook"
+			id: "3D7EC35D193066EB"
+			optional: true
+			rewards: [{
+				id: "1E014C5330C08A14"
+				item: "ars_nouveau:worn_notebook"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "Detailed documentation on Ars Nouveau!"
+			tasks: [{
+				id: "5214DFAE0B39DAC4"
+				title: "Ars Nouveau Documentation"
+				type: "checkmark"
+			}]
+			title: "Worn Notebook (Ars Nouveau)"
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7DA7786CB94237E1"]
+			description: [
+				"&bExplorer Maps&r are a core part of the &5Integrated Minecraft&r experience, acting as an expansion of the mapping functionalities provided by the base game. Many of you already know how to use a Map, but here's a quick reference for anyone who's forgotten."
+				"{@pagebreak}"
+				"- The top of the map is &6North&r, and travelling in the &6negative Z direction&r takes you North. The red pole of the &bMagnetic Compass&r also points North, so if it is pointing upwards, you are travelling North."
+				"- Left of the map is &6West&r, and travelling in the &6negative X direction&r takes you West. The &bMagentic compass&r will be pointing right."
+				"- Right of the map is &6East&r, and travelling in the &6positive X direction&r takes you East. The &bMagentic compass&r will be pointing left."
+				"- The bottom of the map is &6South&r, and travelling in the &6positive Z direction&r takes you South. The &bMagentic compass&r will be pointing down."
+				""
+				"F3 will show the direction you are headed if you ever get confused."
+			]
+			icon: "minecraft:map"
+			id: "579E86961E6B04DC"
+			rewards: [{
+				id: "1797CFF95E77AA33"
+				item: {
+					Count: 1
+					id: "spelunkery:magnetic_compass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "Quick refresher on how Explorer Maps work!"
+			tasks: [{
+				id: "27893B49168B3203"
+				title: "Using Maps"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2713C8F59E5454D3"]
+			icon: "minecraft:name_tag"
+			id: "7DA7786CB94237E1"
+			tasks: [{
+				id: "269454E24768DB2A"
+				title: "Tips"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7DA7786CB94237E1"]
+			description: [
+				"&e\"Regions Unexplored\"&r adds many biomes, including some with their own types of &bdirt&r. While there is an option to limit biome generation to only include default dirt, in order to allow for greater customization, this is not enabled by default."
+				""
+				"However, to ease inventory management issues, all new dirt types can be converted to vanilla &bdirt&r through the &bCrafting Table&r. Try it out!"
+				""
+				"Many can also be crafted through custom recipes (mostly involving their respective saplings)."
+			]
+			icon: "minecraft:dirt"
+			id: "53BD475217957F3B"
+			rewards: [
+				{
+					count: 10
+					id: "7C921B792D3082DF"
+					item: "regions_unexplored:peat_dirt"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "60D0932B963EABF4"
+					item: "regions_unexplored:silt_dirt"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "1AB3EF381A4B9F38"
+					item: "regions_unexplored:argillite"
+					type: "item"
+				}
+			]
+			subtitle: "Easy Conversions for Inventory Management!"
+			tasks: [{
+				id: "152E39AD8E2B215D"
+				title: "Dirt Conversions"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0285EF791CB51CAF"]
+			description: [
+				"- The inventory is greatly improved through the &e\"Inventorio\"&r and &e\"Tool Belt\"&r mods!"
+				""
+				"- You now have multiple offhands! This is now called the &bUtility Belt&r. You can scroll through them with a keybind (default &5\"Button 4\"&r)."
+				""
+				"- You can now equip a &bTool Belt&r through the curios menu. Press &5\"G\"&r to access it. You can add more slots to your &bTool Belt&r with &bBelt Pouches&r with an &bAnvil&r."
+				""
+				"- There is a new leggings enchantment called &bDeep Pockets&r. Each level adds &6an additional row&r to your inventory. Additionally, the first level adds 4 extra slots to the &bUtility Belt&r."
+				""
+				"- The capacity for the &bEnder Chest&r has been doubled."
+				"- An &bInfinity Bow&r no longer requires arrows."
+				"- &bTotems&r activate from the &bUtility Belt&r."
+			]
+			disable_toast: true
+			icon: "minecraft:bundle"
+			id: "19858426E2D2C636"
+			optional: true
+			rewards: [{
+				id: "1113A1A5171B14DA"
+				item: "toolbelt:belt"
+				type: "item"
+			}]
+			tasks: [{
+				id: "143B1CBA8DDB1F87"
+				title: "Inventorio"
+				type: "checkmark"
+			}]
+			title: "Inventory Tweaks"
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7DA7786CB94237E1"]
+			description: [
+				"Since you're here, you probably understand the basics of the &dQuest Book&r. However, in case you are new to this, here's some important things to keep in mind:"
+				""
+				"- The tab on the left shows all of the &bChapters&r within the &dQuest Book&r."
+				"- &bSome chapters and many quests are initially hidden, until they are trigger by certain items&r. These should pop-up on the right of the screen when trigger."
+				"- One chapter acts as a storage for &dhidden recipes&r, unlocked by finding &7Tattered Books&r."
+			]
+			icon: "ftbquests:book"
+			id: "4C840076783D73B9"
+			rewards: [{
+				id: "285751488F17C0DE"
+				item: {
+					Count: 1
+					id: "minecraft:written_book"
+					tag: {
+						AntiqueInk: 1b
+						author: "hisakid13"
+						generation: 3
+						pages: ["{\"font\":\"supplementaries:antiquable\",\"text\":\"Here's the recipe to make a Bundle (because Minecraft doesn't let me enable reviewing of it by default T_T)\\n\\nBAB\\nA A\\nAAA\\n\\nA: Rabbit Hide or Canvas\\nB: String\\n\"}"]
+						title: "Bundle Recipe"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Learn how the Quest Book works!"
+			tasks: [{
+				id: "489D3DAC74C9AB66"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7DA7786CB94237E1"]
+			description: [
+				"&e\"Carry On\"&r is a mod designed around allowing you to easily move small mobs and blocks with NBT data (ie. &bchests&r, &bfurnaces&r, etc.)"
+				""
+				"&d\"Shift + Right Click\"&r will allow you pick up small mobs and blocks with NBT data. &d\"Right Click\"&r to put them back down."
+			]
+			icon: "minecraft:chest"
+			id: "25862915C5D5F377"
+			rewards: [{
+				id: "3874FCE8BF6709A0"
+				item: "minecraft:chest"
+				type: "item"
+			}]
+			subtitle: "Easily Move Blocks"
+			tasks: [{
+				id: "7C0BD1A9E15E44DF"
+				title: "Carry On"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			description: [
+				"&5&nWhat should I do?&r&r"
+				"Normal Minecraft stuff :) This pack has tools to help you explore and add a more RPG element, but at the end of the day, its meant as an open ended vanilla expansion. Maybe try getting the Eyes of Ender?"
+				""
+				"&5&nHow do I craft x?&r&r"
+				"Many of the recipe books are intentionally left ambiguous with the intent that players puzzle it out on their own. That said, we know not everyone likes that approach. Thus, each quest book SHOULD trigger a Quest containing the exact recipes."
+				""
+				"&5&nCan you add x mod?&r&r"
+				"As a general rule of thumb, it's better to have less mods than more, as if we discover any game-breaking bugs, removing mods can break player's worlds. That said, we highly highly encourage you to customize the pack to your wants and needs. To do this, in CurseForge, go to the dots next to &6\"Play\"&r, hit &6\"Profile Options\"&r, and click &6\"Allow Content Management for this Profile\"&r. Most mods should be compatible out of the box. &eALWAYS BACKUP YOUR PACK BEFORE ADDING, REMOVING, OR UPDATING MODS.&r"
+				""
+				"{@pagebreak}"
+				"&5&nI don't like x mod.&r&r"
+				"The hard part about this pack is many of the features are so integrated that it's hard to untangle them. That said, many are highly configured (looking at you, Apotheosis...) to smooth some of the rougher corners. I'm willing to help you remove mods if you ask in Discord (besides Ars Nouveau, Create, and a few others. Those are bedrock of the pack unfortunately)"
+				""
+				""
+				"If you have any questions, please feel free to ask on Discord! Craisin or I (hisakid) are usually around to answer questions. I have the Integrated Minecraft channel unmuted so I should see most chats."
+			]
+			disable_toast: true
+			id: "29298A43355481E1"
+			min_width: 400
+			optional: true
+			shape: "gear"
+			tasks: [{
+				id: "24388C2A89D5FEEB"
+				title: "Links"
+				type: "checkmark"
+			}]
+			title: "❓ FAQ"
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2713C8F59E5454D3"]
+			description: ["&6In case you somehow lose it, here's an option to buy another &r&5Atlas&r&6!&r It won't have your prior maps saved though, so we recommend making a backup &5Atlas&r."]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						maps: [I;
+							0
+							1
+							2
+							3
+							5
+							6
+							7
+							8
+							10
+						]
+					}
+				}
+				id: "map_atlases:atlas"
+				tag: {
+					Enchantments: [{
+						id: "soulbound:soulbound"
+						lvl: 1s
+					}]
+					RepairCost: 1
+					empty: 9
+				}
+			}
+			id: "3F276675822CECF8"
+			optional: true
+			repeatable: true
+			rewards: [{
+				id: "08D3D90021939B91"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							maps: [I;
+								0
+								1
+								2
+								3
+								5
+								6
+								7
+								8
+								10
+							]
+						}
+					}
+					id: "map_atlases:atlas"
+					tag: {
+						Enchantments: [{
+							id: "soulbound:soulbound"
+							lvl: 1s
+						}]
+						RepairCost: 1
+						empty: 9
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "0A533CC8F9A501D2"
+				item: "minecraft:emerald"
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "Get Another Atlas!"
+			x: 2.0d
+			y: -1.0d
+		}
+	]
+	title: "Pack Introduction"
+}

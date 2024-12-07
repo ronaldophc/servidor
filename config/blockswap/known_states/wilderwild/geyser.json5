@@ -1,0 +1,3171 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "true",
+			"geyser_type": "none",
+			"geyser_stage": "dormant",
+			"facing": "north"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "true",
+			"geyser_type": "none",
+			"geyser_stage": "dormant",
+			"facing": "north"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "false",
+			"geyser_type": "none",
+			"geyser_stage": "dormant",
+			"facing": "north"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "false",
+			"geyser_type": "none",
+			"geyser_stage": "dormant",
+			"facing": "north"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "true",
+			"geyser_type": "air",
+			"geyser_stage": "dormant",
+			"facing": "north"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "true",
+			"geyser_type": "air",
+			"geyser_stage": "dormant",
+			"facing": "north"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "false",
+			"geyser_type": "air",
+			"geyser_stage": "dormant",
+			"facing": "north"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "false",
+			"geyser_type": "air",
+			"geyser_stage": "dormant",
+			"facing": "north"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "true",
+			"geyser_type": "water",
+			"geyser_stage": "dormant",
+			"facing": "north"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "true",
+			"geyser_type": "water",
+			"geyser_stage": "dormant",
+			"facing": "north"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "false",
+			"geyser_type": "water",
+			"geyser_stage": "dormant",
+			"facing": "north"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "false",
+			"geyser_type": "water",
+			"geyser_stage": "dormant",
+			"facing": "north"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "true",
+			"geyser_type": "lava",
+			"geyser_stage": "dormant",
+			"facing": "north"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "true",
+			"geyser_type": "lava",
+			"geyser_stage": "dormant",
+			"facing": "north"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "false",
+			"geyser_type": "lava",
+			"geyser_stage": "dormant",
+			"facing": "north"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "false",
+			"geyser_type": "lava",
+			"geyser_stage": "dormant",
+			"facing": "north"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "true",
+			"geyser_type": "none",
+			"geyser_stage": "active",
+			"facing": "north"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "true",
+			"geyser_type": "none",
+			"geyser_stage": "active",
+			"facing": "north"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "false",
+			"geyser_type": "none",
+			"geyser_stage": "active",
+			"facing": "north"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "false",
+			"geyser_type": "none",
+			"geyser_stage": "active",
+			"facing": "north"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "true",
+			"geyser_type": "air",
+			"geyser_stage": "active",
+			"facing": "north"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "true",
+			"geyser_type": "air",
+			"geyser_stage": "active",
+			"facing": "north"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "false",
+			"geyser_type": "air",
+			"geyser_stage": "active",
+			"facing": "north"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "false",
+			"geyser_type": "air",
+			"geyser_stage": "active",
+			"facing": "north"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "true",
+			"geyser_type": "water",
+			"geyser_stage": "active",
+			"facing": "north"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "true",
+			"geyser_type": "water",
+			"geyser_stage": "active",
+			"facing": "north"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "false",
+			"geyser_type": "water",
+			"geyser_stage": "active",
+			"facing": "north"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "false",
+			"geyser_type": "water",
+			"geyser_stage": "active",
+			"facing": "north"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "true",
+			"geyser_type": "lava",
+			"geyser_stage": "active",
+			"facing": "north"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "true",
+			"geyser_type": "lava",
+			"geyser_stage": "active",
+			"facing": "north"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "false",
+			"geyser_type": "lava",
+			"geyser_stage": "active",
+			"facing": "north"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "false",
+			"geyser_type": "lava",
+			"geyser_stage": "active",
+			"facing": "north"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "true",
+			"geyser_type": "none",
+			"geyser_stage": "erupting",
+			"facing": "north"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "true",
+			"geyser_type": "none",
+			"geyser_stage": "erupting",
+			"facing": "north"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "false",
+			"geyser_type": "none",
+			"geyser_stage": "erupting",
+			"facing": "north"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "false",
+			"geyser_type": "none",
+			"geyser_stage": "erupting",
+			"facing": "north"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "true",
+			"geyser_type": "air",
+			"geyser_stage": "erupting",
+			"facing": "north"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "true",
+			"geyser_type": "air",
+			"geyser_stage": "erupting",
+			"facing": "north"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "false",
+			"geyser_type": "air",
+			"geyser_stage": "erupting",
+			"facing": "north"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "false",
+			"geyser_type": "air",
+			"geyser_stage": "erupting",
+			"facing": "north"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "true",
+			"geyser_type": "water",
+			"geyser_stage": "erupting",
+			"facing": "north"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "true",
+			"geyser_type": "water",
+			"geyser_stage": "erupting",
+			"facing": "north"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "false",
+			"geyser_type": "water",
+			"geyser_stage": "erupting",
+			"facing": "north"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "false",
+			"geyser_type": "water",
+			"geyser_stage": "erupting",
+			"facing": "north"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "true",
+			"geyser_type": "lava",
+			"geyser_stage": "erupting",
+			"facing": "north"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "true",
+			"geyser_type": "lava",
+			"geyser_stage": "erupting",
+			"facing": "north"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "false",
+			"geyser_type": "lava",
+			"geyser_stage": "erupting",
+			"facing": "north"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "false",
+			"geyser_type": "lava",
+			"geyser_stage": "erupting",
+			"facing": "north"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "true",
+			"geyser_type": "none",
+			"geyser_stage": "dormant",
+			"facing": "east"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "true",
+			"geyser_type": "none",
+			"geyser_stage": "dormant",
+			"facing": "east"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "false",
+			"geyser_type": "none",
+			"geyser_stage": "dormant",
+			"facing": "east"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "false",
+			"geyser_type": "none",
+			"geyser_stage": "dormant",
+			"facing": "east"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "true",
+			"geyser_type": "air",
+			"geyser_stage": "dormant",
+			"facing": "east"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "true",
+			"geyser_type": "air",
+			"geyser_stage": "dormant",
+			"facing": "east"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "false",
+			"geyser_type": "air",
+			"geyser_stage": "dormant",
+			"facing": "east"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "false",
+			"geyser_type": "air",
+			"geyser_stage": "dormant",
+			"facing": "east"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "true",
+			"geyser_type": "water",
+			"geyser_stage": "dormant",
+			"facing": "east"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "true",
+			"geyser_type": "water",
+			"geyser_stage": "dormant",
+			"facing": "east"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "false",
+			"geyser_type": "water",
+			"geyser_stage": "dormant",
+			"facing": "east"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "false",
+			"geyser_type": "water",
+			"geyser_stage": "dormant",
+			"facing": "east"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "true",
+			"geyser_type": "lava",
+			"geyser_stage": "dormant",
+			"facing": "east"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "true",
+			"geyser_type": "lava",
+			"geyser_stage": "dormant",
+			"facing": "east"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "false",
+			"geyser_type": "lava",
+			"geyser_stage": "dormant",
+			"facing": "east"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "false",
+			"geyser_type": "lava",
+			"geyser_stage": "dormant",
+			"facing": "east"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "true",
+			"geyser_type": "none",
+			"geyser_stage": "active",
+			"facing": "east"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "true",
+			"geyser_type": "none",
+			"geyser_stage": "active",
+			"facing": "east"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "false",
+			"geyser_type": "none",
+			"geyser_stage": "active",
+			"facing": "east"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "false",
+			"geyser_type": "none",
+			"geyser_stage": "active",
+			"facing": "east"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "true",
+			"geyser_type": "air",
+			"geyser_stage": "active",
+			"facing": "east"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "true",
+			"geyser_type": "air",
+			"geyser_stage": "active",
+			"facing": "east"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "false",
+			"geyser_type": "air",
+			"geyser_stage": "active",
+			"facing": "east"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "false",
+			"geyser_type": "air",
+			"geyser_stage": "active",
+			"facing": "east"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "true",
+			"geyser_type": "water",
+			"geyser_stage": "active",
+			"facing": "east"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "true",
+			"geyser_type": "water",
+			"geyser_stage": "active",
+			"facing": "east"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "false",
+			"geyser_type": "water",
+			"geyser_stage": "active",
+			"facing": "east"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "false",
+			"geyser_type": "water",
+			"geyser_stage": "active",
+			"facing": "east"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "true",
+			"geyser_type": "lava",
+			"geyser_stage": "active",
+			"facing": "east"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "true",
+			"geyser_type": "lava",
+			"geyser_stage": "active",
+			"facing": "east"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "false",
+			"geyser_type": "lava",
+			"geyser_stage": "active",
+			"facing": "east"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "false",
+			"geyser_type": "lava",
+			"geyser_stage": "active",
+			"facing": "east"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "true",
+			"geyser_type": "none",
+			"geyser_stage": "erupting",
+			"facing": "east"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "true",
+			"geyser_type": "none",
+			"geyser_stage": "erupting",
+			"facing": "east"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "false",
+			"geyser_type": "none",
+			"geyser_stage": "erupting",
+			"facing": "east"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "false",
+			"geyser_type": "none",
+			"geyser_stage": "erupting",
+			"facing": "east"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "true",
+			"geyser_type": "air",
+			"geyser_stage": "erupting",
+			"facing": "east"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "true",
+			"geyser_type": "air",
+			"geyser_stage": "erupting",
+			"facing": "east"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "false",
+			"geyser_type": "air",
+			"geyser_stage": "erupting",
+			"facing": "east"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "false",
+			"geyser_type": "air",
+			"geyser_stage": "erupting",
+			"facing": "east"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "true",
+			"geyser_type": "water",
+			"geyser_stage": "erupting",
+			"facing": "east"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "true",
+			"geyser_type": "water",
+			"geyser_stage": "erupting",
+			"facing": "east"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "false",
+			"geyser_type": "water",
+			"geyser_stage": "erupting",
+			"facing": "east"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "false",
+			"geyser_type": "water",
+			"geyser_stage": "erupting",
+			"facing": "east"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "true",
+			"geyser_type": "lava",
+			"geyser_stage": "erupting",
+			"facing": "east"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "true",
+			"geyser_type": "lava",
+			"geyser_stage": "erupting",
+			"facing": "east"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "false",
+			"geyser_type": "lava",
+			"geyser_stage": "erupting",
+			"facing": "east"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "false",
+			"geyser_type": "lava",
+			"geyser_stage": "erupting",
+			"facing": "east"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "true",
+			"geyser_type": "none",
+			"geyser_stage": "dormant",
+			"facing": "south"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "true",
+			"geyser_type": "none",
+			"geyser_stage": "dormant",
+			"facing": "south"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "false",
+			"geyser_type": "none",
+			"geyser_stage": "dormant",
+			"facing": "south"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "false",
+			"geyser_type": "none",
+			"geyser_stage": "dormant",
+			"facing": "south"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "true",
+			"geyser_type": "air",
+			"geyser_stage": "dormant",
+			"facing": "south"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "true",
+			"geyser_type": "air",
+			"geyser_stage": "dormant",
+			"facing": "south"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "false",
+			"geyser_type": "air",
+			"geyser_stage": "dormant",
+			"facing": "south"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "false",
+			"geyser_type": "air",
+			"geyser_stage": "dormant",
+			"facing": "south"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "true",
+			"geyser_type": "water",
+			"geyser_stage": "dormant",
+			"facing": "south"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "true",
+			"geyser_type": "water",
+			"geyser_stage": "dormant",
+			"facing": "south"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "false",
+			"geyser_type": "water",
+			"geyser_stage": "dormant",
+			"facing": "south"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "false",
+			"geyser_type": "water",
+			"geyser_stage": "dormant",
+			"facing": "south"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "true",
+			"geyser_type": "lava",
+			"geyser_stage": "dormant",
+			"facing": "south"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "true",
+			"geyser_type": "lava",
+			"geyser_stage": "dormant",
+			"facing": "south"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "false",
+			"geyser_type": "lava",
+			"geyser_stage": "dormant",
+			"facing": "south"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "false",
+			"geyser_type": "lava",
+			"geyser_stage": "dormant",
+			"facing": "south"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "true",
+			"geyser_type": "none",
+			"geyser_stage": "active",
+			"facing": "south"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "true",
+			"geyser_type": "none",
+			"geyser_stage": "active",
+			"facing": "south"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "false",
+			"geyser_type": "none",
+			"geyser_stage": "active",
+			"facing": "south"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "false",
+			"geyser_type": "none",
+			"geyser_stage": "active",
+			"facing": "south"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "true",
+			"geyser_type": "air",
+			"geyser_stage": "active",
+			"facing": "south"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "true",
+			"geyser_type": "air",
+			"geyser_stage": "active",
+			"facing": "south"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "false",
+			"geyser_type": "air",
+			"geyser_stage": "active",
+			"facing": "south"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "false",
+			"geyser_type": "air",
+			"geyser_stage": "active",
+			"facing": "south"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "true",
+			"geyser_type": "water",
+			"geyser_stage": "active",
+			"facing": "south"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "true",
+			"geyser_type": "water",
+			"geyser_stage": "active",
+			"facing": "south"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "false",
+			"geyser_type": "water",
+			"geyser_stage": "active",
+			"facing": "south"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "false",
+			"geyser_type": "water",
+			"geyser_stage": "active",
+			"facing": "south"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "true",
+			"geyser_type": "lava",
+			"geyser_stage": "active",
+			"facing": "south"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "true",
+			"geyser_type": "lava",
+			"geyser_stage": "active",
+			"facing": "south"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "false",
+			"geyser_type": "lava",
+			"geyser_stage": "active",
+			"facing": "south"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "false",
+			"geyser_type": "lava",
+			"geyser_stage": "active",
+			"facing": "south"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "true",
+			"geyser_type": "none",
+			"geyser_stage": "erupting",
+			"facing": "south"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "true",
+			"geyser_type": "none",
+			"geyser_stage": "erupting",
+			"facing": "south"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "false",
+			"geyser_type": "none",
+			"geyser_stage": "erupting",
+			"facing": "south"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "false",
+			"geyser_type": "none",
+			"geyser_stage": "erupting",
+			"facing": "south"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "true",
+			"geyser_type": "air",
+			"geyser_stage": "erupting",
+			"facing": "south"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "true",
+			"geyser_type": "air",
+			"geyser_stage": "erupting",
+			"facing": "south"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "false",
+			"geyser_type": "air",
+			"geyser_stage": "erupting",
+			"facing": "south"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "false",
+			"geyser_type": "air",
+			"geyser_stage": "erupting",
+			"facing": "south"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "true",
+			"geyser_type": "water",
+			"geyser_stage": "erupting",
+			"facing": "south"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "true",
+			"geyser_type": "water",
+			"geyser_stage": "erupting",
+			"facing": "south"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "false",
+			"geyser_type": "water",
+			"geyser_stage": "erupting",
+			"facing": "south"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "false",
+			"geyser_type": "water",
+			"geyser_stage": "erupting",
+			"facing": "south"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "true",
+			"geyser_type": "lava",
+			"geyser_stage": "erupting",
+			"facing": "south"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "true",
+			"geyser_type": "lava",
+			"geyser_stage": "erupting",
+			"facing": "south"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "false",
+			"geyser_type": "lava",
+			"geyser_stage": "erupting",
+			"facing": "south"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "false",
+			"geyser_type": "lava",
+			"geyser_stage": "erupting",
+			"facing": "south"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "true",
+			"geyser_type": "none",
+			"geyser_stage": "dormant",
+			"facing": "west"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "true",
+			"geyser_type": "none",
+			"geyser_stage": "dormant",
+			"facing": "west"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "false",
+			"geyser_type": "none",
+			"geyser_stage": "dormant",
+			"facing": "west"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "false",
+			"geyser_type": "none",
+			"geyser_stage": "dormant",
+			"facing": "west"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "true",
+			"geyser_type": "air",
+			"geyser_stage": "dormant",
+			"facing": "west"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "true",
+			"geyser_type": "air",
+			"geyser_stage": "dormant",
+			"facing": "west"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "false",
+			"geyser_type": "air",
+			"geyser_stage": "dormant",
+			"facing": "west"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "false",
+			"geyser_type": "air",
+			"geyser_stage": "dormant",
+			"facing": "west"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "true",
+			"geyser_type": "water",
+			"geyser_stage": "dormant",
+			"facing": "west"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "true",
+			"geyser_type": "water",
+			"geyser_stage": "dormant",
+			"facing": "west"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "false",
+			"geyser_type": "water",
+			"geyser_stage": "dormant",
+			"facing": "west"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "false",
+			"geyser_type": "water",
+			"geyser_stage": "dormant",
+			"facing": "west"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "true",
+			"geyser_type": "lava",
+			"geyser_stage": "dormant",
+			"facing": "west"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "true",
+			"geyser_type": "lava",
+			"geyser_stage": "dormant",
+			"facing": "west"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "false",
+			"geyser_type": "lava",
+			"geyser_stage": "dormant",
+			"facing": "west"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "false",
+			"geyser_type": "lava",
+			"geyser_stage": "dormant",
+			"facing": "west"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "true",
+			"geyser_type": "none",
+			"geyser_stage": "active",
+			"facing": "west"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "true",
+			"geyser_type": "none",
+			"geyser_stage": "active",
+			"facing": "west"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "false",
+			"geyser_type": "none",
+			"geyser_stage": "active",
+			"facing": "west"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "false",
+			"geyser_type": "none",
+			"geyser_stage": "active",
+			"facing": "west"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "true",
+			"geyser_type": "air",
+			"geyser_stage": "active",
+			"facing": "west"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "true",
+			"geyser_type": "air",
+			"geyser_stage": "active",
+			"facing": "west"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "false",
+			"geyser_type": "air",
+			"geyser_stage": "active",
+			"facing": "west"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "false",
+			"geyser_type": "air",
+			"geyser_stage": "active",
+			"facing": "west"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "true",
+			"geyser_type": "water",
+			"geyser_stage": "active",
+			"facing": "west"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "true",
+			"geyser_type": "water",
+			"geyser_stage": "active",
+			"facing": "west"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "false",
+			"geyser_type": "water",
+			"geyser_stage": "active",
+			"facing": "west"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "false",
+			"geyser_type": "water",
+			"geyser_stage": "active",
+			"facing": "west"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "true",
+			"geyser_type": "lava",
+			"geyser_stage": "active",
+			"facing": "west"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "true",
+			"geyser_type": "lava",
+			"geyser_stage": "active",
+			"facing": "west"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "false",
+			"geyser_type": "lava",
+			"geyser_stage": "active",
+			"facing": "west"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "false",
+			"geyser_type": "lava",
+			"geyser_stage": "active",
+			"facing": "west"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "true",
+			"geyser_type": "none",
+			"geyser_stage": "erupting",
+			"facing": "west"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "true",
+			"geyser_type": "none",
+			"geyser_stage": "erupting",
+			"facing": "west"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "false",
+			"geyser_type": "none",
+			"geyser_stage": "erupting",
+			"facing": "west"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "false",
+			"geyser_type": "none",
+			"geyser_stage": "erupting",
+			"facing": "west"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "true",
+			"geyser_type": "air",
+			"geyser_stage": "erupting",
+			"facing": "west"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "true",
+			"geyser_type": "air",
+			"geyser_stage": "erupting",
+			"facing": "west"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "false",
+			"geyser_type": "air",
+			"geyser_stage": "erupting",
+			"facing": "west"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "false",
+			"geyser_type": "air",
+			"geyser_stage": "erupting",
+			"facing": "west"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "true",
+			"geyser_type": "water",
+			"geyser_stage": "erupting",
+			"facing": "west"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "true",
+			"geyser_type": "water",
+			"geyser_stage": "erupting",
+			"facing": "west"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "false",
+			"geyser_type": "water",
+			"geyser_stage": "erupting",
+			"facing": "west"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "false",
+			"geyser_type": "water",
+			"geyser_stage": "erupting",
+			"facing": "west"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "true",
+			"geyser_type": "lava",
+			"geyser_stage": "erupting",
+			"facing": "west"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "true",
+			"geyser_type": "lava",
+			"geyser_stage": "erupting",
+			"facing": "west"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "false",
+			"geyser_type": "lava",
+			"geyser_stage": "erupting",
+			"facing": "west"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "false",
+			"geyser_type": "lava",
+			"geyser_stage": "erupting",
+			"facing": "west"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "true",
+			"geyser_type": "none",
+			"geyser_stage": "dormant",
+			"facing": "up"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "false",
+			"geyser_type": "none",
+			"geyser_stage": "dormant",
+			"facing": "up"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "false",
+			"geyser_type": "none",
+			"geyser_stage": "dormant",
+			"facing": "up"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "true",
+			"geyser_type": "air",
+			"geyser_stage": "dormant",
+			"facing": "up"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "true",
+			"geyser_type": "air",
+			"geyser_stage": "dormant",
+			"facing": "up"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "false",
+			"geyser_type": "air",
+			"geyser_stage": "dormant",
+			"facing": "up"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "false",
+			"geyser_type": "air",
+			"geyser_stage": "dormant",
+			"facing": "up"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "true",
+			"geyser_type": "water",
+			"geyser_stage": "dormant",
+			"facing": "up"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "true",
+			"geyser_type": "water",
+			"geyser_stage": "dormant",
+			"facing": "up"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "false",
+			"geyser_type": "water",
+			"geyser_stage": "dormant",
+			"facing": "up"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "false",
+			"geyser_type": "water",
+			"geyser_stage": "dormant",
+			"facing": "up"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "true",
+			"geyser_type": "lava",
+			"geyser_stage": "dormant",
+			"facing": "up"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "true",
+			"geyser_type": "lava",
+			"geyser_stage": "dormant",
+			"facing": "up"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "false",
+			"geyser_type": "lava",
+			"geyser_stage": "dormant",
+			"facing": "up"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "false",
+			"geyser_type": "lava",
+			"geyser_stage": "dormant",
+			"facing": "up"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "true",
+			"geyser_type": "none",
+			"geyser_stage": "active",
+			"facing": "up"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "true",
+			"geyser_type": "none",
+			"geyser_stage": "active",
+			"facing": "up"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "false",
+			"geyser_type": "none",
+			"geyser_stage": "active",
+			"facing": "up"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "false",
+			"geyser_type": "none",
+			"geyser_stage": "active",
+			"facing": "up"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "true",
+			"geyser_type": "air",
+			"geyser_stage": "active",
+			"facing": "up"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "true",
+			"geyser_type": "air",
+			"geyser_stage": "active",
+			"facing": "up"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "false",
+			"geyser_type": "air",
+			"geyser_stage": "active",
+			"facing": "up"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "false",
+			"geyser_type": "air",
+			"geyser_stage": "active",
+			"facing": "up"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "true",
+			"geyser_type": "water",
+			"geyser_stage": "active",
+			"facing": "up"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "true",
+			"geyser_type": "water",
+			"geyser_stage": "active",
+			"facing": "up"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "false",
+			"geyser_type": "water",
+			"geyser_stage": "active",
+			"facing": "up"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "false",
+			"geyser_type": "water",
+			"geyser_stage": "active",
+			"facing": "up"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "true",
+			"geyser_type": "lava",
+			"geyser_stage": "active",
+			"facing": "up"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "true",
+			"geyser_type": "lava",
+			"geyser_stage": "active",
+			"facing": "up"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "false",
+			"geyser_type": "lava",
+			"geyser_stage": "active",
+			"facing": "up"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "false",
+			"geyser_type": "lava",
+			"geyser_stage": "active",
+			"facing": "up"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "true",
+			"geyser_type": "none",
+			"geyser_stage": "erupting",
+			"facing": "up"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "true",
+			"geyser_type": "none",
+			"geyser_stage": "erupting",
+			"facing": "up"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "false",
+			"geyser_type": "none",
+			"geyser_stage": "erupting",
+			"facing": "up"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "false",
+			"geyser_type": "none",
+			"geyser_stage": "erupting",
+			"facing": "up"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "true",
+			"geyser_type": "air",
+			"geyser_stage": "erupting",
+			"facing": "up"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "true",
+			"geyser_type": "air",
+			"geyser_stage": "erupting",
+			"facing": "up"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "false",
+			"geyser_type": "air",
+			"geyser_stage": "erupting",
+			"facing": "up"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "false",
+			"geyser_type": "air",
+			"geyser_stage": "erupting",
+			"facing": "up"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "true",
+			"geyser_type": "water",
+			"geyser_stage": "erupting",
+			"facing": "up"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "true",
+			"geyser_type": "water",
+			"geyser_stage": "erupting",
+			"facing": "up"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "false",
+			"geyser_type": "water",
+			"geyser_stage": "erupting",
+			"facing": "up"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "false",
+			"geyser_type": "water",
+			"geyser_stage": "erupting",
+			"facing": "up"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "true",
+			"geyser_type": "lava",
+			"geyser_stage": "erupting",
+			"facing": "up"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "true",
+			"geyser_type": "lava",
+			"geyser_stage": "erupting",
+			"facing": "up"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "false",
+			"geyser_type": "lava",
+			"geyser_stage": "erupting",
+			"facing": "up"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "false",
+			"geyser_type": "lava",
+			"geyser_stage": "erupting",
+			"facing": "up"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "true",
+			"geyser_type": "none",
+			"geyser_stage": "dormant",
+			"facing": "down"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "true",
+			"geyser_type": "none",
+			"geyser_stage": "dormant",
+			"facing": "down"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "false",
+			"geyser_type": "none",
+			"geyser_stage": "dormant",
+			"facing": "down"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "false",
+			"geyser_type": "none",
+			"geyser_stage": "dormant",
+			"facing": "down"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "true",
+			"geyser_type": "air",
+			"geyser_stage": "dormant",
+			"facing": "down"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "true",
+			"geyser_type": "air",
+			"geyser_stage": "dormant",
+			"facing": "down"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "false",
+			"geyser_type": "air",
+			"geyser_stage": "dormant",
+			"facing": "down"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "false",
+			"geyser_type": "air",
+			"geyser_stage": "dormant",
+			"facing": "down"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "true",
+			"geyser_type": "water",
+			"geyser_stage": "dormant",
+			"facing": "down"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "true",
+			"geyser_type": "water",
+			"geyser_stage": "dormant",
+			"facing": "down"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "false",
+			"geyser_type": "water",
+			"geyser_stage": "dormant",
+			"facing": "down"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "false",
+			"geyser_type": "water",
+			"geyser_stage": "dormant",
+			"facing": "down"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "true",
+			"geyser_type": "lava",
+			"geyser_stage": "dormant",
+			"facing": "down"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "true",
+			"geyser_type": "lava",
+			"geyser_stage": "dormant",
+			"facing": "down"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "false",
+			"geyser_type": "lava",
+			"geyser_stage": "dormant",
+			"facing": "down"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "false",
+			"geyser_type": "lava",
+			"geyser_stage": "dormant",
+			"facing": "down"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "true",
+			"geyser_type": "none",
+			"geyser_stage": "active",
+			"facing": "down"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "true",
+			"geyser_type": "none",
+			"geyser_stage": "active",
+			"facing": "down"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "false",
+			"geyser_type": "none",
+			"geyser_stage": "active",
+			"facing": "down"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "false",
+			"geyser_type": "none",
+			"geyser_stage": "active",
+			"facing": "down"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "true",
+			"geyser_type": "air",
+			"geyser_stage": "active",
+			"facing": "down"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "true",
+			"geyser_type": "air",
+			"geyser_stage": "active",
+			"facing": "down"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "false",
+			"geyser_type": "air",
+			"geyser_stage": "active",
+			"facing": "down"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "false",
+			"geyser_type": "air",
+			"geyser_stage": "active",
+			"facing": "down"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "true",
+			"geyser_type": "water",
+			"geyser_stage": "active",
+			"facing": "down"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "true",
+			"geyser_type": "water",
+			"geyser_stage": "active",
+			"facing": "down"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "false",
+			"geyser_type": "water",
+			"geyser_stage": "active",
+			"facing": "down"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "false",
+			"geyser_type": "water",
+			"geyser_stage": "active",
+			"facing": "down"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "true",
+			"geyser_type": "lava",
+			"geyser_stage": "active",
+			"facing": "down"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "true",
+			"geyser_type": "lava",
+			"geyser_stage": "active",
+			"facing": "down"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "false",
+			"geyser_type": "lava",
+			"geyser_stage": "active",
+			"facing": "down"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "false",
+			"geyser_type": "lava",
+			"geyser_stage": "active",
+			"facing": "down"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "true",
+			"geyser_type": "none",
+			"geyser_stage": "erupting",
+			"facing": "down"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "true",
+			"geyser_type": "none",
+			"geyser_stage": "erupting",
+			"facing": "down"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "false",
+			"geyser_type": "none",
+			"geyser_stage": "erupting",
+			"facing": "down"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "false",
+			"geyser_type": "none",
+			"geyser_stage": "erupting",
+			"facing": "down"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "true",
+			"geyser_type": "air",
+			"geyser_stage": "erupting",
+			"facing": "down"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "true",
+			"geyser_type": "air",
+			"geyser_stage": "erupting",
+			"facing": "down"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "false",
+			"geyser_type": "air",
+			"geyser_stage": "erupting",
+			"facing": "down"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "false",
+			"geyser_type": "air",
+			"geyser_stage": "erupting",
+			"facing": "down"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "true",
+			"geyser_type": "water",
+			"geyser_stage": "erupting",
+			"facing": "down"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "true",
+			"geyser_type": "water",
+			"geyser_stage": "erupting",
+			"facing": "down"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "false",
+			"geyser_type": "water",
+			"geyser_stage": "erupting",
+			"facing": "down"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "false",
+			"geyser_type": "water",
+			"geyser_stage": "erupting",
+			"facing": "down"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "true",
+			"geyser_type": "lava",
+			"geyser_stage": "erupting",
+			"facing": "down"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "true",
+			"geyser_type": "lava",
+			"geyser_stage": "erupting",
+			"facing": "down"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"natural": "false",
+			"geyser_type": "lava",
+			"geyser_stage": "erupting",
+			"facing": "down"
+		},
+		"Name": "wilderwild:geyser"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"natural": "false",
+			"geyser_type": "lava",
+			"geyser_stage": "erupting",
+			"facing": "down"
+		},
+		"Name": "wilderwild:geyser"
+	}
+]

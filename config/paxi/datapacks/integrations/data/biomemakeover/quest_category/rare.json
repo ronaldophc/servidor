@@ -1,0 +1,65 @@
+{
+  "weight": 1,
+  "requests": [
+    {
+      "item": "minecraft:wither_rose",
+      "max_count": 3,
+      "points": 30
+    },
+    {
+      "item": "minecraft:totem_of_undying",
+      "max_count": 1,
+      "points": 50
+    },
+    {
+      "item": "minecraft:wither_skeleton_skull",
+      "max_count": 1,
+      "points": 75
+    },
+    {
+      "item": "minecraft:experience_bottle",
+      "max_count": 3,
+      "points": 20
+    },
+    {
+      "item": "minecraft:golden_apple",
+      "max_count": 2,
+      "points": 20
+    },
+    {
+      "item": "minecraft:skeleton_skull",
+      "max_count": 1,
+      "points": 30
+    },
+    {
+      "item": "minecraft:zombie_head",
+      "max_count": 1,
+      "points": 30
+    },
+    {
+      "item": "minecraft:pitcher_pod",
+      "max_count": 3,
+      "points": 15
+    },
+    {
+      "item": "minecraft:pitcher_plant",
+      "max_count": 3,
+      "points": 30
+    },
+    {
+      "item": "minecraft:torchflower",
+      "max_count": 3,
+      "points": 30
+    },
+    {
+      "item": "minecraft:torchflower_seeds",
+      "max_count": 3,
+      "points": 30
+    },
+    {
+      "item": "minecraft:sniffer_egg",
+      "max_count": 1,
+      "points": 50
+    }
+  ]
+}

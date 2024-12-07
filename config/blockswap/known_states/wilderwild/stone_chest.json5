@@ -1,0 +1,1059 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "single",
+			"has_sculk": "true",
+			"facing": "north",
+			"ancient": "true"
+		},
+		"Name": "wilderwild:stone_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "single",
+			"has_sculk": "true",
+			"facing": "north",
+			"ancient": "true"
+		},
+		"Name": "wilderwild:stone_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "left",
+			"has_sculk": "true",
+			"facing": "north",
+			"ancient": "true"
+		},
+		"Name": "wilderwild:stone_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "left",
+			"has_sculk": "true",
+			"facing": "north",
+			"ancient": "true"
+		},
+		"Name": "wilderwild:stone_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "right",
+			"has_sculk": "true",
+			"facing": "north",
+			"ancient": "true"
+		},
+		"Name": "wilderwild:stone_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "right",
+			"has_sculk": "true",
+			"facing": "north",
+			"ancient": "true"
+		},
+		"Name": "wilderwild:stone_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "single",
+			"has_sculk": "false",
+			"facing": "north",
+			"ancient": "true"
+		},
+		"Name": "wilderwild:stone_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "single",
+			"has_sculk": "false",
+			"facing": "north",
+			"ancient": "true"
+		},
+		"Name": "wilderwild:stone_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "left",
+			"has_sculk": "false",
+			"facing": "north",
+			"ancient": "true"
+		},
+		"Name": "wilderwild:stone_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "left",
+			"has_sculk": "false",
+			"facing": "north",
+			"ancient": "true"
+		},
+		"Name": "wilderwild:stone_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "right",
+			"has_sculk": "false",
+			"facing": "north",
+			"ancient": "true"
+		},
+		"Name": "wilderwild:stone_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "right",
+			"has_sculk": "false",
+			"facing": "north",
+			"ancient": "true"
+		},
+		"Name": "wilderwild:stone_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "single",
+			"has_sculk": "true",
+			"facing": "south",
+			"ancient": "true"
+		},
+		"Name": "wilderwild:stone_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "single",
+			"has_sculk": "true",
+			"facing": "south",
+			"ancient": "true"
+		},
+		"Name": "wilderwild:stone_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "left",
+			"has_sculk": "true",
+			"facing": "south",
+			"ancient": "true"
+		},
+		"Name": "wilderwild:stone_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "left",
+			"has_sculk": "true",
+			"facing": "south",
+			"ancient": "true"
+		},
+		"Name": "wilderwild:stone_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "right",
+			"has_sculk": "true",
+			"facing": "south",
+			"ancient": "true"
+		},
+		"Name": "wilderwild:stone_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "right",
+			"has_sculk": "true",
+			"facing": "south",
+			"ancient": "true"
+		},
+		"Name": "wilderwild:stone_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "single",
+			"has_sculk": "false",
+			"facing": "south",
+			"ancient": "true"
+		},
+		"Name": "wilderwild:stone_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "single",
+			"has_sculk": "false",
+			"facing": "south",
+			"ancient": "true"
+		},
+		"Name": "wilderwild:stone_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "left",
+			"has_sculk": "false",
+			"facing": "south",
+			"ancient": "true"
+		},
+		"Name": "wilderwild:stone_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "left",
+			"has_sculk": "false",
+			"facing": "south",
+			"ancient": "true"
+		},
+		"Name": "wilderwild:stone_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "right",
+			"has_sculk": "false",
+			"facing": "south",
+			"ancient": "true"
+		},
+		"Name": "wilderwild:stone_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "right",
+			"has_sculk": "false",
+			"facing": "south",
+			"ancient": "true"
+		},
+		"Name": "wilderwild:stone_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "single",
+			"has_sculk": "true",
+			"facing": "west",
+			"ancient": "true"
+		},
+		"Name": "wilderwild:stone_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "single",
+			"has_sculk": "true",
+			"facing": "west",
+			"ancient": "true"
+		},
+		"Name": "wilderwild:stone_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "left",
+			"has_sculk": "true",
+			"facing": "west",
+			"ancient": "true"
+		},
+		"Name": "wilderwild:stone_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "left",
+			"has_sculk": "true",
+			"facing": "west",
+			"ancient": "true"
+		},
+		"Name": "wilderwild:stone_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "right",
+			"has_sculk": "true",
+			"facing": "west",
+			"ancient": "true"
+		},
+		"Name": "wilderwild:stone_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "right",
+			"has_sculk": "true",
+			"facing": "west",
+			"ancient": "true"
+		},
+		"Name": "wilderwild:stone_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "single",
+			"has_sculk": "false",
+			"facing": "west",
+			"ancient": "true"
+		},
+		"Name": "wilderwild:stone_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "single",
+			"has_sculk": "false",
+			"facing": "west",
+			"ancient": "true"
+		},
+		"Name": "wilderwild:stone_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "left",
+			"has_sculk": "false",
+			"facing": "west",
+			"ancient": "true"
+		},
+		"Name": "wilderwild:stone_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "left",
+			"has_sculk": "false",
+			"facing": "west",
+			"ancient": "true"
+		},
+		"Name": "wilderwild:stone_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "right",
+			"has_sculk": "false",
+			"facing": "west",
+			"ancient": "true"
+		},
+		"Name": "wilderwild:stone_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "right",
+			"has_sculk": "false",
+			"facing": "west",
+			"ancient": "true"
+		},
+		"Name": "wilderwild:stone_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "single",
+			"has_sculk": "true",
+			"facing": "east",
+			"ancient": "true"
+		},
+		"Name": "wilderwild:stone_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "single",
+			"has_sculk": "true",
+			"facing": "east",
+			"ancient": "true"
+		},
+		"Name": "wilderwild:stone_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "left",
+			"has_sculk": "true",
+			"facing": "east",
+			"ancient": "true"
+		},
+		"Name": "wilderwild:stone_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "left",
+			"has_sculk": "true",
+			"facing": "east",
+			"ancient": "true"
+		},
+		"Name": "wilderwild:stone_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "right",
+			"has_sculk": "true",
+			"facing": "east",
+			"ancient": "true"
+		},
+		"Name": "wilderwild:stone_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "right",
+			"has_sculk": "true",
+			"facing": "east",
+			"ancient": "true"
+		},
+		"Name": "wilderwild:stone_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "single",
+			"has_sculk": "false",
+			"facing": "east",
+			"ancient": "true"
+		},
+		"Name": "wilderwild:stone_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "single",
+			"has_sculk": "false",
+			"facing": "east",
+			"ancient": "true"
+		},
+		"Name": "wilderwild:stone_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "left",
+			"has_sculk": "false",
+			"facing": "east",
+			"ancient": "true"
+		},
+		"Name": "wilderwild:stone_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "left",
+			"has_sculk": "false",
+			"facing": "east",
+			"ancient": "true"
+		},
+		"Name": "wilderwild:stone_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "right",
+			"has_sculk": "false",
+			"facing": "east",
+			"ancient": "true"
+		},
+		"Name": "wilderwild:stone_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "right",
+			"has_sculk": "false",
+			"facing": "east",
+			"ancient": "true"
+		},
+		"Name": "wilderwild:stone_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "single",
+			"has_sculk": "true",
+			"facing": "north",
+			"ancient": "false"
+		},
+		"Name": "wilderwild:stone_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "single",
+			"has_sculk": "true",
+			"facing": "north",
+			"ancient": "false"
+		},
+		"Name": "wilderwild:stone_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "left",
+			"has_sculk": "true",
+			"facing": "north",
+			"ancient": "false"
+		},
+		"Name": "wilderwild:stone_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "left",
+			"has_sculk": "true",
+			"facing": "north",
+			"ancient": "false"
+		},
+		"Name": "wilderwild:stone_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "right",
+			"has_sculk": "true",
+			"facing": "north",
+			"ancient": "false"
+		},
+		"Name": "wilderwild:stone_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "right",
+			"has_sculk": "true",
+			"facing": "north",
+			"ancient": "false"
+		},
+		"Name": "wilderwild:stone_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "single",
+			"has_sculk": "false",
+			"facing": "north",
+			"ancient": "false"
+		},
+		"Name": "wilderwild:stone_chest"
+	},
+	{
+		"Name": "wilderwild:stone_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "left",
+			"has_sculk": "false",
+			"facing": "north",
+			"ancient": "false"
+		},
+		"Name": "wilderwild:stone_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "left",
+			"has_sculk": "false",
+			"facing": "north",
+			"ancient": "false"
+		},
+		"Name": "wilderwild:stone_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "right",
+			"has_sculk": "false",
+			"facing": "north",
+			"ancient": "false"
+		},
+		"Name": "wilderwild:stone_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "right",
+			"has_sculk": "false",
+			"facing": "north",
+			"ancient": "false"
+		},
+		"Name": "wilderwild:stone_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "single",
+			"has_sculk": "true",
+			"facing": "south",
+			"ancient": "false"
+		},
+		"Name": "wilderwild:stone_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "single",
+			"has_sculk": "true",
+			"facing": "south",
+			"ancient": "false"
+		},
+		"Name": "wilderwild:stone_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "left",
+			"has_sculk": "true",
+			"facing": "south",
+			"ancient": "false"
+		},
+		"Name": "wilderwild:stone_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "left",
+			"has_sculk": "true",
+			"facing": "south",
+			"ancient": "false"
+		},
+		"Name": "wilderwild:stone_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "right",
+			"has_sculk": "true",
+			"facing": "south",
+			"ancient": "false"
+		},
+		"Name": "wilderwild:stone_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "right",
+			"has_sculk": "true",
+			"facing": "south",
+			"ancient": "false"
+		},
+		"Name": "wilderwild:stone_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "single",
+			"has_sculk": "false",
+			"facing": "south",
+			"ancient": "false"
+		},
+		"Name": "wilderwild:stone_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "single",
+			"has_sculk": "false",
+			"facing": "south",
+			"ancient": "false"
+		},
+		"Name": "wilderwild:stone_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "left",
+			"has_sculk": "false",
+			"facing": "south",
+			"ancient": "false"
+		},
+		"Name": "wilderwild:stone_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "left",
+			"has_sculk": "false",
+			"facing": "south",
+			"ancient": "false"
+		},
+		"Name": "wilderwild:stone_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "right",
+			"has_sculk": "false",
+			"facing": "south",
+			"ancient": "false"
+		},
+		"Name": "wilderwild:stone_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "right",
+			"has_sculk": "false",
+			"facing": "south",
+			"ancient": "false"
+		},
+		"Name": "wilderwild:stone_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "single",
+			"has_sculk": "true",
+			"facing": "west",
+			"ancient": "false"
+		},
+		"Name": "wilderwild:stone_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "single",
+			"has_sculk": "true",
+			"facing": "west",
+			"ancient": "false"
+		},
+		"Name": "wilderwild:stone_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "left",
+			"has_sculk": "true",
+			"facing": "west",
+			"ancient": "false"
+		},
+		"Name": "wilderwild:stone_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "left",
+			"has_sculk": "true",
+			"facing": "west",
+			"ancient": "false"
+		},
+		"Name": "wilderwild:stone_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "right",
+			"has_sculk": "true",
+			"facing": "west",
+			"ancient": "false"
+		},
+		"Name": "wilderwild:stone_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "right",
+			"has_sculk": "true",
+			"facing": "west",
+			"ancient": "false"
+		},
+		"Name": "wilderwild:stone_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "single",
+			"has_sculk": "false",
+			"facing": "west",
+			"ancient": "false"
+		},
+		"Name": "wilderwild:stone_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "single",
+			"has_sculk": "false",
+			"facing": "west",
+			"ancient": "false"
+		},
+		"Name": "wilderwild:stone_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "left",
+			"has_sculk": "false",
+			"facing": "west",
+			"ancient": "false"
+		},
+		"Name": "wilderwild:stone_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "left",
+			"has_sculk": "false",
+			"facing": "west",
+			"ancient": "false"
+		},
+		"Name": "wilderwild:stone_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "right",
+			"has_sculk": "false",
+			"facing": "west",
+			"ancient": "false"
+		},
+		"Name": "wilderwild:stone_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "right",
+			"has_sculk": "false",
+			"facing": "west",
+			"ancient": "false"
+		},
+		"Name": "wilderwild:stone_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "single",
+			"has_sculk": "true",
+			"facing": "east",
+			"ancient": "false"
+		},
+		"Name": "wilderwild:stone_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "single",
+			"has_sculk": "true",
+			"facing": "east",
+			"ancient": "false"
+		},
+		"Name": "wilderwild:stone_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "left",
+			"has_sculk": "true",
+			"facing": "east",
+			"ancient": "false"
+		},
+		"Name": "wilderwild:stone_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "left",
+			"has_sculk": "true",
+			"facing": "east",
+			"ancient": "false"
+		},
+		"Name": "wilderwild:stone_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "right",
+			"has_sculk": "true",
+			"facing": "east",
+			"ancient": "false"
+		},
+		"Name": "wilderwild:stone_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "right",
+			"has_sculk": "true",
+			"facing": "east",
+			"ancient": "false"
+		},
+		"Name": "wilderwild:stone_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "single",
+			"has_sculk": "false",
+			"facing": "east",
+			"ancient": "false"
+		},
+		"Name": "wilderwild:stone_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "single",
+			"has_sculk": "false",
+			"facing": "east",
+			"ancient": "false"
+		},
+		"Name": "wilderwild:stone_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "left",
+			"has_sculk": "false",
+			"facing": "east",
+			"ancient": "false"
+		},
+		"Name": "wilderwild:stone_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "left",
+			"has_sculk": "false",
+			"facing": "east",
+			"ancient": "false"
+		},
+		"Name": "wilderwild:stone_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "right",
+			"has_sculk": "false",
+			"facing": "east",
+			"ancient": "false"
+		},
+		"Name": "wilderwild:stone_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "right",
+			"has_sculk": "false",
+			"facing": "east",
+			"ancient": "false"
+		},
+		"Name": "wilderwild:stone_chest"
+	}
+]

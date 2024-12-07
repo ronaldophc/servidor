@@ -1,0 +1,39 @@
+{
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": true,
+  "output": {
+    "item": "simplyswords:hearthflame"
+  },
+  "pedestalItems": [
+    {
+      "item": "alexscaves:tectonic_shard"
+    },
+    {
+      "item": "alexscaves:tectonic_shard"
+    },
+    {
+      "item": "alexscaves:tectonic_shard"
+    },
+    {
+      "item": "alexscaves:tectonic_shard"
+    },
+    {
+      "item": "regions_unexplored:volcanic_ash"
+    },
+    {
+      "item": "regions_unexplored:volcanic_ash"
+    },
+    {
+      "item": "ars_nouveau:fire_essence"
+    },
+    {
+      "item": "ars_nouveau:fire_essence"
+    }
+  ],
+  "reagent": [
+    {
+      "item": "simplyswords:netherite_greathammer"
+    }
+  ],
+  "sourceCost": 1000
+}

@@ -1,0 +1,18 @@
+{
+
+	"content": {
+
+		"primary_currency": {
+			"type": "item",
+			"content": "iceandfire:sapphire",
+			"amount": {
+				"min": 3,
+				"max": 8
+			},
+			"unitWorth": 800,
+			"weightMult": 0.5,
+			"repRequired": 5
+		}
+
+	}
+}

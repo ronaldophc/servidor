@@ -1,0 +1,35 @@
+{
+  "weight": 4,
+  "requests": [
+    {
+      "item": "minecraft:cocoa_beans",
+      "max_count": 5,
+      "points": 5
+    },
+    {
+      "item": "minecraft:vine",
+      "max_count": 4,
+      "points": 3
+    },
+    {
+      "item": "minecraft:melon",
+      "max_count": 4,
+      "points": 3
+    },
+    {
+      "item": "minecraft:glistering_melon_slice",
+      "max_count": 4,
+      "points": 8
+    },
+    {
+      "item": "minecraft:melon_slice",
+      "max_count": 6,
+      "points": 2
+    },
+    {
+      "item": "minecraft:bamboo",
+      "max_count": 8,
+      "points": 1
+    }
+  ]
+}

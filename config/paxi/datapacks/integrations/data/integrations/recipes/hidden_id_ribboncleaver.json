@@ -1,0 +1,39 @@
+{
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": true,
+  "output": {
+    "item": "simplyswords:ribboncleaver"
+  },
+  "pedestalItems": [
+    {
+      "item": "alexscaves:heart_of_iron"
+    },
+    {
+      "item": "alexscaves:polymer_plate"
+    },
+    {
+      "item": "alexscaves:polymer_plate"
+    },
+    {
+      "item": "biomemakeover:crude_cladding"
+    },
+    {
+      "item": "biomemakeover:crude_cladding"
+    },
+    {
+      "item": "rubinated_nether:ruby"
+    },
+    {
+      "item": "rubinated_nether:ruby"
+    },
+    {
+      "item": "alexscaves:shadow_silk"
+    }
+  ],
+  "reagent": [
+    {
+      "item": "simplyswords:iron_claymore"
+    }
+  ],
+  "sourceCost": 1000
+}

@@ -1,0 +1,39 @@
+{
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": true,
+  "output": {
+    "item": "simplyswords:enigma"
+  },
+  "pedestalItems": [
+    {
+      "item": "alexsmobs:guster_eye"
+    },
+    {
+      "item": "create:brass_ingot"
+    },
+    {
+      "item": "create:brass_ingot"
+    },
+    {
+      "item": "minecraft:emerald"
+    },
+    {
+      "item": "minecraft:emerald"
+    },
+    {
+      "item": "minecraft:emerald"
+    },
+    {
+      "item": "alexscaves:radon_bottle"
+    },
+    {
+      "item": "alexscaves:radon_bottle"
+    }
+  ],
+  "reagent": [
+    {
+      "item": "simplyswords:gold_claymore"
+    }
+  ],
+  "sourceCost": 1000
+}

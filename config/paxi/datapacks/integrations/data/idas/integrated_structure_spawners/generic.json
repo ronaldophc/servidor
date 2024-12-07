@@ -1,0 +1,20 @@
+{
+  "mobs": [
+    {
+      "name": "minecraft:zombie",
+      "weight": 10
+    },
+    {
+      "name": "minecraft:skeleton",
+      "weight": 10
+    },
+    {
+      "name": "iceandfire:ghost",
+      "weight": 10
+    },
+    {
+      "name": "biomemakeover:ghost",
+      "weight": 10
+    }
+  ]
+}

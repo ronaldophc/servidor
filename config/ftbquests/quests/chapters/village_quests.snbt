@@ -1,0 +1,2236 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 300
+	default_quest_shape: ""
+	filename: "village_quests"
+	group: "523BD734ACA98B4C"
+	hide_quest_until_deps_complete: true
+	hide_quest_until_deps_visible: true
+	icon: "advancementframes:advancement_frame"
+	id: "403D24FC409FC8A4"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"As you approach, a &eGuard&r calls out to you,"
+				""
+				"&b\"Halt, Traveller. Our Fortress offers respite to you, but if you want to use our services, you must pay the tax. &6Six emeralds, and we'll do business with you.&r&b\"&r"
+				""
+				"&b\"If you'd like to enter, use the &6Crank Handle&r&b near the door.\"&r"
+			]
+			icon: "minecraft:stone_bricks"
+			id: "42D86B3155E50D31"
+			invisible: true
+			invisible_until_tasks: 1
+			subtitle: "You approach a Castle, its walls aged by time and the numerous scratches telling of many conflicts..."
+			tasks: [
+				{
+					id: "0653F146D9A5A0B9"
+					structure: "idas:castle"
+					title: "Find the Castle!"
+					type: "structure"
+				}
+				{
+					consume_items: true
+					count: 6L
+					id: "3D74960A049D4E1F"
+					item: { Count: 6, id: "minecraft:emerald" }
+					type: "item"
+				}
+			]
+			title: "The Castle"
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["42D86B3155E50D31"]
+			description: [
+				"As you make your way through the Castle, you stumble upon a sign that reads:"
+				""
+				"&b\"Buying all unused equipment. We need more &eGuards&r&b to fight the &7rising Illager forces&r&b, but to train more, we need more supplies. Either bring &6equipment for archery or for warriors to the barracks and we'll pay you handsomely&r&b.\"&r"
+			]
+			hide_until_deps_visible: true
+			id: "1D43801FDEE66A06"
+			optional: true
+			rewards: [{
+				count: 16
+				id: "300950C563CA7A03"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Equipment for the Kingdom's Best!"
+			tasks: [
+				{
+					consume_items: true
+					id: "6E5618D4067447F3"
+					item: {
+						Count: 1
+						id: "minecraft:leather_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "37689F88EC974979"
+					item: {
+						Count: 1
+						id: "minecraft:leather_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "50F6361501202018"
+					item: {
+						Count: 1
+						id: "minecraft:leather_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "703009E015F90828"
+					item: {
+						Count: 1
+						id: "minecraft:leather_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "69319697B829080F"
+					item: {
+						Count: 1
+						id: "minecraft:crossbow"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 16L
+					id: "44F22BFF395DF9D5"
+					item: { Count: 16, id: "minecraft:arrow" }
+					type: "item"
+				}
+			]
+			title: "Trading: Archery Gear"
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["42D86B3155E50D31"]
+			description: [
+				"As you make your way through the &5Castle&r, you stumble upon a sign that reads:"
+				""
+				"&b\"Buying all unused equipment. We need more &eGuards&r&b to fight the &7rising Illager forces&r&b, but to train more, we need more supplies. Either bring &6equipment for archery or for warriors to the barracks and we'll pay you handsomely&r&b.\"&r"
+			]
+			hide_until_deps_visible: true
+			id: "5BC375CC04BA1B40"
+			optional: true
+			rewards: [{
+				count: 32
+				id: "3B62662EFDFABA9C"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Equipment for the Kingdom's Best!"
+			tasks: [
+				{
+					consume_items: true
+					id: "19C5C47706B1491E"
+					item: {
+						Count: 1
+						id: "minecraft:iron_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "42D968BCAB246B04"
+					item: {
+						Count: 1
+						id: "minecraft:iron_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "36E04DF00437E347"
+					item: {
+						Count: 1
+						id: "minecraft:iron_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "1BAC276AAECCE2FA"
+					item: {
+						Count: 1
+						id: "minecraft:iron_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "471336531F962E65"
+					item: {
+						Count: 1
+						id: "minecraft:iron_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "2097D1269E970759"
+					item: {
+						Count: 1
+						id: "minecraft:shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Trading: Warrior Gear"
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["42D86B3155E50D31"]
+			description: [
+				"As you walk around the Castle, you over hear some Guards:"
+				""
+				"&b\"Its wonderful that my family is safe here, but the taxes are a killer.\"&r"
+				""
+				"&a\"I know right. I've heard some &eGuards&r&6 have been taking odd jobs escorting traders and protecting bases.&a It pays pretty well, and as long as the &eKing&r&a gets his taxes, he turns a blind eye to it. I'm thinking about putting up a job posting as well. Want to join me?\"&r"
+				""
+				"&b\"Sure. Stopping &7Illager Patrols&r&b is decent pay, but not great.\"&r"
+			]
+			hide_until_deps_visible: true
+			id: "2B3B522A85D66893"
+			optional: true
+			rewards: [{
+				id: "7041F2A396856DF7"
+				item: "guardvillagers:guard_spawn_egg"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Guard for Hire!"
+			tasks: [{
+				consume_items: true
+				count: 6L
+				id: "7250A8656D0CF9A7"
+				item: { Count: 16, id: "minecraft:emerald_block" }
+				type: "item"
+			}]
+			title: "Buying: Hire a Guard"
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["42D86B3155E50D31"]
+			description: [
+				"Having seen the job posting on the Bulletin Board, you approach the &5Captain of the Guard&r, intending to offer your services."
+				""
+				"You make your proposal and he takes a quick look at you, then scoffs."
+				""
+				"&b\"You can't be serious. Scram kid, we ain't desperate enough to take vagrants like yourself. Ain't trustworthy. Plus, you barely look like you know your way around a sword.\"&r"
+				""
+				"&b\"What? Still here? Fine. &6Prove your worth, then we'll talk.&r&b\"&r"
+			]
+			id: "44792B9C63EA851A"
+			optional: true
+			subtitle: "A position of high prestige."
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "4D9CA5D7E3C9D74C"
+				item: {
+					Count: 1
+					id: "minecraft:white_banner"
+					tag: {
+						BlockEntityTag: {
+							Patterns: [
+								{
+									Color: 9
+									Pattern: "mr"
+								}
+								{
+									Color: 8
+									Pattern: "bs"
+								}
+								{
+									Color: 7
+									Pattern: "cs"
+								}
+								{
+									Color: 8
+									Pattern: "bo"
+								}
+								{
+									Color: 15
+									Pattern: "ms"
+								}
+								{
+									Color: 8
+									Pattern: "hh"
+								}
+								{
+									Color: 8
+									Pattern: "mc"
+								}
+								{
+									Color: 15
+									Pattern: "bo"
+								}
+							]
+							id: "minecraft:banner"
+						}
+						HideFlags: 32
+						display: {
+							Name: "{\"color\":\"gold\",\"translate\":\"block.minecraft.ominous_banner\"}"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Join the Royal Guard: Proving your Worth"
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["44792B9C63EA851A"]
+			description: [
+				"In a corner of the barracks, a small shop is set up, with armor on an &bArmor Stand&r."
+				""
+				"A &eGuard&r waves you over."
+				""
+				"&b\"So, you're the new recruit huh? Well, I guess recruit to be. &6You aren't allowed to perform Royal Guard duties until you've donned the armor, and of course you need to pay for it...&r&b Guess who the money goes to...\"&r"
+				""
+				"&b\"Noooooo, that definitely wasn't criticism of anyone, especially not our beloved &eKing&r&b. I'm definitely not upset that we had to PAY for our own uniforms.\"&r"
+				""
+				"&b\"&6At least its pretty good quality goods.&b\"&r"
+			]
+			id: "05E8CB140415534C"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "43883AC2623B441D"
+				table_id: 2062073182539389461L
+				type: "choice"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "478345773F786E12"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			title: "Buy: Royal Soldier Armor"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["44792B9C63EA851A"]
+			description: [
+				"As you hand over the banners, the &5Captain's&r face shifts ever so slightly. You catch a brief hint of surprise, but he quickly reverts back to his usual stoicism."
+				""
+				"&b\"Not bad. &6Buy your equipment&r&b in the barracks and be back here by tomorrow morning for your assignments. Perhaps you can be of use to us after all.\"&r"
+				""
+				"&b\"Now, anywhere you go, as long as you wear this armor, you will be recognized. Bear it with pride and don't let us down.\"&r"
+			]
+			hide_until_deps_visible: true
+			id: "135AD7AB9A4A16EF"
+			optional: true
+			rewards: [{
+				id: "4EAC44E7123534E3"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [
+				{
+					id: "3E1108814EC9650F"
+					item: {
+						Count: 1
+						id: "minecraft:leather_helmet"
+						tag: {
+							BMCursed: 1b
+							Damage: 0
+							Enchantments: [
+								{
+									id: "minecraft:protection"
+									lvl: 7s
+								}
+								{
+									id: "minecraft:projectile_protection"
+									lvl: 6s
+								}
+								{
+									id: "allurement:reforming"
+									lvl: 1s
+								}
+							]
+							RepairCost: 1
+							Trim: {
+								material: "minecraft:gold"
+								pattern: "minecraft:sentry"
+							}
+							display: {
+								Name: "{\"text\":\"Royal Helmet\"}"
+								color: 8991416
+							}
+							"quark:RuneColor": "blank"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "637A36598F4115BE"
+					item: {
+						Count: 1
+						id: "minecraft:leather_chestplate"
+						tag: {
+							BMCursed: 1b
+							Damage: 0
+							Enchantments: [
+								{
+									id: "minecraft:protection"
+									lvl: 7s
+								}
+								{
+									id: "minecraft:projectile_protection"
+									lvl: 6s
+								}
+								{
+									id: "allurement:reforming"
+									lvl: 1s
+								}
+							]
+							RepairCost: 1
+							Trim: {
+								material: "minecraft:gold"
+								pattern: "minecraft:sentry"
+							}
+							display: {
+								Name: "{\"text\":\"Royal Tunic\"}"
+								color: 8991416
+							}
+							"quark:RuneColor": "blank"
+						}
+					}
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "78E46B15BCDC0AE8"
+					item: {
+						Count: 1
+						id: "minecraft:leather_leggings"
+						tag: {
+							BMCursed: 1b
+							Damage: 0
+							Enchantments: [
+								{
+									id: "minecraft:protection"
+									lvl: 6s
+								}
+								{
+									id: "minecraft:projectile_protection"
+									lvl: 7s
+								}
+								{
+									id: "allurement:reforming"
+									lvl: 1s
+								}
+							]
+							RepairCost: 1
+							Trim: {
+								material: "minecraft:gold"
+								pattern: "minecraft:sentry"
+							}
+							display: {
+								Name: "{\"text\":\"Royal Leggings\"}"
+								color: 8991416
+							}
+							"quark:RuneColor": "blank"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "09A81B9D389AD68D"
+					item: {
+						Count: 1
+						id: "minecraft:leather_boots"
+						tag: {
+							BMCursed: 1b
+							Damage: 0
+							Enchantments: [
+								{
+									id: "minecraft:protection"
+									lvl: 6s
+								}
+								{
+									id: "minecraft:projectile_protection"
+									lvl: 7s
+								}
+								{
+									id: "allurement:reforming"
+									lvl: 1s
+								}
+							]
+							RepairCost: 1
+							Trim: {
+								material: "minecraft:gold"
+								pattern: "minecraft:sentry"
+							}
+							display: {
+								Name: "{\"text\":\"Royal Boots\"}"
+								color: 8991416
+							}
+							"quark:RuneColor": "blank"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "1DE68FFD577492A3"
+					item: {
+						Count: 1
+						id: "minecraft:iron_sword"
+						tag: {
+							BMCursed: 1b
+							Damage: 0
+							Enchantments: [
+								{
+									id: "allurement:reforming"
+									lvl: 1s
+								}
+								{
+									id: "apotheosis:bane_of_illagers"
+									lvl: 7s
+								}
+								{
+									id: "minecraft:sharpness"
+									lvl: 5s
+								}
+							]
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Royal Sword\"}"
+							}
+							"quark:RuneColor": "blank"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Joining the Royal Guard: Equipment"
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["135AD7AB9A4A16EF"]
+			description: [
+				"As you walk through the Village, alarm bells start ringing out."
+				""
+				"&b\"IT'S A &7RAID&r&b! EVERYONE GET INSIDE\"&r"
+				""
+				"In the chaos, you hear a small voice,"
+				""
+				"&a\"Mom, are the &5Royal Guards&r&b gonna save us?\"&r"
+				"&b\"I... Of course dear...\"&r"
+				"&a\"Yay! I want to watch them fight!\"&r"
+				"&b\"NO! Sorry, mommy didn't mean to yell. But we need to hide\"&r"
+				"&a\"But mom, if our village has &5Royal Guards&r&a, won't we be fine? I... I don't see the purple armor or the &eKing's insignia&r&a though? Oh I get it, they're just changing right?\"&r"
+				"&b\"Yeah...\"&r"
+				"{@pagebreak}"
+				"As you strike down the last of the Raiders, you hear the murmurs of the Villagers around you."
+				""
+				"&b\"&5Royal Guards&r&b? But we didn't have any?\"&r"
+				"&9\"Isn't that the Traveller that just came? Were they sent by the &eKing&r&9?\"&r"
+				"&c\"I can't believe we survived...\"&r"
+				""
+				"&a\"Sir Royal Guard!\"&r"
+				"As you turn to look, a small child runs up to you, with a white flower in hand. Her mom frantically is trying to catch up to her."
+				"&a\"Thank you for saving us! Here, this is for you. I'm gonna become just like you when I grow up!\"&r"
+				"Just as she hands you the flower, her mother catches up."
+				"&b\"I'm so sorry about my child. You know they are at that age. Thank you for saving us though. I... I didn't know you were a &5Royal Guard&r&b. Either way, sincerely, thank you.\""
+			]
+			hide_text_until_complete: true
+			id: "3DCE077F2537A980"
+			optional: true
+			rewards: [{
+				id: "54195D1AFF85B715"
+				item: {
+					Count: 1
+					id: "minecraft:white_tulip"
+					tag: {
+						RepairCost: 0
+						display: {
+							Name: "{\"text\":\"A Child's Gift\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "A tale of a heroic deed..."
+			tasks: [{
+				advancement: "minecraft:adventure/hero_of_the_village"
+				criterion: ""
+				id: "4CF05D4CB82F973B"
+				title: "Defeat a Raid!"
+				type: "advancement"
+			}]
+			title: "The Hero"
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["3DCE077F2537A980"]
+			icon: "minecraft:emerald"
+			id: "01EBD437B2203CA4"
+			optional: true
+			rewards: [{
+				command: "/effect give @p minecraft:hero_of_the_village 500"
+				icon: "minecraft:emerald"
+				id: "5DC888DAE5316F6E"
+				title: "Rumor of the Hero"
+				type: "command"
+			}]
+			shape: "hexagon"
+			subtitle: "Rumors of your accomplishments ring throughout the lands..."
+			tasks: [{
+				id: "16FF5C706374B14E"
+				points: false
+				type: "xp"
+				value: 5L
+			}]
+			title: "Rumor: Hero of the Village"
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["135AD7AB9A4A16EF"]
+			description: [
+				"As you enter the Barracks in the morning, newly downed with &5Royal Armor&r, you notice several other similarly clad &eGuards&r. The &eCaptain&r briefly acknowledges you, before speaking out."
+				""
+				"&b\"Those &7Pillager Patrols&r&b are a perpetual pain in our behind. Take 'em out for us. Don't lead them back to the &5Castle&r&b though. I've seen my fair share of &7Raids&r&b in my time, and I can tell you now, you aren't prepared.\"&r"
+			]
+			hide_details_until_startable: true
+			id: "654C3503B522E962"
+			optional: true
+			rewards: [{
+				count: 16
+				id: "17E1DA72376F7B60"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Slay Pillagers and be rewarded."
+			tasks: [{
+				entity: "minecraft:pillager"
+				icon: {
+					Count: 1
+					id: "minecraft:crossbow"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "5494BD1B45CEBE6E"
+				type: "kill"
+				value: 15L
+			}]
+			title: "Slay: 15x Pillagers"
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["135AD7AB9A4A16EF"]
+			description: [
+				"As you move to leave the Barracks, the &5Captain&r pulls you aside."
+				""
+				"&b\"Listen. I know this is unfair of me to ask, but if you see any &7Vindicators&b, slay them for me. They've been more active recently and I know many &6Villagers&b have been taken from their homes for whatever nefarious purposes the &7Illagers&b have.\"&r"
+				""
+				"&b\"They don't normally show up around our territories, but since you're a traveller, keep an eye out.\"&r"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:iron_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3044A50EC9337667"
+			optional: true
+			rewards: [{
+				count: 16
+				id: "7F56580E161E731D"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Slay Vindicators and be rewarded."
+			tasks: [{
+				entity: "minecraft:vindicator"
+				id: "3CE3D97B68A6381D"
+				type: "kill"
+				value: 5L
+			}]
+			title: "Slay: 5x Vindicators"
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"6DA7ACC4B17C7A44"
+				"2A59ACA463BB5C05"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"A grizzled Adventurer waves you over."
+				""
+				"&b\"You look pretty strong. Maybe you can fulfill some of my regrets.&r"
+				""
+				"&b\"I know of a vault in the desert filled with powerful loot. However, it is cursed. &6Blocks can't be broken within its walls&b, and its creator, the &5Undying Pharaoh&b, &6filled it with traps&b.\"&r"
+				""
+				"&b\"I've heard, though, that the same vault ended up being his own grave. He made enemies with the wrong people, and while they couldn't outright kill him, they sent an &6assassin who could turn others to stone with a mere gaze&b.\""
+				"{@pagebreak}"
+				"&b\"I'm too old to attempt it myself, but I'm sure someone like you could do it. Prove your worth to me and I'll give you the location of the vault.\"&r"
+			]
+			hide_until_deps_visible: true
+			icon: "alexsmobs:gustmaker"
+			id: "3D95F45CB84EB630"
+			min_required_dependencies: 1
+			rewards: [{
+				id: "685811FEED768FBA"
+				item: {
+					Count: 1
+					id: "supplementaries:cartographers_quill"
+					tag: {
+						decoration: "target_x"
+						display: {
+							Name: "{\"text\":\"Labyrinth Explorer Map\"}"
+						}
+						maxSearchRadius: 100
+						skinKnown: 1b
+						targetStructure: "idas:labyrinth"
+						zoomLevel: 2
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Complete to recieve the map to the Labyrinth"
+			tasks: [
+				{
+					entity: "iceandfire:deathworm"
+					icon: {
+						Count: 1
+						id: "iceandfire:deathworm_gauntlet_yellow"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "0C170EB951855210"
+					type: "kill"
+					value: 10L
+				}
+				{
+					entity: "minecraft:husk"
+					id: "7CC55EF615AF036A"
+					type: "kill"
+					value: 20L
+				}
+				{
+					consume_items: true
+					count: 10L
+					id: "5E18523377866341"
+					item: "alexsmobs:rattlesnake_rattle"
+					type: "item"
+				}
+				{
+					id: "305CE48F1A01217C"
+					item: {
+						Count: 1
+						id: "iceandfire:blindfold"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5L
+					id: "4CCDDF8C4AC90C4A"
+					item: { Count: 5, id: "alexsmobs:guster_eye" }
+					type: "item"
+				}
+			]
+			title: "The Ancient Labyrinth"
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"As you enter the Bazaar, you are overwhelmed by immense amounts of people swarming around. Villagers from all works of life lively call out their various products and services. "
+				""
+				"A couple of people catch your eye..."
+			]
+			hide_dependency_lines: true
+			hide_text_until_complete: true
+			hide_until_deps_visible: true
+			icon: "quark:yellow_shingles"
+			id: "6DA7ACC4B17C7A44"
+			invisible: true
+			subtitle: "Find the Bazaar to Unlock more Rumors"
+			tasks: [{
+				id: "67CB14A46F42C3D8"
+				structure: "idas:bazaar"
+				type: "structure"
+			}]
+			title: "The Desert Bazaar"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6DA7ACC4B17C7A44"]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "supplementaries:cartographers_quill"
+				tag: {
+					display: {
+						Name: "{\"text\":\"Pirate Village Explorer Map\"}"
+					}
+					maxSearchRadius: 100
+					skinKnown: 1b
+					targetStructure: "integrated_villages:pirate_village"
+					zoomLevel: 2
+				}
+			}
+			id: "31C1A9509DA21221"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2A245FDD71276CE9"
+					table_id: 9108404116502109620L
+					type: "random"
+				}
+				{
+					id: "6824553BDFE0245B"
+					item: {
+						Count: 1
+						id: "supplementaries:cartographers_quill"
+						tag: {
+							decoration: "target_x"
+							display: {
+								Name: "{\"text\":\"Oasis Village Explorer Map\"}"
+							}
+							maxSearchRadius: 100
+							skinKnown: 1b
+							targetStructure: "integrated_villages:oasis_village"
+							zoomLevel: 2
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 10L
+					id: "7A7376E4AF022D78"
+					item: { Count: 10, id: "minecraft:emerald" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 10L
+					id: "3121414C69EA7623"
+					item: {
+						Count: 10
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:water"
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "699637B521841536"
+					item: { Count: 2, id: "farmersdelight:hamburger" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "2B930BF28E406060"
+					item: { Count: 2, id: "farmersdelight:mutton_wrap" }
+					type: "item"
+				}
+			]
+			title: "Map to the Oasis"
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependency_requirement: "one_started"
+			description: [
+				"As you enter &5the Oasis&r, a couple of &eVillagers&r greet you while others stare at you distrustfully. "
+				""
+				"Resources are scarce and a &5wanderer&r like you is just another mouth to feed. &6Perhaps if you can prove your worth, you may be more welcomed.&r"
+			]
+			hide_dependency_lines: false
+			hide_text_until_complete: true
+			hide_until_deps_visible: false
+			icon: "waystones:sandy_waystone"
+			id: "2A59ACA463BB5C05"
+			invisible: true
+			progression_mode: "flexible"
+			subtitle: "A Town Covered in Sand"
+			tasks: [{
+				id: "74DF81F5E155EE8D"
+				structure: "integrated_villages:oasis_village"
+				type: "structure"
+			}]
+			title: "The Oasis"
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6DA7ACC4B17C7A44"]
+			description: [
+				"As you enter the &5Bazaar&r, a merchant waves you over."
+				""
+				"&b\"Looks like you are pretty stocked up on food and water. If you're willing to give me some, &6I'll pay you handsomely. Either that or you can have some of my stock.\"&r"
+				""
+				"&b\"Heck, if you're willing to send even more food and water to us in the future, &6I'd be more than happy to provide you with even more supplies&r&b. I think we could be great business partners. How does that sound?\"&r"
+			]
+			hide_until_deps_visible: true
+			id: "7BD9934C01608856"
+			min_required_tasks: 2
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2822B4031B696934"
+					table_id: 8825281872709534645L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "255793EDEB1843DF"
+					table_id: 8825281872709534645L
+					type: "choice"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Grant inhabitants of the Desert food in return for Supplies (2 sets of items are required per trade)"
+			tasks: [
+				{
+					consume_items: true
+					count: 15L
+					id: "12359097D5357233"
+					item: {
+						Count: 5
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:water"
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "477D5628BAE306AC"
+					item: "farmersdelight:chicken_sandwich"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "697E86504DEB14E7"
+					item: "farmersdelight:stuffed_potato"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "0C2F90B05EEFF9B6"
+					item: "farmersdelight:hamburger"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "6AFB37B82D3A83B1"
+					item: "farmersdelight:bacon_sandwich"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "0DD8173BB75A9F10"
+					item: "farmersdelight:mutton_wrap"
+					type: "item"
+				}
+			]
+			title: "Trade: 2x Desert Supplies for Desert Loot"
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"As you look up, you are astounded to see huge, mechanical airships. You scramble to pillar up, and as you near the ship, you hear the Villagers onboard call out."
+				""
+				"&b\"Ahoy &5Wanderer&r&b! Come aboard. We have wares from across the lands, surely you'll find something of your taste!\"&r"
+			]
+			icon: "create:white_sail"
+			id: "2162E50E99B2C533"
+			invisible: true
+			subtitle: "As you walk, a large shadow covers over you..."
+			tasks: [{
+				id: "1181C9FB323E0A71"
+				structure: "integrated_villages:airship_village"
+				title: "Find an Airship Village"
+				type: "structure"
+			}]
+			title: "The Soaring City"
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2162E50E99B2C533"]
+			description: [
+				"Near the bow of the ship, a woman leans over with a &eSpyglass&r in hand. As you approach, the wood of the deck creaks underfoot, startling the woman, causing her to drop her &eSpyglass&r."
+				""
+				"&b\"Heavens above, you can't go wandering up on people like that. Now what in the 4 Realms are we to do now. &dI NEEDED that Spyglass&r&b to navigate.\"&r"
+				""
+				"&b\"Of course this happens now, of all times. I just used by last &eSpectre Flare&r&b too...\"&r"
+			]
+			icon: "minecraft:spyglass"
+			id: "70A554E864E240B3"
+			rewards: [
+				{
+					count: 10
+					id: "16383190B8D6A5C8"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6EBDF906171BB86E"
+					table_id: 1030506019370660012L
+					type: "random"
+				}
+			]
+			subtitle: "A woman peers over the ship's bow... "
+			tasks: [
+				{
+					consume_items: true
+					id: "75EDA8A917708E9E"
+					item: "minecraft:spyglass"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5L
+					id: "1ED307EBF31ECE07"
+					item: { Count: 5, id: "galosphere:spectre_flare" }
+					type: "item"
+				}
+			]
+			title: "The Navigator's Children I"
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["70A554E864E240B3"]
+			description: [
+				"You hand the woman the &eSpyglass&r and the &eSpectre Flares&r."
+				""
+				"&b\"Oh. Thanks! I didn't expect you to do that. Maybe you aren't so bad after all. Oh, I guess I should properly introduce myself. You can call me &5Salay&r&b. I'm the &5Crow's Nest's&r&b Helmswoman.\"&r"
+				""
+				"&b\"I know the &eSpyglass&r&b was a replacement for the one you dropped, but these &eSpectre Flares&r&b are especially nice. One of my hobbies is raising &6Spectres&r&b. They are adorable, but also very useful. Did you know a &eSpectre Flare&r&b, when broken, will briefly let you see through the &6Spectre's&r&b eyes? Not only that, but if you present a &6Spectre&r&b with an &eAllurite Shard&r&b and then &eSpyglass&r&b, they'll link to it and using the &eSpyglass&r&b will let you see through the &6Spectre's&r&b eyes.\"&r"
+				""
+				"&b\"It's a bummer. The plague recently sweep through my last batch. And who knows when we'll find another &aLichen Cavern&r&b. If I had some &eSpectres&r&b and some &eLichen&r&b, I could probably start a new colony.\"&r"
+			]
+			icon: "galosphere:lichen_moss"
+			id: "216EB46CC6606A91"
+			min_width: 300
+			rewards: [
+				{
+					id: "15DB3F3145FDCA54"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "38938AB49635AD21"
+					table_id: 1030506019370660012L
+					type: "choice"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "You hand the woman the Spyglass and Spectre Flares..."
+			tasks: [
+				{
+					count: 5L
+					id: "670C55E1E37C9B64"
+					item: "galosphere:bottle_of_spectre"
+					title: "Gather Spectres (not consumed)"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "16FF148B26E73AEB"
+					item: "galosphere:lichen_moss"
+					title: "Gather Lichen Moss (not consumed)"
+					type: "item"
+				}
+			]
+			title: "The Navigator's Children II"
+			x: -1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["216EB46CC6606A91"]
+			description: [
+				"As you return to the ship, &eBottle of Spectres&r and &eLichen&r in hand, Salay waves you over."
+				""
+				"&b\"Oh wow, can't believe you actually found some. Hey, listen. Technically &5Capt'n&r&b said &6I can't spare the time to build another Spectre case&r&b. Buuuuuut, if one just so happened to show up on board, I wouldn't complain... &6Heck, I might be so suprised that I might even drop some pretty cool items...&r&b\""
+				""
+				"&b\"Oh, but if I were to make one, I'd love to have one made of &eGlass&r&b with a port I could feed the &eSpectres&r&b through. Maybe some decorations too?\"&r"
+			]
+			icon: "galosphere:bottle_of_spectre"
+			id: "7F61675242C10DB0"
+			rewards: [
+				{
+					id: "54BDD9788340BB59"
+					item: "iceandfire:sapphire_gem"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "21BF31B2D0B19CEE"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "037BE74A857E285E"
+					item: "minecraft:spyglass"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "0FD41DAE965F02C1"
+					item: "galosphere:allurite_shard"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "2C665DFEB4361FBE"
+					item: "galosphere:spectre_flare"
+					type: "item"
+				}
+				{
+					id: "2190CD246F31F714"
+					item: "galosphere:bottle_of_spectre"
+					type: "item"
+				}
+				{
+					id: "29ED25BE52B2425E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "diamond"
+			size: 1.25d
+			subtitle: "As you return to the ship..."
+			tasks: [
+				{
+					id: "0AEE86BB41CCBD4D"
+					structure: "integrated_villages:airship_village"
+					title: "Return to the Airship"
+					type: "structure"
+				}
+				{
+					count: 16L
+					id: "010B24A4F67E44C2"
+					item: { Count: 32, id: "minecraft:glass" }
+					type: "item"
+				}
+				{
+					id: "34BF87FD715B672E"
+					title: "Build a home for the Spectres!"
+					type: "checkmark"
+				}
+			]
+			title: "The Navigator's Children III"
+			x: -1.5d
+			y: -6.75d
+		}
+		{
+			can_repeat: true
+			dependencies: ["7F61675242C10DB0"]
+			description: [
+				"As you finish constructing the &eSpectre's&r cage, &5Salay&r walks up to you."
+				""
+				"&b\"Wow, this looks great! Thanks &5Wanderer&r&b! Hey, you know what? If you come back here, I'll sell you some of the &eSpectres&r&b for a pretty good price. Thanks again for your help!\"&r"
+			]
+			icon: "galosphere:specterpillar_spawn_egg"
+			id: "79EF7A94FF77896A"
+			optional: true
+			rewards: [{
+				id: "4CEC45A5ED08FB59"
+				item: "galosphere:bottle_of_spectre"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				count: 8L
+				id: "2A1D7DD546A94C81"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			title: "Buy: Spectre"
+			x: -2.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["2162E50E99B2C533"]
+			description: [
+				"As you talk with the inhabitants of the ship, you feel it hit some turbulence, and with it, the nearest engine starts making some loud creaking noises. Everyone on board looks to a &bValkyrie&r with short red hair, dressed in overalls."
+				""
+				"&b\"What? No. No no no. It can't be breaking. I literally just fixed it. And we don't have any more supplies for it. The ship's &dGravitite core&r&b will keep us a float for a bit longer, but I don't know how long it'd last for...\"&r"
+				""
+				"You walk up, and ask what is needed."
+				""
+				"&b\"What? You'd get them for me?? Heavens above, you are a godsend. I'll need &6some windmill sails, some windmill bearings, and a bunch of cogs.&r&b Oh, also I'm &5Tiana&r&b. This ship's caretaker.\"&r"
+			]
+			id: "680B3A5192350707"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5F28851A4BD223A3"
+					table_id: 3922798688039514987L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "598A0C96C7A5FB52"
+					table_id: 7764861743028037075L
+					type: "random"
+				}
+			]
+			subtitle: "Aid in Ship Repairs!"
+			tasks: [
+				{
+					consume_items: true
+					count: 20L
+					id: "1D2F390BC7E19BC4"
+					item: "create:white_sail"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5L
+					id: "12D13F0E68C17A52"
+					item: "create:windmill_bearing"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5L
+					id: "5CC1D6EF4625B357"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5L
+					id: "10B7E244B748362B"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5L
+					id: "3267EDFED337CCD7"
+					item: "supplementaries:cog_block"
+					type: "item"
+				}
+			]
+			title: "Ship Repairs"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2162E50E99B2C533"]
+			description: [
+				"As you stumble aboard the nearest airship, a neighboring ship pulls up nearby. Just as the ship seems like it'll ram the one you are on, a passenger of the other ship, a dainty woman with unruly golden hair raises her hand, signalling it to stop. As the two ships run in parallel, the woman calls out to you."
+				""
+				"&b\"Greeting Wanderer! The name's &5Tress&r&b. I'm the Captain of this fleet here. I'd love to not have to yell, but without docking, we don't have a way to get across ships. &6Say, if you can figure out a way to fix that, we'll reward you.&r&b Though if not, you're still welcome. Don't go around causing trouble.\"&r"
+			]
+			id: "55327109F1884DA2"
+			rewards: [
+				{
+					count: 16
+					id: "377DC131616197E6"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4F752967BF9D9C49"
+					table_id: 1030506019370660012L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "137A69615EC9A12A"
+					table_id: 9108404116502109620L
+					type: "random"
+				}
+			]
+			subtitle: "Figure out a way to cross ships..."
+			tasks: [{
+				consume_items: true
+				count: 6L
+				id: "3AA9A07A50C364CE"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			title: "A Warped Path I"
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7BABEC6DB5A067E1"]
+			description: [
+				"As you bring back the Warped Anchors, Tress greets you."
+				""
+				"&b\"Good work! I'm a little surprised they exist, but the source I got the info from is pretty reliable\"&r"
+				""
+				"&b\"I am going to need you to install them. &6It'd be nice if you can make it clear where on each ship the anchor is, so it's easy to aim for.&r&b I do have some very valuable supplies I've been meaning to trade off, so I'm sure we can come to a good deal.\"&r"
+			]
+			icon: "galosphere:warped_anchor"
+			id: "5649163AC26CA45D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "24055E455F090D41"
+					table_id: 7033490202593989568L
+					type: "choice"
+				}
+				{
+					id: "4E439AA8F611EE48"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "diamond"
+			size: 1.25d
+			subtitle: "Install the Anchors!"
+			tasks: [
+				{
+					id: "453508A3B08BC2C3"
+					structure: "integrated_villages:airship_village"
+					title: "Return to the Airship"
+					type: "structure"
+				}
+				{
+					id: "3507A0565A5FA2B6"
+					title: "Install the Anchors"
+					type: "checkmark"
+				}
+			]
+			title: "A Warped Path III"
+			x: 1.625d
+			y: -6.75d
+		}
+		{
+			dependencies: ["680B3A5192350707"]
+			description: [
+				"As you hand &5Tiana&r the items for the ship's repair, she mutters a quick &b\"Thank you\"&r and scurries off to the underbelly of the ship. You feel a light tap on the shoulder. You see a short bald man covered in soot, googles dangling from his neck."
+				""
+				"&b\"Hope I didn't scare ya. The names &5Slobab&r&b. You'll have to excuse &5Tiana's&r&b rudeness. She's new here. The boss lady up in the clouds put her in charge of guarding this old hunka scrap, and for obvious reasons, she's eager to make a good impression.\"&r"
+				""
+				"&b\"That said, I have to say, you whipped us those there gears real fast. Tell you what. &6Prove to me you have the true spirit of a &5Tinkerer&r&6 and I'll tell you where me old workshop lies.\"&r"
+				"{@pagebreak}"
+				"&b\"I had to flee it when I heard thee news the &5Tinkerer's Citadel&r&b was attacked, but assuming no &7Illagers&r&b got to it, you might find some nice stuff. Heck, you even seem quite strong. &6I ain't got much faith in ya, but might as well throw in a map to the &r&5Citadel&r&6 too.&b Don't go die on me, but if you took a &7Illager&r&b or two out, it'd do all us &5Tinkerers&r&b a huge favor.\""
+			]
+			id: "7A511BA4B8344AC7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0B975D1A66145817"
+					table_id: 1833917657588604180L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "459A7B29E3677DBD"
+					table_id: 1833917657588604180L
+					type: "random"
+				}
+				{
+					id: "7EEC533793FAE895"
+					item: {
+						Count: 1
+						id: "supplementaries:cartographers_quill"
+						tag: {
+							decoration: "target_x"
+							display: {
+								Name: "{\"text\":\"Tinkers Workshop Explorer Map\"}"
+							}
+							maxSearchRadius: 100
+							skinKnown: 1b
+							targetStructure: "idas:tinkers_workshop"
+							zoomLevel: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "347C7C70AE1F9EC4"
+					item: {
+						Count: 1
+						id: "supplementaries:cartographers_quill"
+						tag: {
+							decoration: "target_x"
+							display: {
+								Name: "{\"text\":\"Tinkers Citadel Explorer Map\"}"
+							}
+							maxSearchRadius: 100
+							skinKnown: 1b
+							targetStructure: "idas:tinkers_citadel"
+							zoomLevel: 2
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "You feel a tap on your shoulder..."
+			tasks: [
+				{
+					consume_items: true
+					id: "348AB5B402B448BF"
+					item: "create:goggles"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "5A21AF743BC94105"
+					item: "create:precision_mechanism"
+					type: "item"
+				}
+			]
+			title: "A Tinkerer's Spirit"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["55327109F1884DA2"]
+			description: [
+				"You chuck an &eEnder Pearl&r across the gap, safely warping to the other ship. &5Tress&r stifles a small giggle, but quickly regains her composure."
+				""
+				"&b\"Nice throw. That takes quite a bit of courage. And yes, I know about &eEnder Pearls&r&b. While I'm happy to take the ones you have off your hands for emergency jumps across ships, they aren't nearly safe enough for my crew. Hate to say it, but riding the clouds ain't always the smoothest and my men don't got the best aim, if you catch my drift.\" "
+				""
+				"&b\"That said, at our last stop, &6we hear about a device that can stabilize the teleportation of the Pearls.&r&b Find some for me, and we'll talk. I'd like at least eight, as well as fuel for them.\""
+			]
+			icon: "galosphere:allurite_cluster"
+			id: "7BABEC6DB5A067E1"
+			rewards: [
+				{
+					count: 5
+					id: "6906E28F774A00FC"
+					item: "minecraft:emerald_block"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "4FDD3DAA76B7A892"
+					item: "iceandfire:sapphire_gem"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3462144760093CCE"
+					table_id: 7764861743028037075L
+					type: "random"
+				}
+				{
+					id: "2E2EEFB4E7C8F000"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "rsquare"
+			subtitle: "A better path..."
+			tasks: [
+				{
+					count: 8L
+					id: "0839A5CADD2E5889"
+					item: "galosphere:warped_anchor"
+					title: "Find Warped Anchors (not consumed)"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "5908EA7699EECBCA"
+					item: "galosphere:allurite_block"
+					title: "Find Warped Anchor Fuel (not consumed)"
+					type: "item"
+				}
+			]
+			title: "A Warped Path II"
+			x: 1.5d
+			y: -5.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5649163AC26CA45D"]
+			description: [
+				"As you install the last &eAnchor&r, you hear an &eEnder Pearl&r break nearby and &5Tress&r appears from the &eAnchor&r."
+				""
+				"&b\"That's pretty cool! Looks like it does take a charge for every &ePearl&b though.\"&r"
+				""
+				"&b\"My men ain't the best warriors, so it'll be hard for us to get more &ePearls&r&b. But hey, our loss is your opportunity. &6For eight anchor usages, meaning eight Ender Pearls and fuel for the Anchors, I'll sell you a Sapphire.&r&b As a mechant ship, we have a fair bit. &bBut you'll find some of our more landlocked friends will be very very excited to recieve a Sapphire.\"&r"
+			]
+			icon: "iceandfire:sapphire_gem"
+			id: "7127FB293276638D"
+			optional: true
+			rewards: [{
+				id: "0C506A3DDD26EB84"
+				item: "iceandfire:sapphire_gem"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 8L
+					id: "73549E487C010DB1"
+					item: { Count: 16, id: "minecraft:ender_pearl" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "56F712D3D3AD5E6B"
+					item: "galosphere:allurite_block"
+					type: "item"
+				}
+			]
+			title: "Trading: Ender Pearl and Allurite for Sapphire"
+			x: 2.5d
+			y: -7.5d
+		}
+		{
+			description: [
+				"There are many &5villages&r and &5settlements&r spread across the land. Each will have their own questlines and rewards, though some of these are still in development. Completing these questlines will provide some great rewards and &6may even unlock new traders or other locations to explore.&r Be sure to keep an eye out!"
+				""
+				"Additionally, these quest chains may include &6quests in a diamond shape&r. These are &d\"Building Quests\"&r, where you may be asked to build or add something to a structure. While this isn't required, its highly recommended. These are often preceded by a &d\"Gathering Quest\"&r, which are &6square shaped&r. these require you to gather items, but don't require the items to be turned in."
+				""
+				"&d&oView those that are currently implemented on the next page&r"
+				"{@pagebreak}"
+				"&5Currently Implemented:&r"
+				"- Airship Village"
+				"- Oasis Village"
+				"- Castle"
+				"- Dessert Bazaar"
+			]
+			hide_dependent_lines: true
+			icon: "minecraft:emerald"
+			id: "70F08FB0A44B9B94"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7F0D57EE5367E34C"
+				table_id: 3922798688039514987L
+				type: "choice"
+			}]
+			shape: "rsquare"
+			size: 1.2d
+			subtitle: "Help the various inhabitants of this world and be rewarded!"
+			tasks: [{
+				id: "1622FE6239A56F67"
+				type: "checkmark"
+			}]
+			title: "Discover Settlements!"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2A59ACA463BB5C05"]
+			description: [
+				"As you walk around &5the Oasis&r, you see children desperately clawing at the sands. As they dig down, the sand becomes more damp until enough water pools. Overjoyed, the children lap it up, sand and all."
+				""
+				"Concerned, you pull out a couple &eBottles of Water&r, offering them to the kids. They initially hesitate, but then quickly snatch them away."
+				""
+				"&b\"Thanks you kind mister!\"&r they yell, as they scurry off."
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:potion"
+				tag: {
+					Potion: "minecraft:water"
+				}
+			}
+			id: "043BF3E32EBA4D01"
+			require_sequential_tasks: true
+			subtitle: "A Waning Water Supply..."
+			tasks: [
+				{
+					consume_items: true
+					count: 16L
+					id: "2C933D4C7CAE7C1C"
+					item: {
+						Count: 16
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:water"
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "595265FD80B8C4C2"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+			]
+			title: "Waters of Life I"
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2BC557F412C32C42"]
+			description: [
+				"As you come back with the map to the new Oasis, the Villagers excitedly greet you."
+				""
+				"&b\"Thank you so much!\"&r"
+				""
+				"As you get through the cheering crowd, you hear something quietly calling you to the fountain near the village's center. As you get closer, a whispering voice seems to call out from all around you."
+				""
+				"&d\"You've done this village a great service. Do one for me as well, so I may continue my duty. Take the &6Conversion Crucible&r&d from the &eWitches of the Candy Cavities&r&d and feed it an &6Oasis Biome Candy&r&d so I may refresh my waters. Then, &6make a new fountain so I may bestow my gift onto my children.&r&d\"&r"
+			]
+			icon: "ars_nouveau:water_essence"
+			id: "30DFA334B31B28CF"
+			rewards: [
+				{
+					id: "37BF7772642C5534"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					id: "6C359667648F5376"
+					item: "spelunkery:spring_water_bucket"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "047F8646FD3DA3C0"
+					item: "ars_nouveau:water_essence"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2621A84757A4D515"
+					table_id: 7764861743028037075L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "Rejuvenate the Oasis..."
+			tasks: [
+				{
+					id: "3C5417A35F66104B"
+					item: "alexscaves:conversion_crucible"
+					type: "item"
+				}
+				{
+					id: "33511F9CB4C91D23"
+					item: {
+						Count: 1
+						id: "alexscaves:biome_treat"
+						tag: {
+							CaveBiome: "wilderwild:oasis"
+						}
+					}
+					title: "Oasis Biome Treat"
+					type: "item"
+				}
+				{
+					id: "5CCA8097C47AC108"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+				{
+					id: "230D7326641895B4"
+					title: "Create a Fountain!"
+					type: "checkmark"
+				}
+			]
+			title: "Waters of Life III"
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["043BF3E32EBA4D01"]
+			description: [
+				"As you begin to leave, a woman quickly calls out to you."
+				""
+				"&b\"Sir, were you the one who gave my child water? Thank you so much!\"&r"
+				""
+				"&b\"The &5Oasis&r &bhas provided water to us for years and years, but the recently, the skies haven't provided us any new water and our stores are running dry. We are limited to one bottle a day and the children aren't taking it well.\""
+				""
+				"&b\"I worry that we've run the &5Oasis&r&b dry. &6If we could find another &5Oasis&r&b&6 nearby&r&b, maybe we could provide more water...\"&r"
+			]
+			icon: "wilderwild:palm_fronds"
+			id: "2BC557F412C32C42"
+			require_sequential_tasks: true
+			rewards: [
+				{
+					count: 20
+					id: "0B4E17206B6029DB"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "3B51133E990F5CD8"
+					item: "iceandfire:sapphire_gem"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "477F54F61E8F4096"
+					table_id: 9108404116502109620L
+					type: "random"
+				}
+			]
+			subtitle: "Finding a new source..."
+			tasks: [
+				{
+					biome: "wilderwild:oasis"
+					icon: "wilderwild:palm_fronds"
+					id: "5E56AA559EB3F1E6"
+					title: "Find an Oasis"
+					type: "biome"
+				}
+				{
+					id: "7962CF24AC967356"
+					item: "minecraft:map"
+					type: "item"
+				}
+				{
+					icon: "quark:sandstone_bricks"
+					id: "3C0AB8B53CC39208"
+					structure: "integrated_villages:oasis_village"
+					title: "Return to the Oasis Village"
+					type: "structure"
+				}
+			]
+			title: "Waters of Life II"
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["30DFA334B31B28CF"]
+			description: [
+				"As you complete the new fountain, a voice resonates around you, much stronger than before."
+				""
+				"&d\"You have done me well. And so, I shall repay this debt. Bring me &6Source&r&d and I shall create &eWater&r&d for you. The &eSpring Water&r&d I make &6bears the vitality of the World, and bathing in it shall rejuvenate your soul&r&d.\"&r"
+			]
+			icon: "spelunkery:spring_water_bucket"
+			id: "2605BBE030E31CC8"
+			optional: true
+			rewards: [{
+				id: "5D32458F2C49993D"
+				item: "spelunkery:spring_water_bucket"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 10L
+					id: "556D5D7B9508CF1E"
+					item: { Count: 5, id: "ars_nouveau:source_gem" }
+					type: "item"
+				}
+				{
+					id: "13FA08BD3C26CCC0"
+					points: false
+					type: "xp"
+					value: 10L
+				}
+			]
+			title: "Trade: Source for Spring Water"
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"2A59ACA463BB5C05"
+				"043BF3E32EBA4D01"
+				"078BE7E2C6230DC8"
+			]
+			description: [
+				"As you wander the &5Oasis&r, a &emerchant&r calls out to you."
+				""
+				"&b\"Good sir, thank you for the help you've offered us. We don't usually offer this, but it may be helpful in your travels. &6Here is the map to the burial grounds of the late Pharaoh.&r&b You wouldn't happen to be interested, would you?\"&r"
+			]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "supplementaries:cartographers_quill"
+				tag: {
+					decoration: "target_x"
+					display: {
+						Name: "{\"text\":\"Desert Pyramid Explorer Map\"}"
+					}
+					maxSearchRadius: 100
+					skinKnown: 1b
+					targetStructure: "idas:desert_pyramid"
+					zoomLevel: 2
+				}
+			}
+			id: "0F7C20801E5C5005"
+			rewards: [{
+				id: "279DAA040690C043"
+				item: {
+					Count: 1
+					id: "supplementaries:cartographers_quill"
+					tag: {
+						decoration: "target_x"
+						display: {
+							Name: "{\"text\":\"Desert Pyramid Explorer Map\"}"
+						}
+						maxSearchRadius: 100
+						skinKnown: 1b
+						targetStructure: "idas:desert_pyramid"
+						zoomLevel: 2
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "A merchant calls out to you..."
+			tasks: [{
+				count: 32L
+				id: "36959A36C107A2DF"
+				item: { Count: 32, id: "minecraft:emerald" }
+				type: "item"
+			}]
+			title: "Buy: Desert Pyramid Map"
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2A59ACA463BB5C05"]
+			description: [
+				"As you walk around the &5Oasis&r, the scent of rotting meat hits your nose. Turning towards the scent, you see stalls of the market filled with questionable meats that the shopping &evillagers&r are vigorously bidding over."
+				""
+				"&6Perhaps you could show them some better ways to preserve their food...&r"
+			]
+			icon: "spelunkery:salt"
+			id: "078BE7E2C6230DC8"
+			rewards: [
+				{
+					count: 5
+					id: "44E16EEE3D4672DD"
+					item: "farmersdelight:smoked_ham"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "31C05A34C94287B2"
+					table_id: 1030506019370660012L
+					type: "random"
+				}
+				{
+					count: 5
+					id: "163A479FD4CB8FB0"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			subtitle: "A food crisis..."
+			tasks: [
+				{
+					consume_items: true
+					count: 64L
+					id: "62B27C2FCDB0D646"
+					item: "spelunkery:salt"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 3L
+					id: "4C3BCDF6E0F4C572"
+					item: "minecraft:smoker"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "46B2F0AD9D6C3B23"
+					item: { Count: 32, id: "minecraft:ice" }
+					type: "item"
+				}
+			]
+			title: "The Deserts Hunger I"
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["078BE7E2C6230DC8"]
+			description: [
+				"You tell the shopkeepers about salting, smoking, and chilling to preserve their food. They look at you like you are crazy, but take the items anyways."
+				""
+				"&b\"I ain't sure if these are gonna work, &5Wanderer&r&b. But we'll give it a shot.\"&r"
+				""
+				"&b\"In the past, food here was grown and harvested in the same day. We had a &6Totem of a Flower&r&b that blessed our fields, speeding up harvests, but those days are long gone, ever since the Pharaoh passed. Some say he &6found the way to create the Totem through an Ancient Farmer&r&b, but we aint got no clue on where to find em.\"&r"
+			]
+			id: "50F2F6D14A979C9F"
+			subtitle: "The source of past harvests..."
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						id: "minecraft:written_book"
+						tag: {
+							AntiqueInk: 1b
+							author: "CraisinLord"
+							display: {
+								Name: "{\"text\":\"The Farming Secret\"}"
+							}
+							pages: [
+								"[\r\n                {\"text\":\"§r§4§lThe Secret\n\"},\r\n                {\"text\":\"~~~~~~~~~\n\"},\r\n                {\"text\":\"All the other farmers have always wondered how I grow my crops so fast. I always tell them special fertilizer, better land, or I care for them better.\"}\r\n              ]"
+								"[\r\n                {\"text\":\"However, that is not the truth. The truth is that I have created magical totems of growth that I use to speed up the growth of my crops.\"}\r\n              ]"
+								"[\r\n                {\"text\":\"To create this totem, infuse a flower with 2 starbuncle shards and 2 uranium.\"}\r\n              ]"
+								"[\r\n                {\"text\":\"Use this power well. And keep it secret!\n\"},\r\n                {\"text\":\"-Farmer Tom\"}\r\n              ]"
+							]
+							title: "Journal"
+						}
+					}
+					id: "46758DD6E7B93A8B"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "nbt(fuzzy:{AntiqueInk:1b,author:\"CraisinLord\",display:{Name:'{\"text\":\"The Farming Secret\"}'}})"
+						}
+					}
+					title: "Discover the Recipe for the Totem of Growth!"
+					type: "item"
+				}
+				{
+					id: "47E5FB61144A358B"
+					item: "betterarcheology:growth_totem"
+					type: "item"
+				}
+			]
+			title: "The Deserts Hunger II"
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["50F2F6D14A979C9F"]
+			description: [
+				"As you come back, &eTotem of Growth&r in hand, the &evillagers&r look shocked."
+				""
+				"&b\"You. Where the hell did you find that?\"&r"
+				""
+				"As you explain that you made it yourself, for them, a couple &evillagers&r break down in tears of joy."
+				""
+				"&b\"Finally, our food problems are over. Thank you. Thank you so much.\"&r"
+				""
+				"While another says:"
+				""
+				"&b\"&5Wanderer&r&e, thank you for your service. We have one request though. &6Please build a greenhouse to put the totem in.&r &bWe will make it worth your time.\"&r"
+			]
+			icon: "quark:framed_glass"
+			id: "6CA240CFF2810F4A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "439F95F5CBBBE43E"
+					table_id: 7764861743028037075L
+					type: "random"
+				}
+				{
+					count: 32
+					id: "18C0B8F0AECE4973"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "4B8632746C38697A"
+					item: "iceandfire:sapphire_gem"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "To return to the past..."
+			tasks: [
+				{
+					count: 10L
+					id: "7BD28579EDDBB13A"
+					item: { Count: 10, id: "farmersdelight:onion" }
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "6C08D91D9537B5D3"
+					item: { Count: 10, id: "farmersdelight:tomato_seeds" }
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "6BFC97D5229EBDDF"
+					item: { Count: 10, id: "minecraft:wheat_seeds" }
+					type: "item"
+				}
+				{
+					count: 30L
+					id: "5EE90E5D7251E792"
+					item: { Count: 30, id: "farmersdelight:rich_soil" }
+					type: "item"
+				}
+				{
+					count: 30L
+					id: "4DB0233F05EB816E"
+					item: { Count: 20, id: "minecraft:glass" }
+					type: "item"
+				}
+				{
+					id: "504EA9774D1DEE02"
+					item: "betterarcheology:growth_totem"
+					type: "item"
+				}
+				{
+					id: "3999D830DA680EB5"
+					title: "Create a Greenhouse!"
+					type: "checkmark"
+				}
+			]
+			title: "The Deserts Hunger III"
+			x: -4.0d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"30DFA334B31B28CF"
+				"6CA240CFF2810F4A"
+			]
+			description: [
+				"As you walk through the &5Oasis&r, a sharply dressed merchant waves you into a dark alleyway."
+				""
+				"&b\"The name's &5Appa&r&b. Glad to finally meet the hero that saved our village. Listen, we don't offer this to everyone, but for someone as important as you, we'll allow you the privledge of browsing and buying from our wares. &6We buy and sell any sort of gemstone.&r&b I'm sure you'll find our services very, very helpful.\"&r"
+			]
+			id: "703FE4EF48680E44"
+			min_required_tasks: 1
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7F4B3F062E51019C"
+				table_id: 1295212272431747917L
+				type: "choice"
+			}]
+			shape: "hexagon"
+			subtitle: "An Exclusive Shop!"
+			tasks: [
+				{
+					count: 48L
+					id: "0064B0C1CFFF3AE6"
+					item: { Count: 32, id: "minecraft:emerald" }
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "6888BCEDC4F99CCA"
+					item: { Count: 32, id: "ars_nouveau:source_gem" }
+					type: "item"
+				}
+				{
+					id: "0E7EBEA0F28EF598"
+					item: "illagerinvasion:hallowed_gem"
+					type: "item"
+				}
+				{
+					id: "7A11873E5EFDA7BA"
+					item: "betterend:amber_gem"
+					type: "item"
+				}
+				{
+					id: "068E527EF0367650"
+					item: "iceandfire:sapphire_gem"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "619BE1F668367E78"
+					item: { Count: 16, id: "minecraft:diamond" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "26DC3A97E314365A"
+					item: { Count: 16, id: "rubinated_nether:ruby" }
+					type: "item"
+				}
+			]
+			title: "The Gem Trader"
+			x: -1.0d
+			y: 7.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6CA240CFF2810F4A"]
+			description: [
+				"As you finish the Greenhouse, the villagers come up to you."
+				""
+				"&b\"Thank you. If you are ever in need of food, &6we will sell it to you at a huge discount and send it to you in a heartbeat&r&b. Thank you for saving us.\"&r"
+			]
+			icon: "farmersdelight:mixed_salad"
+			id: "3791FA50E566E1C0"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1D97B35DED4045B9"
+				table_id: 473456351058813519L
+				type: "choice"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				count: 10L
+				id: "5949882E08833605"
+				item: { Count: 16, id: "minecraft:emerald" }
+				type: "item"
+			}]
+			title: "Buy: Food"
+			x: -4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["70F08FB0A44B9B94"]
+			icon: "minecraft:purple_wool"
+			id: "5BB9CDDB5CC625A3"
+			tasks: [{
+				id: "3A994EF5E4B7FCAB"
+				structure: "integrated_villages:kutcha_village"
+				title: "Find the Kutcha Village"
+				type: "structure"
+			}]
+			title: "The Village of Colors"
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["70F08FB0A44B9B94"]
+			icon: {
+				Count: 1
+				id: "netherexp:skull_on_a_stick"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "72A5A24CC81E58C7"
+			tasks: [{
+				id: "402BE5CAD7EDCDB1"
+				structure: "integrated_villages:pirate_village"
+				title: "Find the Pirate Village"
+				type: "structure"
+			}]
+			title: "The Pirates Cove"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["70F08FB0A44B9B94"]
+			icon: {
+				Count: 1
+				id: "minecraft:crossbow"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "54BED0E8315B4352"
+			tasks: [{
+				id: "48D49D3E25773616"
+				structure: "integrated_villages:tavern_village"
+				title: "Find the Tavern Village"
+				type: "structure"
+			}]
+			title: "The Village of Hunters"
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["70F08FB0A44B9B94"]
+			icon: "quark:andesite_pillar"
+			id: "76B79195000014B1"
+			tasks: [{
+				id: "77B252BD639B5AFD"
+				structure: "integrated_villages:mediterranean_village"
+				title: "Find the Mediterranean Village"
+				type: "structure"
+			}]
+			title: "The Village of Markets"
+			x: -5.5d
+			y: 0.0d
+		}
+	]
+	title: "Village Quests"
+}

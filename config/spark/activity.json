@@ -1,0 +1,28 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "hisakid13",
+      "uniqueId": "ded2568a-fb4f-496d-963b-5efe61bf7d5c"
+    },
+    "time": 1731813504715,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/94hJ6HgQNM"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "hisakid13",
+      "uniqueId": "ded2568a-fb4f-496d-963b-5efe61bf7d5c"
+    },
+    "time": 1731808748322,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/VcL8wijrE3"
+    }
+  }
+]

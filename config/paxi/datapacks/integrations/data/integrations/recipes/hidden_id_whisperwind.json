@@ -1,0 +1,39 @@
+{
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": true,
+  "output": {
+    "item": "simplyswords:whisperwind"
+  },
+  "pedestalItems": [
+    {
+      "item": "minecraft:echo_shard"
+    },
+    {
+      "item": "minecraft:echo_shard"
+    },
+    {
+      "item": "ars_nouveau:air_essence"
+    },
+    {
+      "item": "ars_nouveau:air_essence"
+    },
+    {
+      "item": "iceandfire:siren_tear"
+    },
+    {
+      "item": "iceandfire:siren_tear"
+    },
+    {
+      "item": "create_enchantment_industry:hyper_experience_bottle"
+    },
+    {
+      "item": "create_enchantment_industry:hyper_experience_bottle"
+    }
+  ],
+  "reagent": [
+    {
+      "item": "simplyswords:runic_katana"
+    }
+  ],
+  "sourceCost": 5000
+}

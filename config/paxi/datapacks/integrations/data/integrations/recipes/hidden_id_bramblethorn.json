@@ -1,0 +1,39 @@
+{
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": true,
+  "output": {
+    "item": "simplyswords:bramblethorn"
+  },
+  "pedestalItems": [
+    {
+      "item": "minecraft:spore_blossom"
+    },
+    {
+      "item": "minecraft:spore_blossom"
+    },
+    {
+      "item": "spelunkery:tangle_roots"
+    },
+    {
+      "item": "spelunkery:tangle_roots"
+    },
+    {
+      "item": "alexsmobs:poison_bottle"
+    },
+    {
+      "item": "alexsmobs:poison_bottle"
+    },
+    {
+      "item": "ars_nouveau:earth_essence"
+    },
+    {
+      "item": "ars_nouveau:earth_essence"
+    }
+  ],
+  "reagent": [
+    {
+      "item": "minecraft:stick"
+    }
+  ],
+  "sourceCost": 500
+}

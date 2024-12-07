@@ -1,0 +1,18 @@
+{
+	id: "18CED38AC74798A6"
+	loot_size: 1
+	order_index: 13
+	rewards: [
+		{ item: "simplyswords:empowered_remnant" }
+		{ count: 8, item: "minecraft:netherite_scrap" }
+		{ count: 32, item: "minecraft:diamond" }
+		{ count: 15, item: "create_enchantment_industry:hyper_experience_bottle" }
+		{ count: 64, item: "create:polished_rose_quartz" }
+		{ count: 64, item: "create:brass_ingot" }
+		{ count: 32, item: "iceandfire:sapphire_gem" }
+		{ count: 64, item: "ars_nouveau:source_gem" }
+		{ count: 20, item: "minecraft:emerald_block" }
+		{ count: 32, item: "rubinated_nether:ruby" }
+	]
+	title: "Super Rare"
+}

@@ -1,0 +1,8 @@
+{
+  "mobs": [
+    {
+      "name": "endermanoverhaul:end_enderman",
+      "weight": 5
+    }
+  ]
+}

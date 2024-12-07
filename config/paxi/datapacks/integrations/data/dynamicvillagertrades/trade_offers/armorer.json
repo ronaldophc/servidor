@@ -1,0 +1,525 @@
+{
+  "profession": "minecraft:armorer",
+  "replace": true,
+  "offers": {
+    "1_novice": {
+      "trades": [
+        {
+          "offer": {
+            "item": "minecraft:coal",
+            "price": 15,
+            "max_uses": 16,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "novice",
+          "attributes": {
+            "material": 2.0,
+            "other": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "supplementaries:hat_stand",
+            "type": "minecraft:sell_item"
+          },
+          "level": "novice",
+          "attributes": {
+            "other": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "minecraft:copper_ingot",
+            "price": 10,
+            "max_uses": 16,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "novice",
+          "attributes": {
+            "material": 2.0,
+            "other": 1.0
+          }
+        },
+        {
+          "offer": {
+            "experience": 5,
+            "item": "minecraft:leather_horse_armor",
+            "price": 1,
+            "max_uses": 3,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "novice",
+          "attributes": {
+            "pet": 2.0,
+            "other": 1.0
+          }
+        },
+        {
+          "offer": {
+            "experience": 5,
+            "item": "minecraft:iron_boots",
+            "price": 1,
+            "max_uses": 3,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "novice",
+          "attributes": {
+            "armor": 2.0,
+            "iron": 1.0
+          }
+        },
+        {
+          "offer": {
+            "experience": 5,
+            "item": "minecraft:iron_leggings",
+            "price": 1,
+            "max_uses": 3,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "novice",
+          "attributes": {
+            "armor": 2.0,
+            "iron": 1.0
+          }
+        },
+        {
+          "offer": {
+            "experience": 5,
+            "item": "minecraft:iron_chestplate",
+            "price": 1,
+            "max_uses": 3,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "novice",
+          "attributes": {
+            "armor": 2.0,
+            "iron": 1.0
+          }
+        },
+        {
+          "offer": {
+            "experience": 5,
+            "item": "minecraft:iron_helmet",
+            "price": 1,
+            "max_uses": 3,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "novice",
+          "attributes": {
+            "armor": 2.0,
+            "iron": 1.0
+          }
+        }
+      ],
+      "replace": false,
+      "min_trades": 2,
+      "max_trades": 2
+    },
+    "2_apprentice": {
+      "trades": [
+        {
+          "offer": {
+            "item": "minecraft:iron_ingot",
+            "price": 4,
+            "experience": 5,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "apprentice",
+          "attributes": {
+            "material": 2.0,
+            "iron": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "minecraft:armor_stand",
+            "type": "minecraft:sell_item"
+          },
+          "level": "apprentice",
+          "attributes": {
+            "other": 1.0
+          }
+        },
+        {
+          "offer": {
+            "experience": 15,
+            "item": "minecraft:iron_horse_armor",
+            "type": "minecraft:sell_item"
+          },
+          "level": "apprentice",
+          "attributes": {
+            "pet": 2.0,
+            "iron": 1.0
+          }
+        },
+        {
+          "offer": {
+            "experience": 15,
+            "item": "minecraft:bell",
+            "price": 36,
+            "type": "minecraft:sell_item"
+          },
+          "level": "apprentice",
+          "attributes": {
+            "bell": 2.0,
+            "other": 1.0
+          }
+        },
+        {
+          "offer": {
+            "experience": 15,
+            "item": "minecraft:chainmail_boots",
+            "type": "minecraft:sell_item"
+          },
+          "level": "apprentice",
+          "attributes": {
+            "armor": 1.0
+          }
+        },
+        {
+          "offer": {
+            "experience": 15,
+            "item": "minecraft:chainmail_leggings",
+            "price": 3,
+            "type": "minecraft:sell_item"
+          },
+          "level": "apprentice",
+          "attributes": {
+            "armor": 1.0
+          }
+        },
+        {
+          "offer": {
+            "experience": 15,
+            "item": "minecraft:chainmail_helmet",
+            "type": "minecraft:sell_item"
+          },
+          "level": "apprentice",
+          "attributes": {
+            "armor": 1.0
+          }
+        },
+        {
+          "offer": {
+            "experience": 15,
+            "item": "minecraft:chainmail_chestplate",
+            "price": 4,
+            "type": "minecraft:sell_item"
+          },
+          "level": "apprentice",
+          "attributes": {
+            "armor": 1.0
+          }
+        },
+        {
+          "offer": {
+            "experience": 10,
+            "item": "shieldexp:wooden_shield",
+            "price": 5,
+            "type": "minecraft:sell_item"
+          },
+          "level": "apprentice",
+          "attributes": {
+            "shield": 2.0,
+            "other": 1.0
+          }
+        }
+      ],
+      "replace": false,
+      "min_trades": 2,
+      "max_trades": 2
+    },
+    "3_journeyman": {
+      "trades": [
+        {
+          "offer": {
+            "item": "minecraft:lava_bucket",
+            "price": 1,
+            "experience": 20,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "journeyman",
+          "attributes": {
+            "other": 1.0,
+            "lava_bucket": 2.0
+          }
+        },
+        {
+          "offer": {
+            "item": "minecraft:gold_ingot",
+            "price": 4,
+            "experience": 10,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "journeyman",
+          "attributes": {
+            "material": 2.0,
+            "gold": 1.0
+          }
+        },
+        {
+          "offer": {
+            "experience": 15,
+            "item": "minecraft:iron_boots",
+            "price": 6,
+            "type": "minecraft:sell_item"
+          },
+          "level": "journeyman",
+          "attributes": {
+            "armor": 1.0,
+            "iron": 2.0
+          }
+        },
+        {
+          "offer": {
+            "experience": 15,
+            "item": "minecraft:iron_leggings",
+            "price": 8,
+            "type": "minecraft:sell_item"
+          },
+          "level": "journeyman",
+          "attributes": {
+            "armor": 1.0,
+            "iron": 2.0
+          }
+        },
+        {
+          "offer": {
+            "experience": 15,
+            "item": "minecraft:iron_chestplate",
+            "price": 10,
+            "type": "minecraft:sell_item"
+          },
+          "level": "journeyman",
+          "attributes": {
+            "armor": 1.0,
+            "iron": 2.0
+          }
+        },
+        {
+          "offer": {
+            "experience": 15,
+            "item": "minecraft:iron_helmet",
+            "price": 7,
+            "type": "minecraft:sell_item"
+          },
+          "level": "journeyman",
+          "attributes": {
+            "armor": 1.0,
+            "iron": 2.0
+          }
+        },
+        {
+          "offer": {
+            "experience": 15,
+            "item": "shieldexp:iron_shield",
+            "price": 7,
+            "type": "minecraft:sell_item"
+          },
+          "level": "journeyman",
+          "attributes": {
+            "shield": 2.0,
+            "iron": 1.0
+          }
+        }
+      ],
+      "replace": false,
+      "min_trades": 2,
+      "max_trades": 2
+    },
+    "4_expert": {
+      "trades": [
+        {
+          "offer": {
+            "item": "minecraft:diamond",
+            "price": 1,
+            "experience": 20,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "expert",
+          "attributes": {
+            "diamond": 2.0,
+            "material": 1.0
+          }
+        },
+        {
+          "offer": {
+            "max_uses": 5,
+            "experience": 25,
+            "price_multiplier": 0.1,
+            "item": "minecraft:golden_leggings",
+            "base_price": 10,
+            "type": "minecraft:sell_enchanted_tool"
+          },
+          "level": "expert",
+          "attributes": {
+            "gold": 2.0,
+            "armor": 1.0
+          }
+        },
+        {
+          "offer": {
+            "max_uses": 5,
+            "experience": 25,
+            "price_multiplier": 0.1,
+            "item": "minecraft:golden_boots",
+            "base_price": 6,
+            "type": "minecraft:sell_enchanted_tool"
+          },
+          "level": "expert",
+          "attributes": {
+            "gold": 2.0,
+            "armor": 1.0
+          }
+        },
+        {
+          "offer": {
+            "max_uses": 5,
+            "experience": 25,
+            "price_multiplier": 0.1,
+            "item": "minecraft:golden_helmet",
+            "base_price": 6,
+            "type": "minecraft:sell_enchanted_tool"
+          },
+          "level": "expert",
+          "attributes": {
+            "gold": 2.0,
+            "armor": 1.0
+          }
+        },
+        {
+          "offer": {
+            "max_uses": 5,
+            "experience": 25,
+            "price_multiplier": 0.1,
+            "item": "minecraft:golden_chestplate",
+            "base_price": 12,
+            "type": "minecraft:sell_enchanted_tool"
+          },
+          "level": "expert",
+          "attributes": {
+            "gold": 2.0,
+            "armor": 1.0
+          }
+        },
+        {
+          "offer": {
+            "max_uses": 5,
+            "experience": 25,
+            "price_multiplier": 0.1,
+            "item": "minecraft:golden_horse_armor",
+            "base_price": 10,
+            "type": "minecraft:sell_enchanted_tool"
+          },
+          "level": "expert",
+          "attributes": {
+            "gold": 2.0,
+            "pet": 1.0
+          }
+        },
+        {
+          "offer": {
+            "max_uses": 5,
+            "experience": 25,
+            "price_multiplier": 0.1,
+            "item": "shieldexp:golden_shield",
+            "base_price": 8,
+            "type": "minecraft:sell_enchanted_tool"
+          },
+          "level": "expert",
+          "attributes": {
+            "gold": 2.0,
+            "shield": 1.0
+          }
+        }
+      ],
+      "replace": false,
+      "min_trades": 2,
+      "max_trades": 2
+    },
+    "5_master": {
+      "trades": [
+        {
+          "offer": {
+            "max_uses": 3,
+            "item": "minecraft:diamond_helmet",
+            "price": 16,
+            "type": "minecraft:sell_item"
+          },
+          "level": "master",
+          "attributes": {
+            "armor": 1.0,
+            "diamond": 2.0
+          }
+        },
+        {
+          "offer": {
+            "max_uses": 3,
+            "item": "minecraft:diamond_chestplate",
+            "price": 22,
+            "type": "minecraft:sell_item"
+          },
+          "level": "master",
+          "attributes": {
+            "armor": 1.0,
+            "diamond": 2.0
+          }
+        },
+        {
+          "offer": {
+            "max_uses": 3,
+            "item": "minecraft:diamond_leggings",
+            "price": 20,
+            "type": "minecraft:sell_item"
+          },
+          "level": "master",
+          "attributes": {
+            "armor": 1.0,
+            "diamond": 2.0
+          }
+        },
+        {
+          "offer": {
+            "max_uses": 3,
+            "item": "minecraft:diamond_boots",
+            "price": 15,
+            "type": "minecraft:sell_item"
+          },
+          "level": "master",
+          "attributes": {
+            "armor": 1.0,
+            "diamond": 2.0
+          }
+        },
+        {
+          "offer": {
+            "item": "minecraft:diamond_horse_armor",
+            "price": 10,
+            "type": "minecraft:sell_item"
+          },
+          "level": "master",
+          "attributes": {
+            "pet": 1.0,
+            "diamond": 2.0
+          }
+        },
+        {
+          "offer": {
+            "max_uses": 3,
+            "item": "shieldexp:diamond_shield",
+            "price": 25,
+            "type": "minecraft:sell_item"
+          },
+          "level": "master",
+          "attributes": {
+            "armor": 1.0,
+            "diamond": 2.0
+          }
+        }
+      ],
+      "replace": false,
+      "min_trades": 2,
+      "max_trades": 2
+    }
+  }
+}

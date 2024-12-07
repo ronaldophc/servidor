@@ -1,0 +1,24 @@
+{
+  "mobs": [
+    {
+      "name": "endermanoverhaul:cave_enderman",
+      "weight": 10
+    },
+    {
+      "name": "endermanoverhaul:end_enderman",
+      "weight": 5
+    },
+    {
+      "name": "betterend:shadow_walker",
+      "weight": 15
+    },
+    {
+      "name": "iceandfire:ghost",
+      "weight": 10
+    },
+    {
+      "name": "quark:forgotten",
+      "weight": 10
+    }
+  ]
+}

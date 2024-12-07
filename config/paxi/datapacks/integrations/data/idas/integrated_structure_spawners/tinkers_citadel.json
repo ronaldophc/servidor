@@ -1,0 +1,12 @@
+{
+  "mobs": [
+    {
+      "name": "biomemakeover:ghost",
+      "weight": 10
+    },
+    {
+      "name": "quark:forgotten",
+      "weight": 7
+    }
+  ]
+}

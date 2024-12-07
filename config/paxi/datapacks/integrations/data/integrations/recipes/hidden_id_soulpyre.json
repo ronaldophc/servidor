@@ -1,0 +1,39 @@
+{
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": true,
+  "output": {
+    "item": "simplyswords:soulpyre"
+  },
+  "pedestalItems": [
+    {
+      "item": "alexsmobs:soul_heart"
+    },
+    {
+      "item": "iceandfire:fire_dragon_blood"
+    },
+    {
+      "item": "iceandfire:ectoplasm"
+    },
+    {
+      "item": "iceandfire:ectoplasm"
+    },
+    {
+      "item": "rubinated_nether:ruby"
+    },
+    {
+      "item": "rubinated_nether:ruby"
+    },
+    {
+      "item": "betternether:cincinnasite_ingot"
+    },
+    {
+      "item": "betternether:cincinnasite_ingot"
+    }
+  ],
+  "reagent": [
+    {
+      "item": "simplyswords:netherite_greataxe"
+    }
+  ],
+  "sourceCost": 1000
+}

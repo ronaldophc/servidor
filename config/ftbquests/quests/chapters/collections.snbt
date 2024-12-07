@@ -1,0 +1,2485 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "collections"
+	group: ""
+	icon: "idas:music_disc_slither"
+	id: "7C47C9158627CBF8"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "3882D7161BA896AE"
+			rewards: [
+				{
+					count: 10
+					id: "0A63B78B42572279"
+					item: {
+						Count: 1
+						id: "simplyswords:runefused_gem"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "1F4225E26FC4610C"
+					item: {
+						Count: 1
+						id: "simplyswords:netherfused_gem"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "3296ACF4968389EA"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "326E47C1E4120D04"
+					table_id: 1787598695114971302L
+					type: "choice"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Obtain every unique weapon. Good luck..."
+			tasks: [
+				{
+					id: "5EACA087A239586A"
+					item: {
+						Count: 1
+						id: "simplyswords:brimstone_claymore"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "06414D4FC61B269A"
+					item: {
+						Count: 1
+						id: "simplyswords:watcher_claymore"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "65A0F430CF677382"
+					item: {
+						Count: 1
+						id: "simplyswords:storms_edge"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6E32DB483BF0646E"
+					item: {
+						Count: 1
+						id: "simplyswords:stormbringer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "118ADE1DFF07D0CD"
+					item: {
+						Count: 1
+						id: "simplyswords:bramblethorn"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6A62C4669E692500"
+					item: {
+						Count: 1
+						id: "simplyswords:watching_warglaive"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3FA9E9A3C1CB1310"
+					item: {
+						Count: 1
+						id: "simplyswords:toxic_longsword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0E1791AF4B754CA1"
+					item: {
+						Count: 1
+						id: "simplyswords:emberblade"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5EDDE05CADBE8E5E"
+					item: {
+						Count: 1
+						id: "simplyswords:hearthflame"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "607305BAC7F4CCAD"
+					item: {
+						Count: 1
+						id: "simplyswords:soulkeeper"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4CEBEFDC9F277D4B"
+					item: {
+						Count: 1
+						id: "simplyswords:twisted_blade"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2AF0AA227C425783"
+					item: {
+						Count: 1
+						id: "simplyswords:soulstealer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "382B85942111BEDE"
+					item: {
+						Count: 1
+						id: "simplyswords:soulrender"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "40D863A526417C9B"
+					item: {
+						Count: 1
+						id: "simplyswords:soulpyre"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "471316BF9B3E8610"
+					item: {
+						Count: 1
+						id: "simplyswords:frostfall"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4B242E056AFF9DA5"
+					item: {
+						Count: 1
+						id: "simplyswords:molten_edge"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E8FA923E8DFF95A"
+					item: {
+						Count: 1
+						id: "simplyswords:livyatan"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2BD025084051F840"
+					item: {
+						Count: 1
+						id: "simplyswords:icewhisper"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "59C494ACE8AAE051"
+					item: {
+						Count: 1
+						id: "simplyswords:arcanethyst"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2B7BFD8FC6524059"
+					item: {
+						Count: 1
+						id: "simplyswords:thunderbrand"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A2F0D2DF38328AD"
+					item: {
+						Count: 1
+						id: "simplyswords:mjolnir"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1D20AC688A4D37A9"
+					item: {
+						Count: 1
+						id: "simplyswords:awakened_lichblade"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5C719CAA237E840E"
+					item: {
+						Count: 1
+						id: "simplyswords:shadowsting"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6E87BAF8DE999E82"
+					item: {
+						Count: 1
+						id: "simplyswords:sunfire"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E02EAD58E697C64"
+					item: {
+						Count: 1
+						id: "simplyswords:harbinger"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "36D9F42767A526DF"
+					item: {
+						Count: 1
+						id: "simplyswords:whisperwind"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "534742E3DF6AB6FB"
+					item: {
+						Count: 1
+						id: "simplyswords:emberlash"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3C24F731A31468F1"
+					item: {
+						Count: 1
+						id: "simplyswords:waxweaver"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0818B13A66B234BD"
+					item: {
+						Count: 1
+						id: "simplyswords:hiveheart"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "23077ED1C9378577"
+					item: {
+						Count: 1
+						id: "simplyswords:stars_edge"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "19AE193C7E789520"
+					item: {
+						Count: 1
+						id: "simplyswords:wickpiercer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7DB8769C00761952"
+					item: {
+						Count: 1
+						id: "simplyswords:tempest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2C6885AAE229C5C0"
+					item: {
+						Count: 1
+						id: "simplyswords:flamewind"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6A607D567FB1A9A8"
+					item: {
+						Count: 1
+						id: "simplyswords:ribboncleaver"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4EA3F000F52926E0"
+					item: {
+						Count: 1
+						id: "simplyswords:magiscythe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0B042285A113AA98"
+					item: {
+						Count: 1
+						id: "simplyswords:enigma"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "212198B7394BF886"
+					item: {
+						Count: 1
+						id: "simplyswords:magispear"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "697F4FEA38E40A43"
+					item: {
+						Count: 1
+						id: "simplyswords:magiblade"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "All Unique Weapons"
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			id: "5DE37518E34ACB1A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3495E390FE11032D"
+				table_id: 7764861743028037075L
+				type: "choice"
+			}]
+			shape: "diamond"
+			subtitle: "Uncover every fossil"
+			tasks: [
+				{
+					id: "13EF81996154459C"
+					item: "betterarcheology:creeper_fossil"
+					type: "item"
+				}
+				{
+					id: "3A04FEF804B126A9"
+					item: "betterarcheology:guardian_fossil"
+					type: "item"
+				}
+				{
+					id: "480AC096015928EF"
+					item: "betterarcheology:villager_fossil"
+					type: "item"
+				}
+				{
+					id: "0F2D7A5481C11F1E"
+					item: "betterarcheology:chicken_fossil"
+					type: "item"
+				}
+				{
+					id: "32ED58E5B1433CC4"
+					item: "betterarcheology:ocelot_fossil"
+					type: "item"
+				}
+				{
+					id: "27A0586D0133C9CA"
+					item: "betterarcheology:wolf_fossil"
+					type: "item"
+				}
+				{
+					id: "31C4F67E4B182D44"
+					item: "betterarcheology:sheep_fossil"
+					type: "item"
+				}
+			]
+			title: "Master Archeologist"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			icon: "minecraft:acacia_sapling"
+			id: "75732DE092ADB33B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "08237D9461F14113"
+					table_id: 1787598695114971302L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3C8BCAC39AEF3D0B"
+					table_id: 1787598695114971302L
+					type: "random"
+				}
+			]
+			subtitle: "Collect every sapling"
+			tasks: [
+				{
+					disable_toast: true
+					id: "56CD9D2696C45FDE"
+					item: "minecraft:oak_sapling"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "64FA58B9E3B0DCCE"
+					item: "minecraft:spruce_sapling"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "5E2A07E57FB4911B"
+					item: "minecraft:birch_sapling"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "6A5E7B838A8754A9"
+					item: "minecraft:jungle_sapling"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "1B20D9998E9C5FC5"
+					item: "minecraft:acacia_sapling"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "220E4A73D6F6ABE2"
+					item: "minecraft:dark_oak_sapling"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "40B77CBD83017D77"
+					item: "minecraft:cherry_sapling"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "413343CF97E023AE"
+					item: "upgrade_aquatic:river_sapling"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "6D2B57A1D151424A"
+					item: "quark:ancient_sapling"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "3A6F6E8F631E6396"
+					item: "biomemakeover:blighted_balsa_sapling"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "71AD7A8DE3743215"
+					item: "biomemakeover:willow_sapling"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "69251C5297F8A665"
+					item: "biomemakeover:swamp_cypress_sapling"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "5979EBF3044CAA35"
+					item: "biomemakeover:ancient_oak_sapling"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "0CD914FA5BE58D0F"
+					item: "alexscaves:pewen_sapling"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "7B01F717712A171B"
+					item: "alexscaves:ancient_sapling"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "7FABA0F8FA19D1DE"
+					item: "alexscaves:thornwood_sapling"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "420CA74EBADE3AC1"
+					item: "regions_unexplored:apple_oak_sapling"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "6E82C7C65B1F878D"
+					item: "regions_unexplored:ashen_sapling"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "1C94F54CE7F84679"
+					item: "regions_unexplored:bamboo_sapling"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "5AB3ACE5BEFF799F"
+					item: "regions_unexplored:baobab_sapling"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "352D58E4EA1CF272"
+					item: "regions_unexplored:blackwood_sapling"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "72C864DDEB871DA1"
+					item: "regions_unexplored:brimwood_sapling"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "7FBECC08368DC602"
+					item: "regions_unexplored:cobalt_sapling"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "777F204784BB2A5D"
+					item: "regions_unexplored:cypress_sapling"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "6E1DEE232E277592"
+					item: "regions_unexplored:dead_pine_sapling"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "4B0F1E8AC23C9CA4"
+					item: "regions_unexplored:dead_sapling"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "09B7FFC3D788F33D"
+					item: "regions_unexplored:eucalyptus_sapling"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "5777C279C4B43524"
+					item: "regions_unexplored:flowering_sapling"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "4D2759A8587988A1"
+					item: "regions_unexplored:joshua_sapling"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "7277977E823E175C"
+					item: "regions_unexplored:kapok_sapling"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "01EA178889EB2D2F"
+					item: "regions_unexplored:larch_sapling"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "4B1E6A8711ADEEA6"
+					item: "regions_unexplored:golden_larch_sapling"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "704156D6930A8394"
+					item: "regions_unexplored:magnolia_sapling"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "6C28B4EC87A14F11"
+					item: "regions_unexplored:blue_magnolia_sapling"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "7DBE35BB28150672"
+					item: "regions_unexplored:pink_magnolia_sapling"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "78E2356DCCE4BF26"
+					item: "regions_unexplored:white_magnolia_sapling"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "480EC1A873E733AD"
+					item: "regions_unexplored:maple_sapling"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "5E25AA830AB0794C"
+					item: "regions_unexplored:orange_maple_sapling"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "2E8EC252F25816DA"
+					item: "regions_unexplored:red_maple_sapling"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "629A7DD06FE553E4"
+					item: "regions_unexplored:mauve_sapling"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "7B81156B4F05DEC5"
+					item: "regions_unexplored:palm_sapling"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "15D3F18C4439E66F"
+					item: "regions_unexplored:redwood_sapling"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "268780B15CAA1E14"
+					item: "regions_unexplored:pine_sapling"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "23D5E2B2ADB2040B"
+					item: "regions_unexplored:silver_birch_sapling"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "05CE53C19A454C64"
+					item: "regions_unexplored:enchanted_birch_sapling"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "1ECECFD54C8B9034"
+					item: "regions_unexplored:small_oak_sapling"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "0422452F3A661964"
+					item: "regions_unexplored:socotra_sapling"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "0D643C4C8CAFFF68"
+					item: "regions_unexplored:willow_sapling"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "7F874EC55695123B"
+					item: "betternether:willow_sapling"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "2D44E01C74D51A18"
+					item: "betternether:rubeus_sapling"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "070FCF79B292AFAF"
+					item: "betternether:giant_mold_sapling"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "7F0CA77719680799"
+					item: "betternether:jellyfish_mushroom_sapling"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "54972CE2D78CE3D2"
+					item: "betternether:mushroom_fir_sapling"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "0FD99BA724614F39"
+					item: "betternether:anchor_tree_sapling"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "1A2E66C8AAEC458F"
+					item: "betternether:nether_sakura_sapling"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "21CBF630022F5693"
+					item: "betternether:soul_lily_sapling"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "17135510C5B6718C"
+					item: "betterend:mossy_glowshroom_sapling"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "69D1C234A499F124"
+					item: "betterend:pythadendron_sapling"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "45A3C97389752501"
+					item: "betterend:lacugrove_sapling"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "0BBF4FE5A0692AE3"
+					item: "betterend:dragon_tree_sapling"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "4299BE0F84F50189"
+					item: "betterend:tenanea_sapling"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "04C6FF6A0B30097A"
+					item: "betterend:helix_tree_sapling"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "64B1D03C9F2FCD18"
+					item: "betterend:umbrella_tree_sapling"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "74995D0501E55EAD"
+					item: "betterend:lucernia_sapling"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "41478B60843A0160"
+					item: "betterend:hydralux_sapling"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "0DBC034FDFAD5871"
+					item: "snifferplus:stone_pine_sapling"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "315750B79CC2D266"
+					item: "ars_nouveau:blue_archwood_sapling"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "4C04033DD2CBE523"
+					item: "ars_nouveau:red_archwood_sapling"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "6CC061CE298F0098"
+					item: "ars_nouveau:purple_archwood_sapling"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "7A6B2AD13F551352"
+					item: "ars_nouveau:green_archwood_sapling"
+					type: "item"
+				}
+			]
+			title: "Master Herbologist"
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			id: "0407995A630259CB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6EA29F6D953D166F"
+				table_id: 1787598695114971302L
+				type: "random"
+			}]
+			shape: "diamond"
+			subtitle: "Collect every beast skull"
+			tasks: [
+				{
+					id: "00A79A2635590910"
+					item: "iceandfire:dragon_skull_lightning"
+					type: "item"
+				}
+				{
+					id: "39E3C08BAB550FCF"
+					item: "iceandfire:dragon_skull_fire"
+					type: "item"
+				}
+				{
+					id: "7F1F6737600997F5"
+					item: "iceandfire:dragon_skull_ice"
+					type: "item"
+				}
+				{
+					id: "3472B740897C5D33"
+					item: "iceandfire:hippogryph_skull"
+					type: "item"
+				}
+				{
+					id: "0067A1F267310CEE"
+					item: "iceandfire:cyclops_skull"
+					type: "item"
+				}
+				{
+					id: "46C59EEB99A14BB6"
+					item: "iceandfire:cockatrice_skull"
+					type: "item"
+				}
+				{
+					id: "1C24DA82B61F1B23"
+					item: "iceandfire:stymphalian_skull"
+					type: "item"
+				}
+				{
+					id: "15DD87D8C0458F8B"
+					item: "iceandfire:troll_skull"
+					type: "item"
+				}
+				{
+					id: "064B6CE1C55D99B1"
+					item: "iceandfire:amphithere_skull"
+					type: "item"
+				}
+				{
+					id: "41678D034A27A41F"
+					item: "iceandfire:seaserpent_skull"
+					type: "item"
+				}
+				{
+					id: "19E71F7BD840FDA6"
+					item: "iceandfire:hydra_skull"
+					type: "item"
+				}
+			]
+			title: "The Skulls of Beasts \\& Monsters"
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			id: "3E78CA428816CFFA"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0E0C4EAC4D6361A9"
+					table_id: 1787598695114971302L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0FC3F86124B670DE"
+					table_id: 1787598695114971302L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Create all 3 dragonsteel blades"
+			tasks: [
+				{
+					id: "6F5D5F96875649FB"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_fire_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4ECCC5643075DC87"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_ice_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "483A1845DA6B9AC4"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_lightning_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Dragonsteel Blades"
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			id: "02F5DA0DCD70544D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6280D0C133827C10"
+					table_id: 1787598695114971302L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "67807E25D3878866"
+					table_id: 1787598695114971302L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Create every Aeternium weapon variety"
+			tasks: [
+				{
+					id: "1EC948E21E978B96"
+					item: {
+						Count: 1
+						id: "knavesneeds:betterend/aeternium/scythe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "03082991CACD2971"
+					item: {
+						Count: 1
+						id: "knavesneeds:betterend/aeternium/halberd"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "245B534C65E15D72"
+					item: {
+						Count: 1
+						id: "knavesneeds:betterend/aeternium/greataxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0578FCA17FC67CD5"
+					item: {
+						Count: 1
+						id: "knavesneeds:betterend/aeternium/greathammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2558D173C0472DDE"
+					item: {
+						Count: 1
+						id: "knavesneeds:betterend/aeternium/claymore"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7A3BBBDAE499000D"
+					item: {
+						Count: 1
+						id: "knavesneeds:betterend/aeternium/cutlass"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "05759CF81A6DC397"
+					item: {
+						Count: 1
+						id: "knavesneeds:betterend/aeternium/warglaive"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "532620A7DFBD0117"
+					item: {
+						Count: 1
+						id: "knavesneeds:betterend/aeternium/glaive"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3330E3AAB80EF175"
+					item: {
+						Count: 1
+						id: "knavesneeds:betterend/aeternium/spear"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0CF4A40077C84D96"
+					item: {
+						Count: 1
+						id: "knavesneeds:betterend/aeternium/sai"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "23F422328A1E4DB9"
+					item: {
+						Count: 1
+						id: "knavesneeds:betterend/aeternium/katana"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "19941F7CD44B0287"
+					item: {
+						Count: 1
+						id: "knavesneeds:betterend/aeternium/rapier"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2EDEE76412170AE0"
+					item: {
+						Count: 1
+						id: "knavesneeds:betterend/aeternium/twinblade"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "66BD57286892D2BE"
+					item: {
+						Count: 1
+						id: "knavesneeds:betterend/aeternium/longsword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Aeternium Weapons"
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			id: "35D4765B6555620B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1563AD81D1096BEE"
+					table_id: 1787598695114971302L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "14D2170B87967654"
+					table_id: 1787598695114971302L
+					type: "random"
+				}
+			]
+			subtitle: "Create every glyph"
+			tasks: [
+				{
+					id: "15671FF6D37F2EA6"
+					item: "ars_nouveau:glyph_projectile"
+					type: "item"
+				}
+				{
+					id: "5540485198B70941"
+					item: "ars_additions:glyph_recall"
+					type: "item"
+				}
+				{
+					id: "1D0338563F9CE381"
+					item: "ars_additions:glyph_retaliate"
+					type: "item"
+				}
+				{
+					id: "0ED00D8EDCC9AFD5"
+					item: "ars_nouveau:glyph_self"
+					type: "item"
+				}
+				{
+					id: "1499B00ABF8E8445"
+					item: "ars_nouveau:glyph_touch"
+					type: "item"
+				}
+				{
+					id: "56F30DC80A0B1002"
+					item: "ars_nouveau:glyph_underfoot"
+					type: "item"
+				}
+				{
+					id: "05A85E818E0D115A"
+					item: "ars_nouveau:glyph_aoe"
+					type: "item"
+				}
+				{
+					id: "5491F51875F0E454"
+					item: "ars_nouveau:glyph_accelerate"
+					type: "item"
+				}
+				{
+					id: "504E75C2BF70C842"
+					item: "ars_nouveau:glyph_amplify"
+					type: "item"
+				}
+				{
+					id: "24D894AF4756332C"
+					item: "ars_nouveau:glyph_dampen"
+					type: "item"
+				}
+				{
+					id: "46F025E649AD67CB"
+					item: "ars_nouveau:glyph_decelerate"
+					type: "item"
+				}
+				{
+					id: "4EC5B55BAF8C8DD0"
+					item: "ars_nouveau:glyph_duration_down"
+					type: "item"
+				}
+				{
+					id: "11149AA077A7B945"
+					item: "ars_nouveau:glyph_extend_time"
+					type: "item"
+				}
+				{
+					id: "15E5C949175066DE"
+					item: "ars_nouveau:glyph_extract"
+					type: "item"
+				}
+				{
+					id: "71F9EFE722B9CB92"
+					item: "ars_nouveau:glyph_fortune"
+					type: "item"
+				}
+				{
+					id: "3DF8B68FFBD2973F"
+					item: "ars_nouveau:glyph_pierce"
+					type: "item"
+				}
+				{
+					id: "3C0024A0D58CE96A"
+					item: "ars_nouveau:glyph_randomize"
+					type: "item"
+				}
+				{
+					id: "056BA18E568978DA"
+					item: "ars_nouveau:glyph_sensitive"
+					type: "item"
+				}
+				{
+					id: "62495E7FFAD78EDE"
+					item: "ars_nouveau:glyph_split"
+					type: "item"
+				}
+				{
+					id: "47EC569376AE4161"
+					item: "ars_nouveau:glyph_ender_inventory"
+					type: "item"
+				}
+				{
+					id: "38D68742C081047A"
+					item: "ars_nouveau:glyph_animate_block"
+					type: "item"
+				}
+				{
+					id: "3BA31FA713452107"
+					item: "ars_nouveau:glyph_blink"
+					type: "item"
+				}
+				{
+					id: "17F567D80515888A"
+					item: "ars_nouveau:glyph_bounce"
+					type: "item"
+				}
+				{
+					id: "22D59971011C0478"
+					item: "ars_nouveau:glyph_break"
+					type: "item"
+				}
+				{
+					id: "7BD3171B1788B5A2"
+					item: "ars_nouveau:burst"
+					type: "item"
+				}
+				{
+					id: "39C72473B598A1ED"
+					item: "ars_nouveau:glyph_cold_snap"
+					type: "item"
+				}
+				{
+					id: "26AD50B074AB2A8D"
+					item: "ars_nouveau:glyph_phantom_block"
+					type: "item"
+				}
+				{
+					id: "10C26D3DCB166A2A"
+					item: "ars_nouveau:glyph_light"
+					type: "item"
+				}
+				{
+					id: "73C767127BFCF01A"
+					item: "ars_nouveau:glyph_conjure_water"
+					type: "item"
+				}
+				{
+					id: "0059EDF8BB9406C4"
+					item: "ars_nouveau:glyph_craft"
+					type: "item"
+				}
+				{
+					id: "5B2AB014373ACF29"
+					item: "ars_nouveau:glyph_crush"
+					type: "item"
+				}
+				{
+					id: "13F881FD9C136928"
+					item: "ars_nouveau:glyph_cut"
+					type: "item"
+				}
+				{
+					id: "73D53E268A40A045"
+					item: "ars_nouveau:glyph_delay"
+					type: "item"
+				}
+				{
+					id: "31FCA9BBA3786CA9"
+					item: "ars_nouveau:glyph_dispel"
+					type: "item"
+				}
+				{
+					id: "3E494EB61C3586C4"
+					item: "ars_nouveau:glyph_evaporate"
+					type: "item"
+				}
+				{
+					id: "1305676A01861474"
+					item: "ars_nouveau:glyph_exchange"
+					type: "item"
+				}
+				{
+					id: "2D0FCB3269202381"
+					item: "ars_nouveau:glyph_explosion"
+					type: "item"
+				}
+				{
+					id: "47F797C1A1026CBF"
+					item: "ars_nouveau:glyph_fangs"
+					type: "item"
+				}
+				{
+					id: "63163A11545E1E9F"
+					item: "ars_nouveau:glyph_fell"
+					type: "item"
+				}
+				{
+					id: "7CFAFD82649D70DC"
+					item: "ars_nouveau:glyph_firework"
+					type: "item"
+				}
+				{
+					id: "6D8DCAAADD52A004"
+					item: "ars_nouveau:glyph_flare"
+					type: "item"
+				}
+				{
+					id: "7125DDB7B95DF0F8"
+					item: "ars_nouveau:glyph_freeze"
+					type: "item"
+				}
+				{
+					id: "1D2E549F6125BE9B"
+					item: "ars_nouveau:glyph_glide"
+					type: "item"
+				}
+				{
+					id: "7999CC2804C2E4A1"
+					item: "ars_nouveau:glyph_gravity"
+					type: "item"
+				}
+				{
+					id: "782B005F083B05EF"
+					item: "ars_nouveau:glyph_grow"
+					type: "item"
+				}
+				{
+					id: "6A24C407A7DD27EB"
+					item: "ars_nouveau:glyph_harm"
+					type: "item"
+				}
+				{
+					id: "0E096DCA4D1C508E"
+					item: "ars_nouveau:glyph_harvest"
+					type: "item"
+				}
+				{
+					id: "3442D2D5D9A615F0"
+					item: "ars_nouveau:glyph_heal"
+					type: "item"
+				}
+				{
+					id: "1F244EBA12C8E876"
+					item: "ars_nouveau:glyph_hex"
+					type: "item"
+				}
+				{
+					id: "1573420A78D2F568"
+					item: "ars_nouveau:glyph_ignite"
+					type: "item"
+				}
+				{
+					id: "1CCB64EDA3BBE735"
+					item: "ars_nouveau:glyph_infuse"
+					type: "item"
+				}
+				{
+					id: "7F8A8A68F730CBFB"
+					item: "ars_nouveau:glyph_intangible"
+					type: "item"
+				}
+				{
+					id: "43391D64AF1DD373"
+					item: "ars_nouveau:glyph_interact"
+					type: "item"
+				}
+				{
+					id: "35B3DEA8C3CB8A43"
+					item: "ars_nouveau:glyph_invisibility"
+					type: "item"
+				}
+				{
+					id: "34153B08A13E4BED"
+					item: "ars_nouveau:glyph_pickup"
+					type: "item"
+				}
+				{
+					id: "2D6C33A4CD8F4DCB"
+					item: "ars_nouveau:glyph_gust"
+					type: "item"
+				}
+				{
+					id: "7C89CB8398AB2888"
+					item: "ars_nouveau:glyph_launch"
+					type: "item"
+				}
+				{
+					id: "778DCFEA7933DD7E"
+					item: "ars_nouveau:glyph_leap"
+					type: "item"
+				}
+				{
+					id: "1AED181B9483D0FA"
+					item: "ars_nouveau:glyph_lightning"
+					type: "item"
+				}
+				{
+					id: "0496E776572D41E7"
+					item: "ars_nouveau:glyph_linger"
+					type: "item"
+				}
+				{
+					id: "7C45BC3F19044C66"
+					item: "ars_additions:glyph_mark"
+					type: "item"
+				}
+				{
+					id: "783646D3DAB187F0"
+					item: "ars_nouveau:glyph_name"
+					type: "item"
+				}
+				{
+					id: "49827421F3E58A5C"
+					item: "ars_nouveau:glyph_orbit"
+					type: "item"
+				}
+				{
+					id: "7133E0126AAC3704"
+					item: "ars_nouveau:glyph_place_block"
+					type: "item"
+				}
+				{
+					id: "1451BDECF6A3E551"
+					item: "ars_nouveau:glyph_pull"
+					type: "item"
+				}
+				{
+					id: "6632243A6882869E"
+					item: "ars_nouveau:glyph_redstone_signal"
+					type: "item"
+				}
+				{
+					id: "68BEDFD6BCF896C4"
+					item: "ars_nouveau:reset"
+					type: "item"
+				}
+				{
+					id: "0D353E26B1A3C6D7"
+					item: "ars_nouveau:rewind"
+					type: "item"
+				}
+				{
+					id: "7070226BA0B94515"
+					item: "ars_nouveau:glyph_rotate"
+					type: "item"
+				}
+				{
+					id: "79487F0BEA138EA3"
+					item: "ars_nouveau:glyph_rune"
+					type: "item"
+				}
+				{
+					id: "1AF517688B4241A7"
+					item: "ars_nouveau:glyph_sense_magic"
+					type: "item"
+				}
+				{
+					id: "0141A68CD021C676"
+					item: "ars_nouveau:glyph_slowfall"
+					type: "item"
+				}
+				{
+					id: "7CD03CF0948A69AF"
+					item: "ars_nouveau:glyph_smelt"
+					type: "item"
+				}
+				{
+					id: "5CD01C7DC1E449BC"
+					item: "ars_nouveau:glyph_snare"
+					type: "item"
+				}
+				{
+					id: "297E9836917D0DA0"
+					item: "ars_nouveau:glyph_summon_decoy"
+					type: "item"
+				}
+				{
+					id: "2793E41E5CCD9A4B"
+					item: "ars_nouveau:glyph_summon_steed"
+					type: "item"
+				}
+				{
+					id: "554C59F6EB9708BE"
+					item: "ars_nouveau:glyph_summon_undead"
+					type: "item"
+				}
+				{
+					id: "0E6EF9487F9D7CD0"
+					item: "ars_nouveau:glyph_summon_vex"
+					type: "item"
+				}
+				{
+					id: "59CF879F28E32B47"
+					item: "ars_nouveau:glyph_summon_wolves"
+					type: "item"
+				}
+				{
+					id: "5E6E98B87755E13D"
+					item: "ars_nouveau:glyph_toss"
+					type: "item"
+				}
+				{
+					id: "1349144A0BAA7641"
+					item: "ars_nouveau:glyph_wall"
+					type: "item"
+				}
+				{
+					id: "7687903D2A5F7A3F"
+					item: "ars_nouveau:glyph_wind_shear"
+					type: "item"
+				}
+				{
+					id: "508C63A2080650A1"
+					item: "ars_nouveau:glyph_wither"
+					type: "item"
+				}
+				{
+					id: "1459E48C0EA324CF"
+					item: "ars_nouveau:wololo"
+					type: "item"
+				}
+			]
+			title: "Glyph Master"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			id: "21F4C990F426E32B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0957FC7C8C286E4C"
+					table_id: 1787598695114971302L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2573CBE4CB2717B6"
+					table_id: 1787598695114971302L
+					type: "random"
+				}
+			]
+			subtitle: "Collect every music disc"
+			tasks: [
+				{
+					id: "6EFD620822707513"
+					item: "idas:music_disc_slither"
+					type: "item"
+				}
+				{
+					id: "27A118FD7A0A73A4"
+					item: "idas:music_disc_calidum"
+					type: "item"
+				}
+				{
+					id: "07946E3CFC381287"
+					item: "integrated_stronghold:music_disc_sight"
+					type: "item"
+				}
+				{
+					id: "0895519A03A08BEE"
+					item: "integrated_stronghold:music_disc_forlorn"
+					type: "item"
+				}
+				{
+					id: "38C6643494B06DA0"
+					item: "alexscaves:music_disc_fusion"
+					type: "item"
+				}
+				{
+					id: "5DD95CF48EB2121B"
+					item: "biomemakeover:red_rose_music_disk"
+					type: "item"
+				}
+				{
+					id: "27AA2E8E010F2B81"
+					item: "biomemakeover:swamp_jives_music_disk"
+					type: "item"
+				}
+				{
+					id: "3239330C17A02057"
+					item: "biomemakeover:ghost_town_music_disk"
+					type: "item"
+				}
+				{
+					id: "6C43CC103ECD1D03"
+					item: "biomemakeover:button_mushrooms_music_disk"
+					type: "item"
+				}
+				{
+					id: "5F1FC9C2DABAC041"
+					item: "ars_nouveau:music_disc_firel_the_wild_hunt"
+					type: "item"
+				}
+				{
+					id: "5F61B9358A374ED4"
+					item: "ars_nouveau:music_disc_thistle_the_sound_of_glass"
+					type: "item"
+				}
+				{
+					id: "571E5E608439DE4C"
+					item: "ars_nouveau:music_disc_aria_biblio"
+					type: "item"
+				}
+				{
+					id: "36B52E89C2D74D7F"
+					item: "alexsmobs:music_disc_daze"
+					type: "item"
+				}
+				{
+					id: "4A2D3445CA6D0D8C"
+					item: "alexsmobs:music_disc_thime"
+					type: "item"
+				}
+				{
+					id: "2D06586A79889AF5"
+					item: "mowziesmobs:music_disc_petiole"
+					type: "item"
+				}
+				{
+					id: "6F2DB1482A7BC6C8"
+					item: "betterend:music_disc_eo_dracona"
+					type: "item"
+				}
+				{
+					id: "2E881017186FBC01"
+					item: "betterend:music_disc_endseeker"
+					type: "item"
+				}
+				{
+					id: "5834ACB1616C38FC"
+					item: "betterend:music_disc_grasping_at_stars"
+					type: "item"
+				}
+				{
+					id: "11B7E84AC7192F78"
+					item: "betterend:music_disc_strange_and_alien"
+					type: "item"
+				}
+				{
+					id: "1358E087925B00DD"
+					item: "quark:music_disc_endermosh"
+					type: "item"
+				}
+				{
+					id: "21042D7DD3477CCD"
+					item: "minecraft:music_disc_13"
+					type: "item"
+				}
+				{
+					id: "37DDEED0E458F281"
+					item: "minecraft:music_disc_cat"
+					type: "item"
+				}
+				{
+					id: "2FEF680AEF05265D"
+					item: "minecraft:music_disc_blocks"
+					type: "item"
+				}
+				{
+					id: "6EA8683BD89E5041"
+					item: "minecraft:music_disc_chirp"
+					type: "item"
+				}
+				{
+					id: "2ADF4BE4A8A30EB6"
+					item: "minecraft:music_disc_far"
+					type: "item"
+				}
+				{
+					id: "5A9C00D089017CE1"
+					item: "minecraft:music_disc_mall"
+					type: "item"
+				}
+				{
+					id: "220EEBDBE87866E6"
+					item: "minecraft:music_disc_mellohi"
+					type: "item"
+				}
+				{
+					id: "20E4E7E458372C98"
+					item: "minecraft:music_disc_stal"
+					type: "item"
+				}
+				{
+					id: "4FA86158845D99A6"
+					item: "minecraft:music_disc_strad"
+					type: "item"
+				}
+				{
+					id: "6945B916280BA8D0"
+					item: "minecraft:music_disc_ward"
+					type: "item"
+				}
+				{
+					id: "70F08D52FAACFE5D"
+					item: "minecraft:music_disc_11"
+					type: "item"
+				}
+				{
+					id: "1EE52B92770D5104"
+					item: "minecraft:music_disc_otherside"
+					type: "item"
+				}
+				{
+					id: "18C0B2B6355A82E4"
+					item: "minecraft:music_disc_wait"
+					type: "item"
+				}
+				{
+					id: "5651C756DB8D9433"
+					item: "berry_good:music_disc_fox"
+					type: "item"
+				}
+				{
+					id: "133875F943E2D5B0"
+					item: "minecraft:music_disc_5"
+					type: "item"
+				}
+				{
+					id: "434C044232836E6D"
+					item: "upgrade_aquatic:music_disc_atlantis"
+					type: "item"
+				}
+				{
+					id: "405B210B064C2EA9"
+					item: "minecraft:music_disc_pigstep"
+					type: "item"
+				}
+				{
+					id: "50CE1923D295E31B"
+					item: "minecraft:music_disc_relic"
+					type: "item"
+				}
+				{
+					id: "1E0F06A6AE3A28BE"
+					item: "quark:music_disc_chatter"
+					type: "item"
+				}
+				{
+					id: "219BFD4F71BBBE06"
+					item: "quark:music_disc_crickets"
+					type: "item"
+				}
+				{
+					id: "091015E6719EEF1B"
+					item: "quark:music_disc_clock"
+					type: "item"
+				}
+				{
+					id: "7035CDEA7A0224BC"
+					item: "quark:music_disc_fire"
+					type: "item"
+				}
+				{
+					id: "7358B8E4359A6496"
+					item: "quark:music_disc_wind"
+					type: "item"
+				}
+				{
+					id: "5C6DD5D8B9C05020"
+					item: "quark:music_disc_rain"
+					type: "item"
+				}
+				{
+					id: "080F5357CF4D22A7"
+					item: "quark:music_disc_ocean"
+					type: "item"
+				}
+				{
+					id: "559F162B6AB39415"
+					item: "quark:music_disc_drips"
+					type: "item"
+				}
+			]
+			title: "The Sound of Music"
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			id: "57D57FDF4AE53C64"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "741BCBDF26747B2D"
+					table_id: 1787598695114971302L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0A9F07AA5B3C978E"
+					table_id: 1787598695114971302L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Collect all the dinosaur eggs from the Primordial Caves"
+			tasks: [
+				{
+					id: "027D13B51BDF3B4B"
+					item: "alexscaves:tremorzilla_egg"
+					type: "item"
+				}
+				{
+					id: "3638D5BDE7A66602"
+					item: "alexscaves:vallumraptor_egg"
+					type: "item"
+				}
+				{
+					id: "431059EACCC79AE0"
+					item: "alexscaves:subterranodon_egg"
+					type: "item"
+				}
+				{
+					id: "133ADDF03E0C8FEA"
+					item: "alexscaves:relicheirus_egg"
+					type: "item"
+				}
+				{
+					id: "6E8489B416E6AA06"
+					item: "alexscaves:tremorsaurus_egg"
+					type: "item"
+				}
+				{
+					id: "1E8C8468FF4B72DA"
+					item: "alexscaves:grottoceratops_egg"
+					type: "item"
+				}
+				{
+					id: "5F65E9B35FABADBF"
+					item: "alexscaves:atlatitan_egg"
+					type: "item"
+				}
+			]
+			title: "Life finds a way!"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			id: "057A066BA3B7C8A9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3CA600BE71636DD1"
+					table_id: 1787598695114971302L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "720E313081772427"
+					table_id: 1787598695114971302L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Harness the power of mobs for powerful weapons"
+			tasks: [
+				{
+					id: "6206DA386D6E4BFE"
+					item: {
+						Count: 1
+						id: "alexscaves:sea_staff"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "23EEF458672BA425"
+					item: {
+						Count: 1
+						id: "alexscaves:raygun"
+						tag: {
+							PrevRayX: 51.36658076296323d
+							PrevRayY: 63.61046249165116d
+							PrevRayZ: 222.0605845100934d
+							PrevUseTime: 0
+							RayX: 50.33967247726181d
+							RayY: 63.751792311668396d
+							RayZ: 217.3013981086547d
+							UseTime: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "15D7CF08940E79FE"
+					item: {
+						Count: 1
+						id: "alexscaves:extinction_spear"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E3D5CF98990BF75"
+					item: {
+						Count: 1
+						id: "alexscaves:dreadbow"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "22F27A1019EE968A"
+					item: {
+						Count: 1
+						id: "alexsmobs:hemolymph_blaster"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1C9EA242E7199027"
+					item: {
+						Count: 1
+						id: "alexsmobs:stink_ray"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "139065C3E1F00264"
+					item: "alexsmobs:transmutation_table"
+					type: "item"
+				}
+				{
+					id: "2CF2DE6923ADE497"
+					item: {
+						Count: 1
+						id: "alexsmobs:shield_of_the_deep"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5B40769F8E274590"
+					item: {
+						Count: 1
+						id: "alexsmobs:straddleboard"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6CA1C90FF69C58E4"
+					item: {
+						Count: 1
+						id: "alexsmobs:dimensional_carver"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Power of the Mobs"
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			id: "39352B7CECAC84F4"
+			min_width: 30
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "370CA00D331D6050"
+					table_id: 1787598695114971302L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2AF66182BEE0ADBE"
+					table_id: 1787598695114971302L
+					type: "random"
+				}
+			]
+			subtitle: "Let them cook"
+			tasks: [
+				{
+					id: "5B9AA81CAD20EFEC"
+					item: "farmersdelight:roast_chicken_block"
+					type: "item"
+				}
+				{
+					id: "0AA2EDB516342415"
+					item: "farmersdelight:rice_roll_medley_block"
+					type: "item"
+				}
+				{
+					id: "133C4300739DFE65"
+					item: "farmersdelight:shepherds_pie_block"
+					type: "item"
+				}
+				{
+					id: "7E467473C7CD3167"
+					item: "farmersdelight:honey_glazed_ham_block"
+					type: "item"
+				}
+				{
+					id: "7E79860B1352A069"
+					item: "farmersdelight:stuffed_pumpkin_block"
+					type: "item"
+				}
+				{
+					id: "331BA54017B664F0"
+					item: "farmersdelight:grilled_salmon"
+					type: "item"
+				}
+				{
+					id: "716ADACE5E5F1AFD"
+					item: "farmersdelight:squid_ink_pasta"
+					type: "item"
+				}
+				{
+					id: "1CEC4F2634AA25AE"
+					item: "farmersdelight:ratatouille"
+					type: "item"
+				}
+				{
+					id: "2DC479E2D740F00E"
+					item: "farmersdelight:steak_and_potatoes"
+					type: "item"
+				}
+				{
+					id: "7D4FEDDFEA405C1E"
+					item: "farmersdelight:vegetable_noodles"
+					type: "item"
+				}
+				{
+					id: "458903B2A6D6B415"
+					item: "farmersdelight:roasted_mutton_chops"
+					type: "item"
+				}
+				{
+					id: "32FBA2A8BC5E1740"
+					item: "farmersdelight:mushroom_rice"
+					type: "item"
+				}
+				{
+					id: "3F50ED7923764795"
+					item: "farmersdelight:pasta_with_meatballs"
+					type: "item"
+				}
+				{
+					id: "511020DA0AF97481"
+					item: "farmersdelight:pasta_with_mutton_chop"
+					type: "item"
+				}
+				{
+					id: "62EBF3815CA689AE"
+					item: "farmersdelight:bacon_and_eggs"
+					type: "item"
+				}
+				{
+					id: "272AF958EADDE384"
+					item: "farmersdelight:noodle_soup"
+					type: "item"
+				}
+				{
+					id: "01CF8D56D2E2B172"
+					item: "farmersdelight:baked_cod_stew"
+					type: "item"
+				}
+				{
+					id: "62013B69B3AE4740"
+					item: "farmersdelight:pumpkin_soup"
+					type: "item"
+				}
+				{
+					id: "12571362930D5134"
+					item: "farmersdelight:fried_rice"
+					type: "item"
+				}
+				{
+					id: "274C571A93541655"
+					item: "farmersdelight:fish_stew"
+					type: "item"
+				}
+				{
+					id: "1663FB299FC6083F"
+					item: "farmersdelight:vegetable_soup"
+					type: "item"
+				}
+				{
+					id: "6B3542A8B276237F"
+					item: "farmersdelight:chicken_soup"
+					type: "item"
+				}
+				{
+					id: "77CABC80BFCF65F9"
+					item: "farmersdelight:beef_stew"
+					type: "item"
+				}
+				{
+					id: "4E0682416A26D94F"
+					item: "farmersdelight:bone_broth"
+					type: "item"
+				}
+				{
+					id: "65F59B6A46F6E87E"
+					item: "farmersdelight:cooked_rice"
+					type: "item"
+				}
+				{
+					id: "482E2C0B698A16FE"
+					item: "farmersdelight:kelp_roll"
+					type: "item"
+				}
+				{
+					id: "38B775C56221F23E"
+					item: "farmersdelight:cod_roll"
+					type: "item"
+				}
+				{
+					id: "254C05E34645A046"
+					item: "farmersdelight:salmon_roll"
+					type: "item"
+				}
+				{
+					id: "3F7B77597608A9E6"
+					item: "farmersdelight:cabbage_rolls"
+					type: "item"
+				}
+				{
+					id: "6D0B005C834EBA61"
+					item: "farmersdelight:stuffed_potato"
+					type: "item"
+				}
+				{
+					id: "02680B131114E2C7"
+					item: "farmersdelight:dumplings"
+					type: "item"
+				}
+				{
+					id: "440D613EBF6742B6"
+					item: "farmersdelight:mutton_wrap"
+					type: "item"
+				}
+				{
+					id: "3032243FFF03FEFE"
+					item: "farmersdelight:bacon_sandwich"
+					type: "item"
+				}
+				{
+					id: "5AF4824B6A9F3071"
+					item: "farmersdelight:hamburger"
+					type: "item"
+				}
+				{
+					id: "7244A2E2F38CA790"
+					item: "farmersdelight:chicken_sandwich"
+					type: "item"
+				}
+				{
+					id: "24BC9672547763F4"
+					item: "farmersdelight:egg_sandwich"
+					type: "item"
+				}
+				{
+					id: "23419818778C1BD5"
+					item: "farmersdelight:barbecue_stick"
+					type: "item"
+				}
+				{
+					id: "40B65D2024952506"
+					item: "farmersdelight:nether_salad"
+					type: "item"
+				}
+				{
+					id: "6BB4D403CEBC92AC"
+					item: "farmersdelight:mixed_salad"
+					type: "item"
+				}
+				{
+					id: "63727106E54C8B1B"
+					item: "farmersdelight:fruit_salad"
+					type: "item"
+				}
+				{
+					id: "5F91B5FA1288DFDD"
+					item: "farmersdelight:glow_berry_custard"
+					type: "item"
+				}
+				{
+					id: "675263C8F5674692"
+					item: "farmersdelight:melon_popsicle"
+					type: "item"
+				}
+				{
+					id: "1A5BD9312C34BAB6"
+					item: "farmersdelight:honey_cookie"
+					type: "item"
+				}
+				{
+					id: "047E3D41B97FA07C"
+					item: "farmersdelight:sweet_berry_cookie"
+					type: "item"
+				}
+				{
+					id: "1E4D28EF41E861CD"
+					item: "farmersdelight:chocolate_pie"
+					type: "item"
+				}
+				{
+					id: "75DD86B822858B39"
+					item: "farmersdelight:sweet_berry_cheesecake"
+					type: "item"
+				}
+				{
+					id: "6C8DB95D55D5CE8C"
+					item: "farmersdelight:apple_pie"
+					type: "item"
+				}
+				{
+					id: "5F138FD39B8700C0"
+					item: "farmersdelight:smoked_ham"
+					type: "item"
+				}
+				{
+					id: "22DCD2B735A802EB"
+					item: "farmersdelight:apple_cider"
+					type: "item"
+				}
+				{
+					id: "4A2D76F24EE6E01E"
+					item: "farmersdelight:hot_cocoa"
+					type: "item"
+				}
+				{
+					id: "39C2AF5EB92437A1"
+					item: "quarkdelight:lush_moss_salad"
+					type: "item"
+				}
+				{
+					id: "2708A1314D0093BB"
+					item: "quarkdelight:bowl_of_exotic_fruits"
+					type: "item"
+				}
+				{
+					id: "1C567DC3D1870F1B"
+					item: "quarkdelight:cloud_latte"
+					type: "item"
+				}
+				{
+					id: "3795759D31318B2D"
+					item: "quarkdelight:bucket_of_sweet_gelatine"
+					type: "item"
+				}
+				{
+					id: "1CA4A86B5DDBFF3C"
+					item: "quarkdelight:crab_bars"
+					type: "item"
+				}
+				{
+					id: "25A0FC2743E1FBA5"
+					item: "quarkdelight:cavern_explorer_stew"
+					type: "item"
+				}
+				{
+					id: "4111117406368716"
+					item: "quarkdelight:cooked_whole_crab"
+					type: "item"
+				}
+				{
+					id: "20962A698410F1B8"
+					item: "quarkdelight:crab_pasta"
+					type: "item"
+				}
+				{
+					id: "39759C9754852204"
+					item: "quarkdelight:miso_with_bamboo_sprouts"
+					type: "item"
+				}
+			]
+			title: "Master Chef"
+			x: 1.5d
+			y: -2.0d
+		}
+	]
+	title: "Collections"
+}
